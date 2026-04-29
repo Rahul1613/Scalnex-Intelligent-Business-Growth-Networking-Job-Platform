@@ -33,3 +33,4 @@ build/
 # Logs, DB
 *.log
 *.sqlite3
+seo/backend/.env
