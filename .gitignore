@@ -34,3 +34,4 @@ build/
 *.log
 *.sqlite3
 seo/backend/.env
+seo/backend/email_log.json
