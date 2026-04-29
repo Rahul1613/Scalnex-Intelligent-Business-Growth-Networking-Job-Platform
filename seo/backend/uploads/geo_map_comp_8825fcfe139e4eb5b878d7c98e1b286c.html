@@ -1,0 +1,1481 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c67f89a1f1a1fa4b4e2448eb9a4ea4e2 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_c67f89a1f1a1fa4b4e2448eb9a4ea4e2" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_c67f89a1f1a1fa4b4e2448eb9a4ea4e2 = L.map(
+                "map_c67f89a1f1a1fa4b4e2448eb9a4ea4e2",
+                {
+                    center: [19.054999, 72.8692035],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 13,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ceca2bfea350b205f58e2a8ed03df1b3 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_ceca2bfea350b205f58e2a8ed03df1b3.addTo(map_c67f89a1f1a1fa4b4e2448eb9a4ea4e2);
+        
+    
+            var circle_17701bff73f34ad5eabcce30f4e9f0a3 = L.circle(
+                [19.054999, 72.8692035],
+                {"bubblingMouseEvents": true, "color": "#f87171", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f87171", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.2, "radius": 40000.0, "stroke": true, "weight": 3}
+            ).addTo(map_c67f89a1f1a1fa4b4e2448eb9a4ea4e2);
+        
+    
+            circle_17701bff73f34ad5eabcce30f4e9f0a3.bindTooltip(
+                `<div>
+                     40.0km Radius
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b3d68ddba8c75c4774da3498d5973cfe = L.marker(
+                [18.927571, 72.8325747],
+                {
+}
+            ).addTo(map_c67f89a1f1a1fa4b4e2448eb9a4ea4e2);
+        
+    
+            var icon_df4d7988e5ed78d623900187a041391e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_b3d68ddba8c75c4774da3498d5973cfe.bindTooltip(
+                `<div>
+                     Copper Chimney (Competitor)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b3d68ddba8c75c4774da3498d5973cfe.setIcon(icon_df4d7988e5ed78d623900187a041391e);
+            
+    
+            var marker_988e9e049ca6a20676ec1dc7a888286d = L.marker(
+                [18.942228, 72.8272935],
+                {
+}
+            ).addTo(map_c67f89a1f1a1fa4b4e2448eb9a4ea4e2);
+        
+    
+            var icon_3985440af3a1e44904c68923726dd914 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_988e9e049ca6a20676ec1dc7a888286d.bindTooltip(
+                `<div>
+                     Premier (Competitor)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_988e9e049ca6a20676ec1dc7a888286d.setIcon(icon_3985440af3a1e44904c68923726dd914);
+            
+    
+            var marker_0d0ead8737df2a89c768dbee2d8c518e = L.marker(
+                [18.9424, 72.8269],
+                {
+}
+            ).addTo(map_c67f89a1f1a1fa4b4e2448eb9a4ea4e2);
+        
+    
+            var icon_bba40d050d03cfaff67416c1156f031d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_0d0ead8737df2a89c768dbee2d8c518e.bindTooltip(
+                `<div>
+                     Liberty (Competitor)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_0d0ead8737df2a89c768dbee2d8c518e.setIcon(icon_bba40d050d03cfaff67416c1156f031d);
+            
+    
+            var marker_6d6f9209c3888dc9643df4006dbb3b13 = L.marker(
+                [18.9567099, 72.8369017],
+                {
+}
+            ).addTo(map_c67f89a1f1a1fa4b4e2448eb9a4ea4e2);
+        
+    
+            var icon_d5859bbf1a2fe110f90133846a65f364 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_6d6f9209c3888dc9643df4006dbb3b13.bindTooltip(
+                `<div>
+                     Qamar (Competitor)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_6d6f9209c3888dc9643df4006dbb3b13.setIcon(icon_d5859bbf1a2fe110f90133846a65f364);
+            
+    
+            var marker_8607818ae5a6624a1f68febf405be34a = L.marker(
+                [18.9643233, 72.8058471],
+                {
+}
+            ).addTo(map_c67f89a1f1a1fa4b4e2448eb9a4ea4e2);
+        
+    
+            var icon_daa09bf5574e7d936569d0d9fb5a3132 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_8607818ae5a6624a1f68febf405be34a.bindTooltip(
+                `<div>
+                     Kemp's Corner (Competitor)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_8607818ae5a6624a1f68febf405be34a.setIcon(icon_daa09bf5574e7d936569d0d9fb5a3132);
+            
+    
+            var marker_d5df6f3907ab7cd3856506d16ed111e3 = L.marker(
+                [18.9859, 72.8427],
+                {
+}
+            ).addTo(map_c67f89a1f1a1fa4b4e2448eb9a4ea4e2);
+        
+    
+            var icon_3acc9137a2d71e29e11563acf085ec17 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_d5df6f3907ab7cd3856506d16ed111e3.bindTooltip(
+                `<div>
+                     Competitor (Competitor)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_d5df6f3907ab7cd3856506d16ed111e3.setIcon(icon_3acc9137a2d71e29e11563acf085ec17);
+            
+    
+            var marker_de79cffbef8ffd34fbec861bb02cc35f = L.marker(
+                [19.016482, 72.8533452],
+                {
+}
+            ).addTo(map_c67f89a1f1a1fa4b4e2448eb9a4ea4e2);
+        
+    
+            var icon_d06e63cccf5115c3db9b1a92834e9ab8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_de79cffbef8ffd34fbec861bb02cc35f.bindTooltip(
+                `<div>
+                     Rajendra Clinic (Competitor)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_de79cffbef8ffd34fbec861bb02cc35f.setIcon(icon_d06e63cccf5115c3db9b1a92834e9ab8);
+            
+    
+            var marker_cf089668406335d7f4545ca1d01740f5 = L.marker(
+                [19.0835527, 72.8384747],
+                {
+}
+            ).addTo(map_c67f89a1f1a1fa4b4e2448eb9a4ea4e2);
+        
+    
+            var icon_e3eb6be5746137e09eef761133df1814 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_cf089668406335d7f4545ca1d01740f5.bindTooltip(
+                `<div>
+                     Classic (Competitor)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_cf089668406335d7f4545ca1d01740f5.setIcon(icon_e3eb6be5746137e09eef761133df1814);
+            
+    
+            var marker_e8a780c6eab76cc5afa00c639a49b0d8 = L.marker(
+                [19.08565, 72.8279449],
+                {
+}
+            ).addTo(map_c67f89a1f1a1fa4b4e2448eb9a4ea4e2);
+        
+    
+            var icon_1390b01c23cf4cdec9d33e074d021525 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_e8a780c6eab76cc5afa00c639a49b0d8.bindTooltip(
+                `<div>
+                     Competitor (Competitor)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_e8a780c6eab76cc5afa00c639a49b0d8.setIcon(icon_1390b01c23cf4cdec9d33e074d021525);
+            
+    
+            var marker_92f76cbe0eaa914c61a143170a3598a2 = L.marker(
+                [19.0880891, 72.8416913],
+                {
+}
+            ).addTo(map_c67f89a1f1a1fa4b4e2448eb9a4ea4e2);
+        
+    
+            var icon_a6672a019f278a8bd39993551ec30ce3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_92f76cbe0eaa914c61a143170a3598a2.bindTooltip(
+                `<div>
+                     Milan International (Competitor)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_92f76cbe0eaa914c61a143170a3598a2.setIcon(icon_a6672a019f278a8bd39993551ec30ce3);
+            
+    
+            var marker_05afebc42c358e9db77e36534596f3d5 = L.marker(
+                [19.072118, 72.828602],
+                {
+}
+            ).addTo(map_c67f89a1f1a1fa4b4e2448eb9a4ea4e2);
+        
+    
+            var icon_b564bfbff3f198a17c2d67241b658383 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_05afebc42c358e9db77e36534596f3d5.bindTooltip(
+                `<div>
+                     Sanctum (Competitor)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_05afebc42c358e9db77e36534596f3d5.setIcon(icon_b564bfbff3f198a17c2d67241b658383);
+            
+    
+            var marker_c0ca68e8bf047f34f970e10add1a6793 = L.marker(
+                [18.9419523, 72.8278498],
+                {
+}
+            ).addTo(map_c67f89a1f1a1fa4b4e2448eb9a4ea4e2);
+        
+    
+            var icon_b74a4cd6ae599701af460c94b96c04c9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_c0ca68e8bf047f34f970e10add1a6793.bindTooltip(
+                `<div>
+                     various at dhobi talao  (Competitor)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c0ca68e8bf047f34f970e10add1a6793.setIcon(icon_b74a4cd6ae599701af460c94b96c04c9);
+            
+    
+            var marker_8d592853461c8c0d9c1a6f520ef5ac74 = L.marker(
+                [19.1510227, 72.9437069],
+                {
+}
+            ).addTo(map_c67f89a1f1a1fa4b4e2448eb9a4ea4e2);
+        
+    
+            var icon_35788ba78cf6657ea48e2365c608f72e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_8d592853461c8c0d9c1a6f520ef5ac74.bindTooltip(
+                `<div>
+                     Competitor (Competitor)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_8d592853461c8c0d9c1a6f520ef5ac74.setIcon(icon_35788ba78cf6657ea48e2365c608f72e);
+            
+    
+            var marker_1d9af9d1b68f2d45efdd2a55b0d78c94 = L.marker(
+                [19.0409711, 72.8412926],
+                {
+}
+            ).addTo(map_c67f89a1f1a1fa4b4e2448eb9a4ea4e2);
+        
+    
+            var icon_c97d24d063beca19b4e2b141cac8ac40 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_1d9af9d1b68f2d45efdd2a55b0d78c94.bindTooltip(
+                `<div>
+                     The Living Room (Competitor)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_1d9af9d1b68f2d45efdd2a55b0d78c94.setIcon(icon_c97d24d063beca19b4e2b141cac8ac40);
+            
+    
+            var marker_c72b31c5d2a3a375855f8a2615f02e8a = L.marker(
+                [19.2199117, 72.8410131],
+                {
+}
+            ).addTo(map_c67f89a1f1a1fa4b4e2448eb9a4ea4e2);
+        
+    
+            var icon_7a86ff352fd1bdfaac5f8f2238622711 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_c72b31c5d2a3a375855f8a2615f02e8a.bindTooltip(
+                `<div>
+                     Shree Ganesh Ply N Veneer (Competitor)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c72b31c5d2a3a375855f8a2615f02e8a.setIcon(icon_7a86ff352fd1bdfaac5f8f2238622711);
+            
+    
+            var marker_0489feac839c0d98390a296eed797b1a = L.marker(
+                [19.1919989, 72.9772698],
+                {
+}
+            ).addTo(map_c67f89a1f1a1fa4b4e2448eb9a4ea4e2);
+        
+    
+            var icon_aab8e2fb5f2a1b8c46a23aba08c3d511 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_0489feac839c0d98390a296eed797b1a.bindTooltip(
+                `<div>
+                     A1 Furniture (Competitor)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_0489feac839c0d98390a296eed797b1a.setIcon(icon_aab8e2fb5f2a1b8c46a23aba08c3d511);
+            
+    
+            var marker_a1eaf8b3ccd898cf59a127c36c1ef173 = L.marker(
+                [18.9942754, 72.8274808],
+                {
+}
+            ).addTo(map_c67f89a1f1a1fa4b4e2448eb9a4ea4e2);
+        
+    
+            var icon_7848d5b71a87e54cfae11190337bb4df = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_a1eaf8b3ccd898cf59a127c36c1ef173.bindTooltip(
+                `<div>
+                     Competitor (Competitor)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a1eaf8b3ccd898cf59a127c36c1ef173.setIcon(icon_7848d5b71a87e54cfae11190337bb4df);
+            
+    
+            var marker_4b1545e2efb1266a1d1e7d9afdf554b6 = L.marker(
+                [18.9205916, 72.8321821],
+                {
+}
+            ).addTo(map_c67f89a1f1a1fa4b4e2448eb9a4ea4e2);
+        
+    
+            var icon_9d32a3a758fa473381363c4b88109c35 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_4b1545e2efb1266a1d1e7d9afdf554b6.bindTooltip(
+                `<div>
+                     Competitor (Competitor)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_4b1545e2efb1266a1d1e7d9afdf554b6.setIcon(icon_9d32a3a758fa473381363c4b88109c35);
+            
+    
+            var marker_88a71fc71a291e71741bc16bf1419d35 = L.marker(
+                [19.1151052, 72.9070652],
+                {
+}
+            ).addTo(map_c67f89a1f1a1fa4b4e2448eb9a4ea4e2);
+        
+    
+            var icon_7ecbc4fb1c06ddb30ceadb1b154ec9b5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_88a71fc71a291e71741bc16bf1419d35.bindTooltip(
+                `<div>
+                     Competitor (Competitor)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_88a71fc71a291e71741bc16bf1419d35.setIcon(icon_7ecbc4fb1c06ddb30ceadb1b154ec9b5);
+            
+    
+            var marker_6f35c6923e146791501f928297ece9cb = L.marker(
+                [19.1260412, 72.9194546],
+                {
+}
+            ).addTo(map_c67f89a1f1a1fa4b4e2448eb9a4ea4e2);
+        
+    
+            var icon_baca54a0daaa62f75ee6ea32952bc77e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_6f35c6923e146791501f928297ece9cb.bindTooltip(
+                `<div>
+                     RR Furniture & Interior Decorators (Competitor)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_6f35c6923e146791501f928297ece9cb.setIcon(icon_baca54a0daaa62f75ee6ea32952bc77e);
+            
+    
+            var marker_b1ede0dfac76845681ddc692dccd743c = L.marker(
+                [19.0890169, 72.9087484],
+                {
+}
+            ).addTo(map_c67f89a1f1a1fa4b4e2448eb9a4ea4e2);
+        
+    
+            var icon_f426836e4b430bd60546c602e41caa2f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_b1ede0dfac76845681ddc692dccd743c.bindTooltip(
+                `<div>
+                     Competitor (Competitor)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b1ede0dfac76845681ddc692dccd743c.setIcon(icon_f426836e4b430bd60546c602e41caa2f);
+            
+    
+            var marker_297344f1dc9f994a5ab5b75152efbd68 = L.marker(
+                [18.9815516, 72.8369153],
+                {
+}
+            ).addTo(map_c67f89a1f1a1fa4b4e2448eb9a4ea4e2);
+        
+    
+            var icon_c5831e0981701956208198abeee6b439 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_297344f1dc9f994a5ab5b75152efbd68.bindTooltip(
+                `<div>
+                     Competitor (Competitor)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_297344f1dc9f994a5ab5b75152efbd68.setIcon(icon_c5831e0981701956208198abeee6b439);
+            
+    
+            var marker_408430afadbd97433b2384c0ede8cb55 = L.marker(
+                [19.1530343, 72.8846253],
+                {
+}
+            ).addTo(map_c67f89a1f1a1fa4b4e2448eb9a4ea4e2);
+        
+    
+            var icon_3252ab7f93068fd126bf0a79f9a16485 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_408430afadbd97433b2384c0ede8cb55.bindTooltip(
+                `<div>
+                     De Modula (Competitor)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_408430afadbd97433b2384c0ede8cb55.setIcon(icon_3252ab7f93068fd126bf0a79f9a16485);
+            
+    
+            var marker_69609cf783123392246e9d44d921d63f = L.marker(
+                [19.2355409, 72.9695385],
+                {
+}
+            ).addTo(map_c67f89a1f1a1fa4b4e2448eb9a4ea4e2);
+        
+    
+            var icon_426a5d3ca9cd4c7e1bbe7b0981abd3c1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_69609cf783123392246e9d44d921d63f.bindTooltip(
+                `<div>
+                     GMT Designers & Architects (Competitor)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_69609cf783123392246e9d44d921d63f.setIcon(icon_426a5d3ca9cd4c7e1bbe7b0981abd3c1);
+            
+    
+            var marker_54ee413244ff4e1a9dcb372978ed13e3 = L.marker(
+                [19.0608012, 72.5246957],
+                {
+}
+            ).addTo(map_c67f89a1f1a1fa4b4e2448eb9a4ea4e2);
+        
+    
+            var icon_b66af7f52b222d49a7d03320b227ff9f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_54ee413244ff4e1a9dcb372978ed13e3.bindTooltip(
+                `<div>
+                     Safari Green Born to Travel Bag (Competitor)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_54ee413244ff4e1a9dcb372978ed13e3.setIcon(icon_b66af7f52b222d49a7d03320b227ff9f);
+            
+    
+            var marker_18ce640c87af505631e995f6c734bc0e = L.marker(
+                [19.0628935, 72.9068453],
+                {
+}
+            ).addTo(map_c67f89a1f1a1fa4b4e2448eb9a4ea4e2);
+        
+    
+            var icon_645177a70a2087c40d1bab29592c1e0a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_18ce640c87af505631e995f6c734bc0e.bindTooltip(
+                `<div>
+                     Handy Craft Old Furniture (Competitor)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_18ce640c87af505631e995f6c734bc0e.setIcon(icon_645177a70a2087c40d1bab29592c1e0a);
+            
+    
+            var marker_88865d1a452fde6059441c1dbb0fc226 = L.marker(
+                [19.021845, 72.8374652],
+                {
+}
+            ).addTo(map_c67f89a1f1a1fa4b4e2448eb9a4ea4e2);
+        
+    
+            var icon_258fc599cb8ef3b6d8ae551246d3b34a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_88865d1a452fde6059441c1dbb0fc226.bindTooltip(
+                `<div>
+                     Pavaar mattresses (Competitor)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_88865d1a452fde6059441c1dbb0fc226.setIcon(icon_258fc599cb8ef3b6d8ae551246d3b34a);
+            
+    
+            var marker_92de9a00a63a83de8e7e38f7fadf9ff3 = L.marker(
+                [19.0386113, 73.0201045],
+                {
+}
+            ).addTo(map_c67f89a1f1a1fa4b4e2448eb9a4ea4e2);
+        
+    
+            var icon_6d55d3cc3c4a2f881fde5496a56b23e5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_92de9a00a63a83de8e7e38f7fadf9ff3.bindTooltip(
+                `<div>
+                     Ishwar Furniture (Competitor)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_92de9a00a63a83de8e7e38f7fadf9ff3.setIcon(icon_6d55d3cc3c4a2f881fde5496a56b23e5);
+            
+    
+            var marker_f0671ab735b741a0075bb06de3c50744 = L.marker(
+                [19.038715, 73.0201063],
+                {
+}
+            ).addTo(map_c67f89a1f1a1fa4b4e2448eb9a4ea4e2);
+        
+    
+            var icon_90810bb069d5821cbb393fad38e52c81 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_f0671ab735b741a0075bb06de3c50744.bindTooltip(
+                `<div>
+                     Platinum Furniture and Interiors (Competitor)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_f0671ab735b741a0075bb06de3c50744.setIcon(icon_90810bb069d5821cbb393fad38e52c81);
+            
+    
+            var marker_97e6f0d3885f3d306d5a71b795209a2d = L.marker(
+                [19.0539453, 72.8310366],
+                {
+}
+            ).addTo(map_c67f89a1f1a1fa4b4e2448eb9a4ea4e2);
+        
+    
+            var icon_cc4eee504d174b6dc9d17207df1d4ae2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_97e6f0d3885f3d306d5a71b795209a2d.bindTooltip(
+                `<div>
+                     Pattern Furnishing (Competitor)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_97e6f0d3885f3d306d5a71b795209a2d.setIcon(icon_cc4eee504d174b6dc9d17207df1d4ae2);
+            
+    
+            var marker_3108a16bcb2f0e30fcf19f111e8453a5 = L.marker(
+                [19.2364586, 72.9756054],
+                {
+}
+            ).addTo(map_c67f89a1f1a1fa4b4e2448eb9a4ea4e2);
+        
+    
+            var icon_f2ed2646525a95f2a431e7eedfccf011 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_3108a16bcb2f0e30fcf19f111e8453a5.bindTooltip(
+                `<div>
+                     Royal Wood Furniture & Interior Designer (Competitor)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_3108a16bcb2f0e30fcf19f111e8453a5.setIcon(icon_f2ed2646525a95f2a431e7eedfccf011);
+            
+    
+            var marker_63c8d9b3407324b29b6d55e58874fe1b = L.marker(
+                [19.236401, 72.975301],
+                {
+}
+            ).addTo(map_c67f89a1f1a1fa4b4e2448eb9a4ea4e2);
+        
+    
+            var icon_1c538df9eca71105c066f33cddba2fad = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_63c8d9b3407324b29b6d55e58874fe1b.bindTooltip(
+                `<div>
+                     Sofa House (Competitor)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_63c8d9b3407324b29b6d55e58874fe1b.setIcon(icon_1c538df9eca71105c066f33cddba2fad);
+            
+    
+            var marker_21b567d03f0223fdd76cddc614aa45c2 = L.marker(
+                [19.0268059, 72.8545397],
+                {
+}
+            ).addTo(map_c67f89a1f1a1fa4b4e2448eb9a4ea4e2);
+        
+    
+            var icon_f14b0e3fac4495477f6bc7a8b061a14f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_21b567d03f0223fdd76cddc614aa45c2.bindTooltip(
+                `<div>
+                     Century Mattresses (Competitor)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_21b567d03f0223fdd76cddc614aa45c2.setIcon(icon_f14b0e3fac4495477f6bc7a8b061a14f);
+            
+    
+            var marker_ecb05bb0eafa042daeacd6548077d6fe = L.marker(
+                [19.0302831, 72.8415985],
+                {
+}
+            ).addTo(map_c67f89a1f1a1fa4b4e2448eb9a4ea4e2);
+        
+    
+            var icon_d64ced2fd6545216b20b7aa6c9c3c77d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_ecb05bb0eafa042daeacd6548077d6fe.bindTooltip(
+                `<div>
+                     Arts (Competitor)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ecb05bb0eafa042daeacd6548077d6fe.setIcon(icon_d64ced2fd6545216b20b7aa6c9c3c77d);
+            
+    
+            var marker_3e69117e2c9c4da5876802f62fc90d8a = L.marker(
+                [19.2934622, 72.8608677],
+                {
+}
+            ).addTo(map_c67f89a1f1a1fa4b4e2448eb9a4ea4e2);
+        
+    
+            var icon_39e49496ca00fa5f9890625525ee9114 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_3e69117e2c9c4da5876802f62fc90d8a.bindTooltip(
+                `<div>
+                     The Furniture House (Competitor)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_3e69117e2c9c4da5876802f62fc90d8a.setIcon(icon_39e49496ca00fa5f9890625525ee9114);
+            
+    
+            var marker_fe9fde32c483c62f8a01c923c948a271 = L.marker(
+                [19.06307, 72.8352389],
+                {
+}
+            ).addTo(map_c67f89a1f1a1fa4b4e2448eb9a4ea4e2);
+        
+    
+            var icon_a09f9fadc7ad328215bb61dc89318b20 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_fe9fde32c483c62f8a01c923c948a271.bindTooltip(
+                `<div>
+                     Urban Ladder (Competitor)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_fe9fde32c483c62f8a01c923c948a271.setIcon(icon_a09f9fadc7ad328215bb61dc89318b20);
+            
+    
+            var marker_def830fe8e69d2d2a1d8fa5893555eef = L.marker(
+                [19.2992071, 72.8637641],
+                {
+}
+            ).addTo(map_c67f89a1f1a1fa4b4e2448eb9a4ea4e2);
+        
+    
+            var icon_92e26a5dce8b3b893e0fb175c61d3d10 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_def830fe8e69d2d2a1d8fa5893555eef.bindTooltip(
+                `<div>
+                     Vishwakarma Furniture (Competitor)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_def830fe8e69d2d2a1d8fa5893555eef.setIcon(icon_92e26a5dce8b3b893e0fb175c61d3d10);
+            
+    
+            var marker_3c480d940039151993f365878c967a12 = L.marker(
+                [19.2970648, 72.8647007],
+                {
+}
+            ).addTo(map_c67f89a1f1a1fa4b4e2448eb9a4ea4e2);
+        
+    
+            var icon_b00adeabaa90fd83b4b26201a0145f2d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_3c480d940039151993f365878c967a12.bindTooltip(
+                `<div>
+                     Arya Modular Kitchen (Competitor)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_3c480d940039151993f365878c967a12.setIcon(icon_b00adeabaa90fd83b4b26201a0145f2d);
+            
+    
+            var marker_1446e17aabdc2b7b11840c24d4ad3248 = L.marker(
+                [19.0534201, 72.8241148],
+                {
+}
+            ).addTo(map_c67f89a1f1a1fa4b4e2448eb9a4ea4e2);
+        
+    
+            var icon_aa7d947af17d20305e32dd5e616b8911 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_1446e17aabdc2b7b11840c24d4ad3248.bindTooltip(
+                `<div>
+                     Damian (Competitor)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_1446e17aabdc2b7b11840c24d4ad3248.setIcon(icon_aa7d947af17d20305e32dd5e616b8911);
+            
+    
+            var marker_27b119eb4a22106f6ceb84e7420b6d53 = L.marker(
+                [19.0543232, 72.8389615],
+                {
+}
+            ).addTo(map_c67f89a1f1a1fa4b4e2448eb9a4ea4e2);
+        
+    
+            var icon_e8a3fa45b63e935642e0a36253f6e253 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_27b119eb4a22106f6ceb84e7420b6d53.bindTooltip(
+                `<div>
+                     Dreamland Furniture (Competitor)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_27b119eb4a22106f6ceb84e7420b6d53.setIcon(icon_e8a3fa45b63e935642e0a36253f6e253);
+            
+    
+            var marker_43edd54f3a9548d5fc4e9e420a3dd85c = L.marker(
+                [19.1191055, 72.9982501],
+                {
+}
+            ).addTo(map_c67f89a1f1a1fa4b4e2448eb9a4ea4e2);
+        
+    
+            var icon_a5ddcdc4c63661323e18ed6eee9bdccf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_43edd54f3a9548d5fc4e9e420a3dd85c.bindTooltip(
+                `<div>
+                     rentomojo.com (Competitor)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_43edd54f3a9548d5fc4e9e420a3dd85c.setIcon(icon_a5ddcdc4c63661323e18ed6eee9bdccf);
+            
+    
+            var marker_859f3eff88623591bd8eb8aece2f8e65 = L.marker(
+                [19.0231404, 72.8385424],
+                {
+}
+            ).addTo(map_c67f89a1f1a1fa4b4e2448eb9a4ea4e2);
+        
+    
+            var icon_7b3b749e015e56736cdb5ea586c87172 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_859f3eff88623591bd8eb8aece2f8e65.bindTooltip(
+                `<div>
+                     Steelman (Competitor)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_859f3eff88623591bd8eb8aece2f8e65.setIcon(icon_7b3b749e015e56736cdb5ea586c87172);
+            
+    
+            var marker_399febe134c567aece0d113e69d5ab0e = L.marker(
+                [19.2813863, 72.8594883],
+                {
+}
+            ).addTo(map_c67f89a1f1a1fa4b4e2448eb9a4ea4e2);
+        
+    
+            var icon_d86756da80210dc14008050da9b75721 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_399febe134c567aece0d113e69d5ab0e.bindTooltip(
+                `<div>
+                     Sudarshan Ply Center (Competitor)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_399febe134c567aece0d113e69d5ab0e.setIcon(icon_d86756da80210dc14008050da9b75721);
+            
+    
+            var marker_fdb7d9ec49b1b40980d266af0938058a = L.marker(
+                [19.0906725, 72.8349888],
+                {
+}
+            ).addTo(map_c67f89a1f1a1fa4b4e2448eb9a4ea4e2);
+        
+    
+            var icon_0b4b9ecb1b88c7e0b39e73d62f33f839 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_fdb7d9ec49b1b40980d266af0938058a.bindTooltip(
+                `<div>
+                     Satguru Creations-Corian Temple | Corian Mandir | Temple Manufacturer & Shop (Competitor)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_fdb7d9ec49b1b40980d266af0938058a.setIcon(icon_0b4b9ecb1b88c7e0b39e73d62f33f839);
+            
+</script>
+</html>

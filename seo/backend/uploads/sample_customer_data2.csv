@@ -1,0 +1,201 @@
+Name,City,Area,Purchase_Amount
+Anjali Kale,Kolhapur,Rajarampuri,3277
+Kiran Joshi,Mumbai,Rajarampuri,2826
+Priya Sharma,Satara,Karve Nagar,4896
+Amit Gupta,Mumbai,Rajarampuri,4236
+Kiran Patil,Mumbai,Powai,2550
+Rohit Kulkarni,Satara,Shahupuri,518
+Priya Kulkarni,Mumbai,Dadar,4726
+Rahul Joshi,Kolhapur,Andheri,3764
+Pooja Kale,Mumbai,Dadar,3718
+Amit Sharma,Satara,Powai,2183
+Sanjay Sharma,Satara,Kothrud,2621
+Vikas Desai,Mumbai,Rajarampuri,3370
+Kiran Verma,Pune,Dadar,2768
+Vikas Yadav,Pune,Andheri,1560
+Anjali Kulkarni,Satara,Andheri,4942
+Rohit Gupta,Mumbai,Kothrud,2868
+Amit Patil,Satara,Karve Nagar,3738
+Rohit Kulkarni,Satara,Dadar,3593
+Amit Gupta,Kolhapur,Powai,2900
+Pooja Sharma,Pune,Powai,861
+Rahul Yadav,Pune,Dadar,874
+Rohit Kale,Pune,Kothrud,4325
+Priya Patil,Satara,Dadar,3674
+Sanjay Gupta,Mumbai,Karve Nagar,1108
+Anjali Kulkarni,Mumbai,Shahupuri,4496
+Amit Verma,Kolhapur,Shahupuri,3880
+Rahul Sharma,Pune,Rajarampuri,4452
+Rohit Kale,Pune,Rajarampuri,3476
+Sneha Yadav,Satara,Tarabai Park,295
+Pooja Joshi,Satara,Dadar,1346
+Sneha Sharma,Mumbai,Shahupuri,2393
+Rahul Patil,Mumbai,Kothrud,1622
+Sneha Gupta,Kolhapur,Tarabai Park,3092
+Anjali Yadav,Satara,Karve Nagar,317
+Priya Joshi,Kolhapur,Andheri,1056
+Anjali Verma,Kolhapur,Karve Nagar,1327
+Rohit Kulkarni,Pune,Kothrud,4624
+Vikas Kale,Pune,Shahupuri,3136
+Anjali Joshi,Satara,Andheri,4052
+Anjali Joshi,Pune,Dadar,2121
+Pooja More,Pune,Karve Nagar,4879
+Sanjay Gupta,Pune,Shahupuri,3452
+Sneha Yadav,Satara,Rajarampuri,1133
+Kiran Joshi,Mumbai,Rajarampuri,406
+Kiran Desai,Kolhapur,Kothrud,2510
+Rahul Joshi,Satara,Karve Nagar,4335
+Vikas Desai,Mumbai,Tarabai Park,4050
+Priya More,Satara,Tarabai Park,795
+Pooja Verma,Pune,Rajarampuri,2171
+Pooja Joshi,Mumbai,Andheri,2833
+Pooja Verma,Kolhapur,Kothrud,3374
+Priya Verma,Kolhapur,Shahupuri,1912
+Vikas Verma,Mumbai,Powai,2948
+Vikas Joshi,Kolhapur,Andheri,3625
+Priya Joshi,Kolhapur,Karve Nagar,1585
+Rahul Kulkarni,Kolhapur,Dadar,1740
+Kiran Verma,Pune,Rajarampuri,1200
+Kiran Kale,Kolhapur,Karve Nagar,637
+Pooja Gupta,Mumbai,Tarabai Park,3327
+Rohit Yadav,Kolhapur,Tarabai Park,2373
+Kiran Yadav,Kolhapur,Andheri,1659
+Rahul Desai,Satara,Dadar,4570
+Anjali Joshi,Satara,Karve Nagar,2540
+Rohit More,Kolhapur,Andheri,1374
+Kiran Kulkarni,Mumbai,Andheri,2923
+Kiran Kulkarni,Satara,Andheri,3679
+Rahul Kulkarni,Kolhapur,Kothrud,3707
+Anjali Yadav,Kolhapur,Karve Nagar,4828
+Rahul Joshi,Mumbai,Tarabai Park,3812
+Kiran Patil,Pune,Tarabai Park,4597
+Rohit Patil,Satara,Dadar,726
+Priya Sharma,Mumbai,Shahupuri,3243
+Priya More,Mumbai,Tarabai Park,367
+Priya Kale,Kolhapur,Tarabai Park,961
+Sanjay More,Pune,Kothrud,437
+Sanjay Desai,Mumbai,Andheri,300
+Rahul Joshi,Kolhapur,Kothrud,3752
+Anjali Kulkarni,Mumbai,Tarabai Park,4303
+Pooja Verma,Satara,Powai,1537
+Sneha Verma,Pune,Dadar,4973
+Sneha Desai,Kolhapur,Tarabai Park,2797
+Rahul Sharma,Mumbai,Kothrud,4791
+Pooja Kale,Pune,Kothrud,4289
+Kiran Patil,Kolhapur,Kothrud,4846
+Sanjay Desai,Mumbai,Powai,1212
+Priya Yadav,Pune,Shahupuri,614
+Anjali Patil,Mumbai,Powai,2108
+Sanjay Joshi,Kolhapur,Kothrud,1484
+Rohit Verma,Pune,Kothrud,1042
+Anjali Verma,Pune,Tarabai Park,1784
+Pooja Yadav,Pune,Dadar,2175
+Pooja More,Pune,Kothrud,1184
+Rahul Kulkarni,Satara,Rajarampuri,4962
+Pooja Patil,Pune,Karve Nagar,3750
+Vikas Gupta,Pune,Shahupuri,3117
+Sneha Kale,Satara,Powai,3361
+Priya Verma,Mumbai,Dadar,2733
+Sneha Patil,Kolhapur,Dadar,4681
+Sanjay Kale,Pune,Tarabai Park,2881
+Priya Sharma,Satara,Kothrud,4838
+Vikas Joshi,Satara,Karve Nagar,1943
+Vikas More,Satara,Shahupuri,3837
+Priya Verma,Pune,Tarabai Park,3649
+Rahul Sharma,Kolhapur,Tarabai Park,3028
+Pooja Verma,Mumbai,Dadar,3565
+Rahul Sharma,Pune,Rajarampuri,2698
+Vikas Kale,Kolhapur,Powai,3173
+Rohit More,Kolhapur,Shahupuri,4488
+Anjali Yadav,Kolhapur,Shahupuri,4013
+Pooja Desai,Mumbai,Tarabai Park,3989
+Priya Kale,Satara,Andheri,2481
+Sanjay Kulkarni,Mumbai,Shahupuri,4909
+Anjali Patil,Satara,Dadar,510
+Sneha Sharma,Satara,Tarabai Park,3329
+Kiran Patil,Satara,Shahupuri,303
+Rohit Desai,Kolhapur,Rajarampuri,792
+Anjali More,Pune,Rajarampuri,504
+Priya Gupta,Mumbai,Shahupuri,4181
+Priya Kale,Mumbai,Tarabai Park,638
+Vikas Kulkarni,Mumbai,Tarabai Park,4855
+Rahul Gupta,Pune,Karve Nagar,4772
+Kiran Sharma,Pune,Tarabai Park,3594
+Priya Gupta,Kolhapur,Rajarampuri,1107
+Sanjay Sharma,Pune,Andheri,4399
+Rahul Desai,Pune,Karve Nagar,786
+Sanjay Desai,Kolhapur,Rajarampuri,1058
+Sneha More,Kolhapur,Powai,1945
+Vikas More,Kolhapur,Powai,3511
+Anjali Joshi,Kolhapur,Kothrud,4055
+Sneha Verma,Kolhapur,Kothrud,2138
+Priya Kulkarni,Satara,Andheri,4527
+Sneha Joshi,Satara,Shahupuri,4460
+Kiran Verma,Mumbai,Karve Nagar,3461
+Sanjay Gupta,Mumbai,Andheri,1624
+Anjali Desai,Satara,Powai,3006
+Vikas Gupta,Mumbai,Shahupuri,4694
+Kiran Kulkarni,Mumbai,Rajarampuri,3348
+Pooja More,Pune,Kothrud,4310
+Pooja Patil,Satara,Kothrud,4423
+Rahul Patil,Pune,Shahupuri,4374
+Sanjay Sharma,Pune,Andheri,409
+Sanjay Kale,Kolhapur,Tarabai Park,2972
+Sanjay Verma,Satara,Kothrud,4167
+Amit Gupta,Mumbai,Rajarampuri,854
+Rahul Patil,Pune,Andheri,2480
+Sanjay Patil,Mumbai,Rajarampuri,967
+Pooja Gupta,Pune,Kothrud,2643
+Vikas Kale,Satara,Powai,1630
+Rahul More,Mumbai,Shahupuri,2341
+Anjali Sharma,Satara,Andheri,883
+Rohit Patil,Mumbai,Tarabai Park,1860
+Pooja Yadav,Satara,Shahupuri,3495
+Sanjay Gupta,Mumbai,Powai,254
+Kiran Gupta,Satara,Shahupuri,2579
+Rohit Kulkarni,Kolhapur,Rajarampuri,1936
+Priya Sharma,Mumbai,Powai,4516
+Sanjay Desai,Kolhapur,Dadar,2298
+Sanjay Patil,Kolhapur,Tarabai Park,344
+Priya Kale,Satara,Dadar,980
+Rahul Kale,Satara,Powai,2977
+Pooja Patil,Satara,Kothrud,3420
+Vikas Patil,Kolhapur,Powai,973
+Priya Patil,Pune,Powai,1481
+Rahul Yadav,Satara,Tarabai Park,4466
+Sanjay Patil,Mumbai,Dadar,3722
+Rahul Patil,Satara,Tarabai Park,1604
+Kiran Kulkarni,Satara,Shahupuri,3219
+Sanjay Desai,Kolhapur,Dadar,1610
+Sanjay Verma,Mumbai,Powai,3276
+Priya Verma,Pune,Dadar,823
+Rahul Kulkarni,Mumbai,Andheri,2509
+Rahul Desai,Satara,Kothrud,4393
+Rahul Joshi,Satara,Shahupuri,3985
+Rohit Yadav,Kolhapur,Rajarampuri,4630
+Priya Yadav,Kolhapur,Kothrud,2016
+Amit Sharma,Kolhapur,Tarabai Park,4861
+Vikas Kulkarni,Kolhapur,Rajarampuri,4451
+Vikas Gupta,Satara,Tarabai Park,3827
+Kiran Gupta,Kolhapur,Powai,884
+Rohit Patil,Kolhapur,Tarabai Park,459
+Pooja Yadav,Mumbai,Karve Nagar,3482
+Rahul More,Satara,Dadar,3269
+Rohit Yadav,Kolhapur,Powai,1719
+Vikas Gupta,Satara,Andheri,3387
+Amit Sharma,Kolhapur,Powai,4057
+Sneha Kale,Pune,Tarabai Park,556
+Priya Gupta,Pune,Shahupuri,3849
+Vikas Yadav,Kolhapur,Karve Nagar,1907
+Rohit Yadav,Pune,Dadar,4403
+Amit Yadav,Pune,Shahupuri,3260
+Rohit Desai,Kolhapur,Shahupuri,2124
+Pooja More,Mumbai,Tarabai Park,1406
+Anjali Kale,Pune,Kothrud,3469
+Vikas Kulkarni,Kolhapur,Andheri,4949
+Amit Kale,Pune,Tarabai Park,1030
+Rahul Gupta,Kolhapur,Andheri,3366
+Anjali Yadav,Kolhapur,Kothrud,3198
+Sanjay Patil,Pune,Karve Nagar,2133
+Vikas Gupta,Mumbai,Kothrud,4405
+Pooja Yadav,Pune,Dadar,759

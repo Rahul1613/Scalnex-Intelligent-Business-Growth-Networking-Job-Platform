@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e7bcf30b3c8cfc60649f3a0cfb78fb31 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_e7bcf30b3c8cfc60649f3a0cfb78fb31" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_e7bcf30b3c8cfc60649f3a0cfb78fb31 = L.map(
+                "map_e7bcf30b3c8cfc60649f3a0cfb78fb31",
+                {
+                    center: [17.5253407, 73.5155673],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 13,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f438b55cdda1d8ae530452f4865bc3ad = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_f438b55cdda1d8ae530452f4865bc3ad.addTo(map_e7bcf30b3c8cfc60649f3a0cfb78fb31);
+        
+    
+            var circle_a4b2792755e891a4701ba00a8cdcafaf = L.circle(
+                [17.5253407, 73.5155673],
+                {"bubblingMouseEvents": true, "color": "#f87171", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f87171", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.2, "radius": 35000.0, "stroke": true, "weight": 3}
+            ).addTo(map_e7bcf30b3c8cfc60649f3a0cfb78fb31);
+        
+    
+            circle_a4b2792755e891a4701ba00a8cdcafaf.bindTooltip(
+                `<div>
+                     35.0km Radius
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_882842951ef0797c6935d762d56bf0a4 = L.marker(
+                [17.523357, 73.5348612],
+                {
+}
+            ).addTo(map_e7bcf30b3c8cfc60649f3a0cfb78fb31);
+        
+    
+            var icon_dd575d7bb0aeb25905c975222af89e08 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_882842951ef0797c6935d762d56bf0a4.bindTooltip(
+                `<div>
+                     Shubh Abhishek (Competitor)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_882842951ef0797c6935d762d56bf0a4.setIcon(icon_dd575d7bb0aeb25905c975222af89e08);
+            
+    
+            var marker_8d8de4dd5f0c4141aee5ccb34ead869a = L.marker(
+                [17.5233723, 73.5334503],
+                {
+}
+            ).addTo(map_e7bcf30b3c8cfc60649f3a0cfb78fb31);
+        
+    
+            var icon_39a1d553c5cdf27332c9c76966a42894 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_8d8de4dd5f0c4141aee5ccb34ead869a.bindTooltip(
+                `<div>
+                     Hindustan Petrolium (Competitor)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_8d8de4dd5f0c4141aee5ccb34ead869a.setIcon(icon_39a1d553c5cdf27332c9c76966a42894);
+            
+    
+            var marker_feee22c06e8822751c1b6c0ffd034b1e = L.marker(
+                [17.5154333, 73.5101731],
+                {
+}
+            ).addTo(map_e7bcf30b3c8cfc60649f3a0cfb78fb31);
+        
+    
+            var icon_92eb7fbe575205feb488ec9190d6f627 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_feee22c06e8822751c1b6c0ffd034b1e.bindTooltip(
+                `<div>
+                     Oam Sukai Mandir (Competitor)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_feee22c06e8822751c1b6c0ffd034b1e.setIcon(icon_92eb7fbe575205feb488ec9190d6f627);
+            
+    
+            var marker_d0fe924756e37ec6b9ab50542572410b = L.marker(
+                [17.4736811, 73.1927726],
+                {
+}
+            ).addTo(map_e7bcf30b3c8cfc60649f3a0cfb78fb31);
+        
+    
+            var icon_bf69cc60e86706e3ff9524226ca39eb1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_d0fe924756e37ec6b9ab50542572410b.bindTooltip(
+                `<div>
+                     Varati Mandir (Competitor)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_d0fe924756e37ec6b9ab50542572410b.setIcon(icon_bf69cc60e86706e3ff9524226ca39eb1);
+            
+    
+            var marker_71c086735c60fdbc8093912d121f3e37 = L.marker(
+                [17.2247095, 73.5443741],
+                {
+}
+            ).addTo(map_e7bcf30b3c8cfc60649f3a0cfb78fb31);
+        
+    
+            var icon_06ac2eb135fac3451650fcb15bd9b0f7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_71c086735c60fdbc8093912d121f3e37.bindTooltip(
+                `<div>
+                     Competitor (Competitor)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_71c086735c60fdbc8093912d121f3e37.setIcon(icon_06ac2eb135fac3451650fcb15bd9b0f7);
+            
+    
+            var marker_b3e430fc6f615634f0c5d23a1b87774b = L.marker(
+                [17.4836114, 73.1902167],
+                {
+}
+            ).addTo(map_e7bcf30b3c8cfc60649f3a0cfb78fb31);
+        
+    
+            var icon_184b8ae9028985aca127efd22b53c4c6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_b3e430fc6f615634f0c5d23a1b87774b.bindTooltip(
+                `<div>
+                     Shree Vyadeshwar Mandir Guhagar (Competitor)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b3e430fc6f615634f0c5d23a1b87774b.setIcon(icon_184b8ae9028985aca127efd22b53c4c6);
+            
+    
+            var marker_8b6adccd760813a05343cff88698e9df = L.marker(
+                [17.4812552, 73.2186883],
+                {
+}
+            ).addTo(map_e7bcf30b3c8cfc60649f3a0cfb78fb31);
+        
+    
+            var icon_be6f7a615eb524fd43f96242911b5a48 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_8b6adccd760813a05343cff88698e9df.bindTooltip(
+                `<div>
+                     Bafna Motors (Competitor)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_8b6adccd760813a05343cff88698e9df.setIcon(icon_be6f7a615eb524fd43f96242911b5a48);
+            
+    
+            var marker_d9aeccd4d65cf516f4a9e28e557ef4aa = L.marker(
+                [17.4898407, 73.2681966],
+                {
+}
+            ).addTo(map_e7bcf30b3c8cfc60649f3a0cfb78fb31);
+        
+    
+            var icon_48c49f6aa69544a1aec3442d6e8f7e59 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_d9aeccd4d65cf516f4a9e28e557ef4aa.bindTooltip(
+                `<div>
+                     Tali Petrol Station (Competitor)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_d9aeccd4d65cf516f4a9e28e557ef4aa.setIcon(icon_48c49f6aa69544a1aec3442d6e8f7e59);
+            
+    
+            var marker_0eb4b8098a6bb2172c81bb7739cbf20c = L.marker(
+                [17.3999079, 73.5474185],
+                {
+}
+            ).addTo(map_e7bcf30b3c8cfc60649f3a0cfb78fb31);
+        
+    
+            var icon_52c13640c5badca7997a4f04a082677f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_0eb4b8098a6bb2172c81bb7739cbf20c.bindTooltip(
+                `<div>
+                     B.K.L. Walawalkar Hospital Diagnostic and Research Centre - Chiplun (Competitor)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_0eb4b8098a6bb2172c81bb7739cbf20c.setIcon(icon_52c13640c5badca7997a4f04a082677f);
+            
+    
+            var marker_431b009f3a7dca98e0ca98b297012c27 = L.marker(
+                [17.5463277, 73.5274467],
+                {
+}
+            ).addTo(map_e7bcf30b3c8cfc60649f3a0cfb78fb31);
+        
+    
+            var icon_3d8f85e970e74f2c19aea3aeaf324056 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_431b009f3a7dca98e0ca98b297012c27.bindTooltip(
+                `<div>
+                     Peterol Station (Competitor)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_431b009f3a7dca98e0ca98b297012c27.setIcon(icon_3d8f85e970e74f2c19aea3aeaf324056);
+            
+    
+            var marker_11dc32ad4acb086e18a771cf13d749fd = L.marker(
+                [17.7881811, 73.4737212],
+                {
+}
+            ).addTo(map_e7bcf30b3c8cfc60649f3a0cfb78fb31);
+        
+    
+            var icon_8967ead0dc7d6db47e49944425f274aa = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_11dc32ad4acb086e18a771cf13d749fd.bindTooltip(
+                `<div>
+                     Small Shop (Competitor)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_11dc32ad4acb086e18a771cf13d749fd.setIcon(icon_8967ead0dc7d6db47e49944425f274aa);
+            
+    
+            var marker_0abff7e7ea3905993df7c2d68277ed0f = L.marker(
+                [17.7199397, 73.6009868],
+                {
+}
+            ).addTo(map_e7bcf30b3c8cfc60649f3a0cfb78fb31);
+        
+    
+            var icon_2f90831bac9d1b2744d9a1605477f7db = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_0abff7e7ea3905993df7c2d68277ed0f.bindTooltip(
+                `<div>
+                     Kirana Dukaan (Competitor)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_0abff7e7ea3905993df7c2d68277ed0f.setIcon(icon_2f90831bac9d1b2744d9a1605477f7db);
+            
+    
+            var marker_a5aa16742b6b4eb35f1221a369e44208 = L.marker(
+                [17.7340145, 73.5359907],
+                {
+}
+            ).addTo(map_e7bcf30b3c8cfc60649f3a0cfb78fb31);
+        
+    
+            var icon_905c5438e739e17ce1c6298cbd31d878 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_a5aa16742b6b4eb35f1221a369e44208.bindTooltip(
+                `<div>
+                     Rajesh Shantaram Yadav Kirana Store (Competitor)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a5aa16742b6b4eb35f1221a369e44208.setIcon(icon_905c5438e739e17ce1c6298cbd31d878);
+            
+    
+            var marker_59ea198157b718ee1fef059c7044dece = L.marker(
+                [17.8327594, 73.5635392],
+                {
+}
+            ).addTo(map_e7bcf30b3c8cfc60649f3a0cfb78fb31);
+        
+    
+            var icon_4f8e37117b5479b2ffda1383f1408397 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_59ea198157b718ee1fef059c7044dece.bindTooltip(
+                `<div>
+                     Kirana Shop (Competitor)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_59ea198157b718ee1fef059c7044dece.setIcon(icon_4f8e37117b5479b2ffda1383f1408397);
+            
+    
+            var marker_8cc82cb9a8dd49733b91f2e15f4740f7 = L.marker(
+                [17.7620852, 73.6308271],
+                {
+}
+            ).addTo(map_e7bcf30b3c8cfc60649f3a0cfb78fb31);
+        
+    
+            var icon_87f52dd5a18b18640dbe5c174ae87cf7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_8cc82cb9a8dd49733b91f2e15f4740f7.bindTooltip(
+                `<div>
+                     Kirana Store (Competitor)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_8cc82cb9a8dd49733b91f2e15f4740f7.setIcon(icon_87f52dd5a18b18640dbe5c174ae87cf7);
+            
+    
+            var marker_6e2f9f91149753140273328f94fd94c5 = L.marker(
+                [17.2721112, 73.4979642],
+                {
+}
+            ).addTo(map_e7bcf30b3c8cfc60649f3a0cfb78fb31);
+        
+    
+            var icon_9eaf57f8915d6045794df52102b5d935 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_6e2f9f91149753140273328f94fd94c5.bindTooltip(
+                `<div>
+                     Omkar Steel and Furniture (Competitor)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_6e2f9f91149753140273328f94fd94c5.setIcon(icon_9eaf57f8915d6045794df52102b5d935);
+            
+    
+            var marker_29f222226491dd563f9a1408e09f4eca = L.marker(
+                [17.7197104, 73.6011484],
+                {
+}
+            ).addTo(map_e7bcf30b3c8cfc60649f3a0cfb78fb31);
+        
+    
+            var icon_ea0aeb73f750ae582891e059e5bfb8b9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_29f222226491dd563f9a1408e09f4eca.bindTooltip(
+                `<div>
+                     Morey Kirana General Store (Competitor)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_29f222226491dd563f9a1408e09f4eca.setIcon(icon_ea0aeb73f750ae582891e059e5bfb8b9);
+            
+</script>
+</html>

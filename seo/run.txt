@@ -1,0 +1,48 @@
+# --- Scalnex Project Run Guide ---
+
+## 🚀 Quick Start (Copy & Paste)
+
+### Option 0. Start everything (recommended)
+From the `seo/` folder, run:
+
+run_platform.bat
+
+### 1. Run Backend (Flask)
+cd seo/backend ; ..\.venv\Scripts\python.exe app.py
+
+### 2. Run Frontend (Vite)
+cd seo/frontend ; npm run dev
+
+### 3. Run ML Service (Optional)
+cd seo/ml_service ; ..\.venv-ml\Scripts\python.exe -m uvicorn main:app --host 127.0.0.1 --port 8000
+    
+---
+
+## 🛠️ Step-by-Step Instructions
+
+### Backend Setup
+1. Open a terminal
+2. Navigate to: `cd seo/backend`
+3. (Optional) Create backend env file:
+   - Copy `seo/backend/.env.example` → `seo/backend/.env` and set `JWT_SECRET_KEY` (and any SMTP/API keys if needed)
+4. Install dependencies: `..\.venv\Scripts\python.exe -m pip install -r requirements.txt`
+5. Start: `..\.venv\Scripts\python.exe app.py`
+
+### Frontend Setup
+1. Open a new terminal
+2. Navigate to: `cd seo/frontend`
+3. (Optional) Create frontend env file:
+   - Copy `seo/frontend/.env.example` → `seo/frontend/.env.local`
+   - Set `VITE_API_URL=http://127.0.0.1:5000` (backend origin)
+4. Install: `npm install`
+5. Start: `npm run dev`
+
+> [!TIP]
+> Always ensure your virtual environment (\.venv) is properly set up before running the Python commands.
+
+### Quick Reference
+**Backend**: `cd seo/backend ; ..\.venv\Scripts\python.exe app.py`
+
+**Frontend**: `cd seo/frontend ; npm run dev`
+
+**ML Service**: `cd seo/ml_service ; ..\.venv-ml\Scripts\python.exe -m uvicorn main:app --host 127.0.0.1 --port 8000`

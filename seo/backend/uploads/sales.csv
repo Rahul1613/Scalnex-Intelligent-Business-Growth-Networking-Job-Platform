@@ -1,0 +1,1955 @@
+transaction_id,customer_id,customer_name,email,purchase_date,product_id,category,price,quantity,total_amount,payment_method,delivery_status,customer_address
+1001,102,Amy Wells,caroladams@gmail.com,24/01/2024,1023,Clothing,4210.71,-1,-4210.71,creditcard,Pending,"5769 Tracy Lane
+Port Amy, AZ 35865"
+1002,435,Joshua Lopez,brownbenjamin,05/09/2023,1029,Electronics,3298.49,-3,-9895.47,Debit Card,Delivered,"70936 Rangel Falls
+Wellshaven, AK 75186"
+1003,348,Richard Alvarado,rose47@hotmail.com,09/07/2024,1078,Books,2387.86,6,14327.16,CC,Returned,"724 Aaron Villages
+Patriciachester, VA 64309"
+1004,270,Nichole Nelson,sgibbs@reeves.org,28/07/2023,1090,Clothing,3780.65,2,7561.3,creditcard,Shipped,"4983 James Plains
+Roachland, NJ 41398"
+1005,106,Debbie Baker,vvargas@gmail.com,10/09/2023,1051,Toys,562.62,5,,,Shipped,"03845 Bryan Branch Suite 738
+New Joelside, ID 50557"
+1006,71,Mrs. Tanya Mullen,brendareese@gmail.com,09/03/2023,1069,,4008.69,0,0,Bank Transfer,Pending,"3905 Elizabeth Tunnel Apt. 096
+Sarahfurt, MT 87186"
+1007,188,Adam Gonzalez,msmith@hebert.org,13/12/2024,1095,Toys,2410.54,8,19284.32,creditcard,Cancelled,"166 Griffith Mountain
+South Keithchester, DC 16249"
+1008,20,Anthony Reynolds,cameronwilkins@collins-mcdonald.net,09/02/2025,1089,,4294.91,-4,-17179.64,CC,,"896 Kevin Spring Apt. 064
+Williamsland, IN 58965"
+1009,102,Ashley Shelton,simsjessica@gmail.com,31/03/2023,1031,Books,3815.43,9,34338.87,Debit Card,Processing,
+1010,121,Matthew Mason,frank20@arnold.com,10/05/2023,1050,Clothing,1784.53,7,,Bank Transfer,Delivered,"6583 Baker Turnpike Apt. 909
+Justinmouth, TN 69183"
+1011,466,Stephen Robles,tmassey@yahoo.com,15/05/2024,1020,,4006.81,1,,PayPal,Cancelled,"PSC 6776, Box 4786
+APO AP 84316"
+1001,102,Amy Wells,caroladams@gmail.com,24/01/2024,1023,Clothing,4210.71,-1,-4210.71,creditcard,Pending,"5769 Tracy Lane
+Port Amy, AZ 35865"
+1012,214,Kylie Anthony,robertsmith@gmail.com,27/11/2024,1055,Toys,4517.16,1,4517.16,PayPal,Pending,"5510 Martin Light
+Lake Julie, MD 89110"
+1013,330,Dr. Christina Robinson,wgreen@ramsey.info,03/01/2025,1081,Clothing,295.8,7,4141.2,credit,Returned,"069 Jennifer Extensions Suite 376
+Port Melissaview, LA 28124"
+1014,458,Tara Baker,hdaniels@neal-leonard.com,30/07/2023,1002,Clothing,3244.03,-1,-3244.03,PayPal,Delivered,"7173 Angelica Isle
+Thompsonfort, RI 83315"
+1015,87,Douglas Martin,pamela46@davis.com,14/10/2024,1025,Toys,3776.53,2,7553.06,Debit Card,Pending,"72831 Chang Falls Apt. 176
+Wattston, NE 33764"
+1016,372,Todd Crawford,gromero@davis.com,06/05/2024,1013,Electronics,2658.35,8,21266.8,,Shipped,"3113 Gregory Wall Suite 086
+Laurenbury, MT 94601"
+1017,99,Jacqueline Mccall,nicholasyates@gordon-gentry.biz,26/02/2024,1092,,4061.84,-1,-4061.84,Bank Transfer,Delivered,"9653 Wang Route Apt. 218
+Williamburgh, PA 95069"
+1018,359,Hunter Patterson,garciajohn@randall-kirby.com,21/08/2024,1070,Toys,864.98,-5,-4324.9,CC,Pending,"981 Christine Falls
+Lambfort, MA 10096"
+1019,151,Samantha Rosales,nking@watson.com,21/12/2023,1067,Books,4389.85,3,13169.55,Credit Card,Shipped,"46414 Smith Village
+North Andrew, MD 24414"
+1004,270,Nichole Nelson,sgibbs@reeves.org,28/07/2023,1090,Clothing,3780.65,2,7561.3,creditcard,Shipped,"4983 James Plains
+Roachland, NJ 41398"
+1020,130,Karen Solomon,sampsonbelinda@bates-warren.com,04/08/2023,1058,Home & Kitchen,3282.61,-2,-6565.22,PayPal,Processing,"1921 Joel Union
+Lake Juliamouth, NJ 44812"
+1021,149,Jeremy Washington,loganashley@gmail.com,01/11/2023,1099,Toys,1412.55,7,9887.85,PayPal,Shipped,"77713 Griffin Crossing
+North William, OK 29624"
+1022,308,Timothy Palmer,dchen@hotmail.com,02/04/2024,1082,Clothing,4310.07,-4,-17240.28,Credit Card,,"729 Brianna Flats Apt. 942
+Lake Jennifer, PA 54030"
+1023,257,Dr. Natalie May,wraymond@bentley.com,06/05/2024,1075,Clothing,2560.4,-2,-5120.8,CC,Returned,"845 Baldwin Valleys
+Michaelstad, WI 66024"
+1024,343,Wanda Hart,ryan94@hotmail.com,03/12/2023,1084,Toys,272.03,8,2176.24,CC,,"883 Ward Mountains
+Lake Jamie, WV 80506"
+1025,491,Matthew Phillips,jeffreycarroll@black.com,03/10/2024,1064,Home & Kitchen,251.5,7,1760.5,Credit Card,Pending,"9333 Crosby Neck Apt. 974
+Kristyborough, NM 23144"
+1026,413,Phillip Martinez,clarktara@hotmail.com,11/09/2023,1069,Toys,1916.73,3,5750.19,CC,Processing,"2894 John Orchard Suite 418
+North Christina, ND 34747"
+1027,293,Dylan Olson,jessica20@liu.com,23/01/2025,1083,Home & Kitchen,1531.71,-4,-6126.84,Debit Card,Cancelled,"0966 Austin Divide
+Williamsborough, DE 54909"
+1028,385,Taylor Rivera,sellerssamuel@gross.com,01/03/2025,1086,Home & Kitchen,2690.73,-2,,CC,Processing,"15014 Hull Canyon
+New Travis, OK 88855"
+1029,191,Jamie Wagner,zdiaz@smith.com,08/12/2023,1059,Books,,-4,,Bank Transfer,Processing,"7311 Amber Walks Apt. 456
+Karenland, IA 75275"
+1030,443,Sierra Lopez,tammydaniels,26/03/2023,1060,,1455.39,-1,-1455.39,CC,Processing,"960 Dawn Spurs
+East Katherine, WY 68562"
+1031,276,Amanda Smith,joseph63@simpson.com,03/01/2025,1083,Clothing,739.34,-3,-2218.02,creditcard,,"2481 Wolf Lane Apt. 546
+Lake Duanebury, IA 60028"
+1032,160,Tyler Alexander,brayrachel@gmail.com,31/08/2024,1062,Clothing,4866.97,4,19467.88,creditcard,Cancelled,"513 Tyler Alley
+Justintown, VT 74471"
+1033,459,John Thomas,brittany60@brown-rodriguez.com,11/02/2025,1016,Home & Kitchen,1218.51,-4,-4874.04,PayPal,Shipped,"0763 Barnett Shores
+Watershaven, MS 89876"
+1034,313,Daniel Espinoza,xthomas@landry.com,10/08/2024,1088,Clothing,470.07,8,3760.56,,Pending,"77463 Christopher Cliff Suite 914
+Rickyland, NY 33577"
+1035,21,Jonathan Jacobs,cesarturner@wade.com,04/08/2023,1068,Electronics,4438.27,3,13314.81,Debit Card,Returned,
+1036,252,Michael Johnson,angela07@gmail.com,27/04/2024,1015,Home & Kitchen,2071.15,-1,-2071.15,Debit Card,Cancelled,"6452 Alexis Mission
+Port Charles, ND 06504"
+1037,235,Mallory Ponce,rebecca18@yahoo.com,13/06/2023,1089,Clothing,1878.62,4,15028.96,CC,Pending,
+1038,344,Julie Cain,wcook@brandt-atkinson.com,02/07/2024,1055,Electronics,1598.62,-1,,,Cancelled,"957 Steven Stravenue
+Amyside, ID 93967"
+1039,48,,johnsontamara@maddox.info,13/08/2023,1035,Books,4665.72,-5,-23328.6,,,"8272 Brian Loaf
+Melissaburgh, RI 87304"
+1040,474,Caitlin Shields,jennifer39@hotmail.com,12/02/2024,1055,Clothing,2112.04,0,0,credit,Pending,"57591 Tucker Rest Suite 471
+Nathanport, AK 50664"
+1041,58,Karen Acosta,fernandezangela@carlson.com,11/10/2024,1014,Electronics,4514.63,7,,,,"74438 Megan Springs
+Jessicaton, NJ 61914"
+1042,169,Timothy Mitchell,roseaguilar@madden.com,07/01/2025,1049,Toys,2074.56,1,2074.56,CC,Delivered,
+1043,475,Megan Lindsey,olsondustin@gonzalez-bryant.org,28/10/2024,1083,,382.77,-5,,CC,Pending,"107 Peter Gardens Suite 068
+Robinsonport, TX 37769"
+1044,187,Miguel Henry,fguerra@gmail.com,12/07/2024,1007,Toys,3214.93,3,,Credit Card,Cancelled,"3055 Richard Pine Apt. 405
+Smithmouth, NV 87080"
+1030,443,Sierra Lopez,tammydaniels,26/03/2023,1060,,1455.39,-1,-1455.39,CC,Processing,"960 Dawn Spurs
+East Katherine, WY 68562"
+1045,463,,alanmurphy@hotmail.com,31/12/2023,1030,Electronics,1466.11,2,,PayPal,Delivered,"44316 Hayes Ranch Apt. 008
+Fernandezborough, AZ 34057"
+1046,270,Destiny Reeves,hansendenise@hotmail.com,02/03/2023,1083,Home & Kitchen,1898.13,6,11388.78,creditcard,,"4398 Christina Street Apt. 900
+East Aaron, MD 61685"
+1047,189,Christopher Nelson,benderjason@luna.com,2024-02-30,1049,Home & Kitchen,666.68,8,5333.44,credit,,"PSC 7563, Box 3932
+APO AA 86529"
+1048,445,Michele Williams,ishort@jones-moreno.org,08/05/2023,1089,Clothing,2545.92,8,20367.36,CC,Cancelled,"526 Spencer Roads Apt. 711
+Benjaminside, MO 66205"
+1049,174,Crystal Webb,carolinejones,17/03/2024,1016,Toys,1766.69,2,3533.38,Credit Card,Delivered,"07021 Smith Hills
+East Richardshire, MT 15990"
+1050,445,Claudia Knight,twilson@young.com,06/07/2024,1051,Home & Kitchen,2365.52,1,2365.52,credit,Processing,
+1051,50,Courtney Ross,peter47@hotmail.com,16/01/2024,1072,Home & Kitchen,206.21,-1,-206.21,PayPal,Shipped,
+1052,363,Walter Martin,bennettmeghan@yahoo.com,03/09/2024,1082,Toys,1848.09,-3,-5544.27,credit,Returned,
+1053,54,Katie Blevins,maria67@savage.com,07/03/2024,1092,Books,4012,9,36108,Credit Card,Cancelled,"289 Vaughn Ramp
+East Andreaton, DC 04496"
+1054,243,Jessica Roach,kaitlynrodriguez@adams.com,28/11/2023,1080,Home & Kitchen,3470.91,6,,Bank Transfer,,"34099 Decker Glen
+Garciamouth, CT 87019"
+1055,319,Stephen Weber,nmitchell@gmail.com,28/12/2023,1083,,4481.93,8,35855.44,creditcard,Pending,"998 Matthew Lodge
+Julieburgh, VT 55050"
+1056,130,Danny Sanchez,andrewmosley@gonzalez.com,12/04/2023,1042,Electronics,2280.85,3,13685.1,CC,Delivered,"Unit 1539 Box 4210
+DPO AP 84278"
+1057,484,Gavin Santiago,brendathomas,26/11/2023,1017,Clothing,4105.1,8,,creditcard,Shipped,"152 Dean Fields
+Patriciatown, UT 03406"
+1058,306,Victor Bartlett,ahernandez,2024-02-30,1063,Home & Kitchen,3308.44,1,3308.44,PayPal,Returned,"1197 Dixon Harbor
+East Cassandra, MO 89584"
+1059,134,Justin Smith,cmays@crawford.com,05/11/2023,1045,,1846.67,5,,Debit Card,Pending,"Unit 8934 Box 0041
+DPO AP 92257"
+1060,20,Suzanne Orozco,timothywoods@gmail.com,13/05/2024,1077,,1938.98,4,,PayPal,Delivered,"465 Taylor Curve Suite 197
+South David, WI 73795"
+1061,328,George Tran,hernandezcory@hicks-waller.com,05/04/2023,1007,Home & Kitchen,4180.26,4,16721.04,PayPal,Shipped,"1490 Sheila Rapids
+Port Ashleytown, SC 05232"
+1062,166,Christine Holmes,robinsonalexis@porter.com,01/05/2024,1027,Books,3381.08,2,6762.16,PayPal,Cancelled,"392 Jones Plains Suite 240
+Port Caleb, ID 61506"
+1063,273,Brenda Howard,amber84@yahoo.com,28/01/2024,1010,Electronics,82.41,8,659.28,Bank Transfer,Shipped,"0433 Christine Key
+South James, ID 97496"
+1064,387,Kristen Lopez,chelsea76@yahoo.com,06/11/2023,1034,Clothing,3035.27,0,0,CC,Cancelled,"1672 Jones Keys
+West Patriciahaven, ND 63816"
+1065,88,Kenneth Smith,karen98@gonzalez.com,05/11/2024,1036,Home & Kitchen,110.18,6,,Credit Card,Processing,"1147 Mckee Lakes
+Barnesstad, HI 03530"
+1066,315,Stephanie Fox,meyeranna@gmail.com,24/07/2024,1025,Clothing,,8,,CC,Delivered,"758 Morrison Estate
+Petersenfurt, TX 47674"
+1067,13,Jennifer Shepherd,awilliams@gmail.com,01/05/2023,1006,Toys,371.16,5,1855.8,Debit Card,Shipped,"1563 Megan Grove Apt. 229
+Rivashaven, KY 42599"
+1068,241,Glenda Turner,ernest70@mayer.info,06/03/2023,1024,,1144.69,8,9157.52,Credit Card,Returned,"PSC 9563, Box 2314
+APO AE 73422"
+1069,264,Kristy Hodges,fraziercindy@gmail.com,15/10/2024,1018,,1552.12,-1,-1552.12,credit,Shipped,"367 Cory Square
+Lake Daniel, SC 46296"
+1070,345,Julie Rivas,wilsondavid@gmail.com,17/11/2024,1087,Home & Kitchen,3503.77,9,31533.93,credit,Delivered,"5169 Scott Springs
+Jacobhaven, NH 14131"
+1071,52,Derrick Johnson,williamsmichael@meadows.org,15/07/2023,1006,Home & Kitchen,386.13,2,772.26,credit,Pending,"3471 Gibson Lakes Apt. 531
+North Melissaville, RI 58072"
+1072,385,Heather Greene,welchkristen@smith-downs.com,24/05/2024,1029,Toys,3086.34,-3,-9259.02,Credit Card,Pending,"491 Sandra Parkway Apt. 532
+New Jennifermouth, WV 55369"
+1073,339,Jennifer Bishop,jimenezmark@smith.biz,16/12/2023,1025,Books,,6,,,Shipped,"24803 Huff Field
+West John, FL 77826"
+1074,91,Todd Jones,hwebb@gmail.com,14/05/2023,1055,Home & Kitchen,,7,,Bank Transfer,Shipped,"2778 Sanchez Port
+Lake Davidhaven, ID 50126"
+1075,366,Robert Williams,sheppardscott@yahoo.com,2024-02-30,1081,,1300.7,7,9104.9,,Cancelled,"055 Evans Wells Apt. 430
+South Garrett, WI 75903"
+1076,443,Harold Jones,rickeywilson@hotmail.com,29/05/2024,1046,Clothing,2273.8,1,4547.6,CC,Delivered,"958 Amanda Wall
+South Saraport, CT 60777"
+1077,454,Mr. Mark Larson,johnrobinson@gmail.com,01/09/2024,1024,Electronics,4585.22,-4,-18340.88,credit,Cancelled,"795 Juan Overpass Apt. 770
+Chambersberg, VA 10966"
+1078,427,Jason Nelson,matthew87@yahoo.com,21/05/2024,1075,Clothing,772.65,-3,,Bank Transfer,Returned,"720 Liu Loop Apt. 030
+Bakerview, GA 86653"
+1079,263,John Goodwin,gardnermichelle,06/02/2024,1026,Books,1333.78,9,12004.02,Credit Card,Processing,"84486 James Union Suite 803
+Port Shelbybury, AR 22459"
+1080,430,Terry Mason,yburnett,19/10/2023,1098,Electronics,2531.34,7,17719.38,credit,Pending,
+1081,34,,thomasanita@yahoo.com,27/02/2024,1028,Clothing,,6,,Credit Card,,"46674 Jermaine Pass Apt. 258
+Jessechester, FL 99145"
+1082,205,Juan Orr,jamesgibson@cannon.com,04/02/2024,1003,Clothing,396.24,9,3566.16,Bank Transfer,,"10663 Zavala Burg
+Lake Richardstad, OH 36367"
+1083,80,Andrew Smith,regina63@gmail.com,27/07/2024,1075,Toys,3926.11,-4,,Credit Card,Delivered,"69579 Martinez Spurs Suite 657
+East Travisview, RI 02658"
+1084,419,Devin Trujillo,michaelvaughan@brown.info,2024-02-30,1038,Books,681.8,-1,-681.8,Credit Card,Delivered,"5582 Dillon Harbor
+Port Marcia, NE 01524"
+1074,91,Todd Jones,hwebb@gmail.com,14/05/2023,1055,Home & Kitchen,,7,,Bank Transfer,Shipped,"2778 Sanchez Port
+Lake Davidhaven, ID 50126"
+1085,49,Wanda Williams,michael45@gmail.com,09/05/2023,1061,,4148,1,4148,Debit Card,,"615 Hernandez Parkways Suite 332
+Randyside, CT 33087"
+1086,359,James Murphy,zacharywilson,12/07/2023,1078,Toys,2341.4,5,11707,CC,Delivered,"926 Dawn Oval
+Natashaside, PA 62881"
+1087,387,Ronald Delgado,jordangould@yahoo.com,20/12/2024,1051,Electronics,2320.44,4,9281.76,,Pending,"PSC 1387, Box 9130
+APO AP 12210"
+1088,1,Nicholas Rogers,jmcdaniel,16/01/2025,1090,,2278.35,5,11391.75,creditcard,Returned,"USS Hunter
+FPO AA 67757"
+1089,389,Jennifer Wood,williamsonariel@casey.biz,2024-02-30,1048,Toys,2022.86,5,10114.3,,Returned,"43458 Amanda Burg Suite 506
+New Claudia, LA 42043"
+1090,53,Julia Ortiz,dfitzgerald@gmail.com,24/10/2023,1021,Books,80.8,5,404,,Cancelled,"401 William Mount Suite 114
+Lake Thomas, MD 67822"
+1091,105,Sean Keller,jasonmurphy@gmail.com,27/03/2024,1054,Home & Kitchen,2185.73,9,39343.14,PayPal,Pending,"490 Mary Trail Apt. 292
+Williamberg, WA 48982"
+1092,259,,stevenkelly@hotmail.com,2024-02-30,1056,Home & Kitchen,2253.01,4,,Debit Card,Processing,"46942 Ramos Skyway
+North Susanshire, KY 02771"
+1093,309,Candace Hopkins,michaelbecker@hotmail.com,25/12/2023,1094,Electronics,1943.55,9,17491.95,creditcard,Delivered,"0865 Nicole Place Suite 716
+Newtonfurt, SC 52061"
+1094,476,Brooke Dixon,stevenmata@hotmail.com,15/09/2024,1059,Home & Kitchen,4622.85,9,,credit,Delivered,"USCGC Black
+FPO AA 32352"
+1095,190,Peter Chen,james64@yahoo.com,09/01/2024,1072,Toys,71.98,9,647.82,credit,Processing,"179 Clark Prairie
+Catherinemouth, WV 67567"
+1096,401,Katie Ward,stevensonsteven@yahoo.com,25/04/2024,1051,Electronics,,7,,credit,Cancelled,"3521 Hartman Squares
+Dunnton, NH 24654"
+1097,217,Kristie Rose,marymcpherson@nguyen-mason.com,14/10/2024,1020,,1111.15,8,8889.2,,Cancelled,"548 Moore Manors
+Thomasfort, WA 39572"
+1098,43,Lisa Velez,youngsean@gmail.com,30/05/2024,1096,Books,296.09,-5,-1480.45,CC,Delivered,"3186 Elizabeth Common Suite 456
+Larsonchester, DE 27832"
+1099,161,Stephanie Roman,xmoody@gmail.com,28/07/2024,1086,Electronics,4372.71,7,,,Delivered,"924 Brett Rest Apt. 032
+East Bethany, WV 93865"
+1100,201,Kristine Davis,ashley44@daniels-santana.com,23/01/2025,1059,,49.95,4,199.8,creditcard,Processing,"USS Sharp
+FPO AP 92307"
+1101,445,Morgan Curry,tracy15@burgess.com,10/09/2024,1071,Electronics,2037.08,3,,CC,Pending,"542 Diane Bypass
+Rebeccashire, AK 15906"
+1102,483,Robert Robles,brenda36@king.com,30/05/2024,1009,Clothing,1491.91,-5,-14919.1,Debit Card,Processing,"01852 Martin Mountain
+North Jenniferfurt, RI 94820"
+1103,269,Rachel Cox,pgonzales,12/03/2024,1001,Clothing,,-5,,CC,Cancelled,"1100 Payne Summit Apt. 700
+Timothyview, SD 10688"
+1104,350,Gabriella Martin,vargaschristine@yahoo.com,04/09/2023,1029,Electronics,2623.15,8,20985.2,creditcard,Processing,"6783 Singh Prairie Suite 317
+Ramirezshire, MD 57772"
+1105,303,Sheryl Johnson,jasmine76@hotmail.com,08/06/2023,1063,Home & Kitchen,194.69,9,1752.21,Credit Card,Processing,"951 Owens Crescent Suite 277
+North Stevenshire, NM 53918"
+1106,270,Danielle Mccoy,tmorgan@clark.net,12/12/2024,1072,Clothing,2412.52,6,14475.12,,Processing,"4869 John Spur Suite 820
+South Suzanne, AR 08105"
+1107,455,Shannon Davis,tara74@yahoo.com,17/05/2023,1056,Books,2264.31,4,9057.24,credit,Pending,"47811 Hicks Rapid
+Lake Rachelview, ID 63117"
+1108,461,Kyle Hampton,smithandrew@yahoo.com,21/02/2024,1068,,,2,,Credit Card,Shipped,"5370 Eric Crest Suite 986
+Buchananburgh, TN 01879"
+1109,214,Daniel Carter,lkane@johnson.org,28/11/2024,1035,Toys,1603.95,0,,,Delivered,"462 Nichole Mews Suite 659
+South Morgan, OR 40957"
+1110,251,,alexandra18,2024-02-30,1003,Clothing,3272.88,0,0,Bank Transfer,,"114 Holland Village
+Mariehaven, AK 04649"
+1111,189,Kristen Wright,cwilliams@hotmail.com,26/10/2023,1007,Electronics,4838.86,6,29033.16,PayPal,Processing,"PSC 8311, Box 6245
+APO AA 62455"
+1112,295,Karen Ford,arthurnguyen@fletcher-wagner.biz,16/08/2023,1027,Home & Kitchen,4991.18,3,14973.54,,,"25832 Bowen Walks Apt. 888
+Port Leslie, MI 52479"
+1113,212,Andrew Frazier,james88@tucker.com,08/10/2023,1001,Toys,960.1,9,8640.9,Bank Transfer,Shipped,"1080 Kelly Grove
+Wilsonfurt, WV 93469"
+1114,207,Jasmine Torres,crystalholder@gmail.com,20/05/2023,1091,,2432.79,-2,-4865.58,creditcard,Delivered,"01359 Kayla Crossroad
+Katieborough, VA 75039"
+1115,236,Susan Long,arodriguez@hotmail.com,14/02/2025,1080,,2642.6,2,,Debit Card,Cancelled,
+1116,337,Nichole Wallace,pinedasonya@cunningham.info,2024-02-30,1071,Clothing,3621.33,-2,-14485.32,Bank Transfer,,"43628 William Curve Suite 872
+North Lisastad, VA 71753"
+1117,366,Eric Pruitt,amyjackson@casey-russell.net,24/10/2024,1044,,529.96,8,4239.68,Debit Card,Cancelled,"PSC 9107, Box 5643
+APO AE 87656"
+1118,52,Nicholas Burke,larrymcdaniel@yahoo.com,10/10/2024,1087,,796.47,-4,-3185.88,,,"3950 Allen Pike
+Potterville, VT 73493"
+1119,279,Andrew Harrison,barneskatie@hoffman-duran.com,16/10/2024,1041,Home & Kitchen,1558.63,5,7793.15,Debit Card,Cancelled,"Unit 5696 Box 9202
+DPO AA 92783"
+1120,409,Michelle Travis,steven92@hotmail.com,03/12/2023,1075,Home & Kitchen,58.94,9,,Bank Transfer,Processing,"5261 Randy Branch
+New Jeffreyport, MS 32454"
+1121,216,Alexandra Torres,thompsonjoshua@schmidt.org,06/06/2024,1042,Home & Kitchen,570.78,2,1141.56,CC,,"2708 Rodriguez Springs
+Crossburgh, TN 76067"
+1122,251,,mosscraig@nolan.biz,06/11/2023,1033,Electronics,2461.88,6,,PayPal,Cancelled,"USS Eaton
+FPO AP 65230"
+1123,187,Gregory Austin,rachel61@jenkins-washington.info,10/12/2024,1050,,2921.71,1,,Credit Card,Shipped,"241 David Hills Suite 000
+New David, ID 66987"
+1124,379,Gina Smith,lisa55@gmail.com,12/09/2023,1063,,3829.43,-2,,Credit Card,Pending,"2293 Julia Creek
+East Christineton, PA 49090"
+1125,492,Tara Hodge,shawn29@hoffman.com,27/08/2023,1037,,2396.12,3,7188.36,PayPal,Cancelled,"27620 Benitez Inlet Suite 876
+Davisport, WV 72428"
+1126,40,Christopher Jones,xhill,26/12/2023,1059,Books,3762.91,9,33866.19,credit,Pending,"5803 Bowen Valleys
+Changfurt, CO 54753"
+1127,156,Robert Phillips,jenniferfranklin@yahoo.com,26/06/2023,1081,Home & Kitchen,2772.86,3,8318.58,Credit Card,Pending,"51019 Delgado Creek
+West Erikaburgh, WA 14228"
+1128,14,Lacey Jenkins,pamelaberry@castaneda.com,07/10/2023,1099,Toys,3821,2,7642,creditcard,Delivered,"1439 Keith Courts Suite 789
+Shanefurt, CT 66548"
+1129,300,Sandra Davidson,norma11@marquez-hanson.org,12/04/2023,1048,Clothing,,8,,,Processing,"2035 Andrew Port Apt. 589
+West Sarahville, OH 58776"
+1130,64,Raven Walsh,larry31@gmail.com,30/10/2023,1005,Toys,991.26,-5,,credit,Shipped,"PSC 0836, Box 5305
+APO AP 29001"
+1131,344,Jeremiah Kim,elizabeth05@jones.com,2024-02-30,1048,Electronics,3682.59,1,3682.59,,Pending,"3733 Frank Locks
+Murphyberg, MD 23748"
+1132,326,Shannon Parker,onichols,07/04/2023,1096,Electronics,3282.73,-1,-6565.46,Bank Transfer,Returned,"028 Steven Cove
+East Danashire, MD 64454"
+1133,8,Teresa Garcia,holly70@hotmail.com,05/06/2024,1003,,2860.28,1,2860.28,creditcard,Processing,"846 Toni Fall Apt. 841
+West Benjamin, OR 36728"
+1134,343,Barbara Armstrong,josephmills@williams-perez.info,08/09/2023,1047,Toys,,6,,Bank Transfer,Pending,"91095 Patrick Summit
+Brownbury, SC 52328"
+1135,128,Natasha Robinson,annette74@nguyen.org,20/09/2024,1062,,3132.36,3,9397.08,credit,Cancelled,"46002 Daniel Roads
+East Peter, FL 68593"
+1136,491,Elizabeth Anderson,theresa30,23/03/2023,1099,Books,2530.75,-4,-10123,credit,Pending,"769 Patrick Squares Suite 336
+New Makaylaside, MS 07081"
+1137,135,Timothy Bailey,qcobb@hotmail.com,04/03/2024,1014,Electronics,1534.45,7,10741.15,creditcard,Cancelled,"575 Christine Drives
+Lake Kimberlyville, AK 62053"
+1138,471,Gail Williams,kellymarissa@fletcher.com,09/08/2023,1063,Electronics,1200.1,8,9600.8,creditcard,Cancelled,"279 Meadows Valleys
+Port Aaronstad, IN 42370"
+1139,62,Martin Rodgers,charlesgarner@gmail.com,24/03/2023,1061,Toys,4103.24,5,20516.2,credit,Returned,"916 Stephens Meadow
+Brownburgh, NM 11189"
+1140,138,George Spence,davisashley@hensley.com,26/12/2024,1031,Electronics,2545.09,-2,,credit,Pending,"5745 Joseph Branch
+Port David, GA 88047"
+1141,498,Stephen Perez,ybutler@hotmail.com,16/03/2024,1095,Books,3655.99,-2,-7311.98,Debit Card,Pending,"5475 Kelly Key Suite 679
+Silvaburgh, CT 93728"
+1142,80,Ashley Meyer,louis07@gmail.com,23/09/2023,1017,Books,3686.63,-4,,CC,,"7048 Morrison Run
+Port Laura, MD 01309"
+1143,391,Jerry Rice,ocastillo@yahoo.com,29/06/2023,1024,Books,4323.38,-3,-12970.14,credit,Processing,"52854 Dana Gateway Suite 180
+Lake Donnaborough, IA 17340"
+1144,162,Kyle Adams,landrymadison@kirk.com,15/03/2024,1023,Clothing,2195.35,5,10976.75,creditcard,,"9316 Tanya Mountains
+New Spencerbury, AR 09337"
+1145,418,Christopher Russell,lopezsusan@yahoo.com,22/01/2025,1082,Books,3122.84,8,24982.72,CC,Delivered,"79237 Padilla Village Suite 759
+Kerrstad, IA 98102"
+1146,288,Brett Hayes,wfrancis@hotmail.com,01/09/2024,1050,Books,3782.39,8,,credit,Cancelled,"585 Huang Prairie Suite 447
+Lake Marissaland, IN 34970"
+1147,378,Jade Cross,qyoung@kim-johnson.info,18/03/2023,1078,Clothing,4525.28,7,,Bank Transfer,Returned,"2294 Meredith Passage
+Carrieborough, GA 44911"
+1148,260,James Heath,emilyphillips@yahoo.com,04/10/2024,1079,,1734.6,2,3469.2,,,"496 Leach Parks Suite 360
+East Jason, ME 22625"
+1149,489,Jill Brown,nsimpson@meyer.com,24/04/2024,1079,Home & Kitchen,1785.17,6,21422.04,CC,Pending,"58802 Cox Lane
+New Gwendolyn, NM 98142"
+1150,230,Kerry Rios,robert28@johnson-reed.com,02/09/2023,1070,Electronics,4809.63,3,14428.89,Bank Transfer,Delivered,"87227 Baxter Shores Suite 282
+Youngfurt, MA 44936"
+1151,40,Lisa Garrett,nguyentony@gmail.com,04/02/2025,1027,Books,2283.22,0,0,Credit Card,Returned,"873 William Islands
+South Christopher, NE 38518"
+1152,27,Ronald Austin,jennabanks@yahoo.com,04/05/2024,1015,Electronics,1626.9,4,6507.6,creditcard,Shipped,"6133 Reynolds Flat Suite 464
+Amandaville, KY 10930"
+1153,134,Michael Burns,rebecca22@gmail.com,19/06/2023,1050,Toys,678.06,-4,-2712.24,Debit Card,Pending,"54724 Alexis View Suite 715
+North Jamie, KS 77918"
+1154,200,Heather Chang,ostrong@hotmail.com,05/03/2024,1036,Electronics,2430.06,-4,-9720.24,Debit Card,Pending,"USCGC Bell
+FPO AP 87430"
+1155,327,Eric Smith,allentara@torres.biz,04/02/2025,1008,,2359.48,1,2359.48,,Shipped,"7064 Brian Course
+Lake Lisahaven, AK 43622"
+1156,267,Brad Gallegos,melissawood@austin.com,17/12/2024,1079,Clothing,728.94,2,1457.88,credit,Cancelled,"38052 Christina Valleys
+Laurenfurt, UT 61229"
+1157,417,Joseph Hamilton,zmartinez@waters.com,06/03/2023,1003,Electronics,4573.06,2,9146.12,Bank Transfer,Cancelled,"55377 Mullen Burgs
+Leahhaven, TX 49556"
+1158,32,Kyle Myers,djones,26/11/2023,1062,Electronics,3788.34,8,30306.72,Credit Card,,"818 Meadows Viaduct
+Gregoryborough, MT 28740"
+1159,47,William Williams,jimmyjohnson@yahoo.com,03/07/2024,1047,Electronics,4049.8,0,0,Bank Transfer,,"USNS Campbell
+FPO AP 44438"
+1160,406,Jose Peters,hendersonbryan@hotmail.com,22/11/2024,1077,Home & Kitchen,1318.87,4,5275.48,creditcard,Pending,"738 Nicole Mount
+New Kristen, TX 05937"
+1161,61,Whitney Palmer,ooconnor@lee.com,24/03/2023,1098,Home & Kitchen,2330.2,2,4660.4,creditcard,Processing,"956 Jackson Port Apt. 567
+Abbottburgh, AK 70616"
+1162,215,Charles Wallace,amystone@barajas.com,30/10/2023,1088,Toys,3672.88,8,29383.04,credit,Pending,"99567 Tyler Plains
+Brandonfurt, ID 93884"
+1163,292,Scott Powell,edward37@gmail.com,10/01/2025,1096,Clothing,4375.56,9,39380.04,credit,,"650 Anna Ranch Apt. 422
+North Nicholasfort, VA 04217"
+1164,98,Christopher Walton,browncasey@yahoo.com,28/08/2024,1061,Electronics,4575.84,-5,,creditcard,Shipped,"42504 Walters Causeway Suite 795
+South Christopherton, AK 15875"
+1165,171,John Adams,cparker@rocha.com,2024-02-30,1032,Electronics,2456.02,3,7368.06,PayPal,,"13479 Nicole Lakes
+Damonmouth, AL 25937"
+1166,359,Joseph Rogers,mariaryan@davis-anderson.org,22/08/2024,1094,Electronics,3802.76,7,26619.32,creditcard,Pending,"216 Adams Square
+Lake Christopher, MA 74290"
+1167,213,Cathy Glover,joseph63@gmail.com,04/03/2023,1013,Electronics,4718.05,6,28308.3,Bank Transfer,Returned,"1168 Bishop Route Suite 946
+Gregoryburgh, ID 56449"
+1168,474,Tracey Ford,powersjerry@gmail.com,09/04/2023,1001,Home & Kitchen,4361.44,-5,-43614.4,,Pending,"121 Christine Junctions
+Simmonschester, MI 65773"
+1169,34,Anna Miller,kgonzalez@lucas-mahoney.com,18/10/2023,1034,,4272.02,7,29904.14,Bank Transfer,Returned,"01879 Golden Alley Suite 896
+Garciaton, OH 71373"
+1170,448,Walter Rogers,qbrown@chavez-cooper.net,28/11/2023,1062,,522.05,-3,,Debit Card,Returned,"881 Mills Field
+East Claudia, SD 07322"
+1171,226,Michael Potter,fowlerelizabeth@bryant.com,04/03/2023,1079,Toys,510.31,6,3061.86,Credit Card,Pending,"652 Fernandez Walk
+Charlesville, MD 98732"
+1172,100,Adam Roberts,jason49@wilson-ashley.com,19/10/2024,1078,Books,,3,,CC,Processing,"789 Sara Tunnel
+Rachelberg, AL 32005"
+1173,430,Jason Stewart,hudsonjim@hotmail.com,31/12/2024,1093,Clothing,4867.1,9,43803.9,,Processing,"834 Miller Locks
+North Sydney, NJ 86082"
+1174,461,Eric Sullivan,brittanyperez@jimenez.com,13/05/2023,1098,,2706.08,5,27060.8,PayPal,Delivered,"1457 Eddie Hollow Apt. 923
+Riverabury, OR 44887"
+1175,130,Michael Smith,newtonjacob@hotmail.com,03/05/2023,1082,Electronics,1279.64,-1,-1279.64,Credit Card,,"0085 Bryant Mall
+Shannonmouth, FL 02849"
+1176,256,Jennifer Parker,shawsamantha@webb.biz,20/07/2024,1071,,2734.22,3,16405.32,Credit Card,Processing,"72093 Samuel Cliff
+South Sabrina, IA 06917"
+1177,4,Rita Hopkins,meredithkrause,24/07/2024,1093,Toys,1719.15,3,5157.45,CC,Cancelled,"Unit 5085 Box 6408
+DPO AA 75674"
+1178,217,Wanda Fernandez,franklinjulie,14/04/2024,1031,Books,370.35,0,0,Debit Card,Pending,"537 Lee Hills Suite 657
+Port Davidmouth, NY 12921"
+1179,254,Jesse Garza,mark62@hotmail.com,02/03/2024,1064,,1427.02,5,7135.1,Debit Card,Returned,"7890 Walker Harbors
+Gomezburgh, FL 14968"
+1180,397,John Fowler,alyssa92@flores.net,11/06/2023,1025,Toys,1842.41,-5,-9212.05,Debit Card,Pending,"957 Philip Brook
+East Daniel, OR 66916"
+1181,358,Jose Bender,esingh@morrison.com,05/06/2024,1038,Home & Kitchen,3480.93,4,13923.72,,,"28971 Jonathan Way Suite 898
+East Donnaburgh, RI 93811"
+1182,282,Kelsey Gay,samantha60@hoffman.net,29/10/2023,1014,Books,3769.63,1,,Bank Transfer,Shipped,"628 Madden Rapids
+Gonzalezmouth, MI 18719"
+1183,392,Crystal Baxter,kelseyaguilar@bernard.biz,27/05/2024,1008,Toys,3898.87,8,31190.96,Credit Card,Processing,"10189 Nicholas Orchard
+Port Ian, IA 10509"
+1184,206,Michael Powell,john55@yahoo.com,26/01/2025,1091,,,0,,Bank Transfer,Processing,"52613 Michael Ways Suite 318
+Jamesmouth, DC 24016"
+1185,14,Danielle Williams,tiffanyballard@hotmail.com,03/02/2025,1054,Home & Kitchen,3478.58,3,10435.74,Bank Transfer,Processing,"72272 Meyer Forges Suite 576
+Youngfurt, GA 93093"
+1186,345,Alice Carlson,collinsthomas@yahoo.com,04/10/2023,1002,Toys,284.73,1,284.73,Debit Card,Returned,"78255 Anthony Ramp Apt. 614
+New Danielshire, OK 80099"
+1187,41,Jason Young,andrew77@williams.com,28/06/2023,1081,Toys,2679.18,8,21433.44,Bank Transfer,Cancelled,"0348 Julia Forest
+Odonnellfort, WA 97215"
+1188,379,Sean Huff,bmedina@best.com,06/12/2023,1078,,1615.64,6,19387.68,Credit Card,Cancelled,"0266 Pugh Coves
+South Curtis, NH 37085"
+1189,460,Barbara Stanley,zrobinson@hurst.org,31/07/2024,1089,Books,4166.88,5,20834.4,Credit Card,Processing,"0382 Matthew Alley Suite 107
+South Justin, NJ 88973"
+1190,178,Paula Wang,michelle55@harris.com,15/02/2024,1056,Home & Kitchen,3143.97,6,,credit,Cancelled,"51035 Henderson Station
+Port Donnaborough, RI 52225"
+1191,62,Mark Rivera,nicholasbraun@gmail.com,23/10/2023,1094,Electronics,1273.88,7,8917.16,PayPal,Shipped,"488 Kelly Lane Suite 173
+Port Edward, NC 71440"
+1192,351,Ashley Young,april63@faulkner-ward.info,08/08/2023,1093,Clothing,4915.18,-2,-9830.36,,Processing,"769 Porter Garden
+Waynehaven, MS 88276"
+1193,230,Renee Alvarez,james00,25/01/2024,1084,Books,3929.42,1,7858.84,Bank Transfer,Delivered,"87181 Maria Haven Apt. 673
+Kellyborough, KS 23865"
+1194,240,Natasha Smith,alucas@hotmail.com,19/10/2023,1085,Home & Kitchen,4085.92,-4,-16343.68,,Returned,"1576 Wong Forge Suite 669
+Elizabethland, NE 65151"
+1195,51,Patrick Flores,lfaulkner@yahoo.com,01/05/2023,1061,Toys,1637.23,0,0,,Shipped,"4183 Meagan Pine
+South Heather, WY 34294"
+1196,95,Alexander Chapman,brianmiller,13/10/2024,1022,Home & Kitchen,402.87,9,3625.83,,Returned,"2462 Guzman Rapids Apt. 789
+Brianland, LA 91736"
+1197,387,Gregory Hernandez,davidjensen@gmail.com,25/08/2024,1035,Clothing,,0,,CC,Processing,"54888 Susan Mount
+West Reginashire, WY 09338"
+1198,221,Phillip Taylor,chadhernandez,11/12/2023,1016,,2230.97,-4,-8923.88,creditcard,Shipped,"USCGC Robbins
+FPO AP 78411"
+1199,484,Denise Black,raymondporter@jones.com,05/12/2024,1050,Clothing,635.13,8,,credit,Processing,"52121 Day Dale
+Patriciaport, VA 06287"
+1200,406,Kristina Sullivan,tracyortega@yahoo.com,21/04/2023,1043,Electronics,741.53,-2,,,Shipped,"9927 Carter Lane Apt. 347
+North Darrell, CO 59398"
+1201,230,Seth Bowen,joymoore@hotmail.com,29/06/2024,1017,Electronics,,2,,creditcard,Processing,"24454 Sara Divide
+South Eric, NV 86375"
+1202,236,Andrew Ryan,tammychavez@hart-armstrong.biz,16/12/2024,1080,Clothing,3301.05,2,6602.1,creditcard,Delivered,"20332 Hicks Fall
+Weeksmouth, MD 85995"
+1203,142,Heather Simmons,tranlindsey@hotmail.com,2024-02-30,1058,Books,3819.2,7,53468.8,credit,Returned,"73115 Dylan Spurs
+Bryantport, DC 15012"
+1204,170,Ashley Mosley,luisibarra@cunningham.biz,17/04/2023,1002,Books,3296.88,2,6593.76,Credit Card,Shipped,"982 Mcdonald Forges
+Watkinsmouth, NH 95682"
+1205,28,Michelle Hernandez,cruzamanda@mills.org,01/05/2024,1004,Toys,527.29,2,2109.16,CC,Delivered,"3206 Donald Gardens Apt. 529
+East Scottfurt, MT 63607"
+1206,35,Lawrence Gonzales,stephaniegalvan@yahoo.com,24/10/2024,1085,Electronics,2639.84,-5,,Bank Transfer,Pending,"05501 Thompson Glens Suite 497
+Nelsonmouth, WV 36814"
+1207,12,Dr. Rachel Watkins DVM,bpadilla,10/05/2024,1039,Toys,4283.78,-4,,credit,Processing,"6470 Edwards Overpass Apt. 567
+Amytown, NY 74731"
+1208,159,Justin Lambert,sarahwhitney@paul.com,02/06/2024,1098,Electronics,4749.4,6,28496.4,PayPal,,"090 Lisa Groves
+Byrdchester, DC 26577"
+1209,326,Michael Martin,janetherring@reed.com,08/08/2023,1094,Clothing,1708.4,9,15375.6,creditcard,Shipped,"941 Hall Parkways Apt. 537
+Port Beverly, MT 10799"
+1210,186,Lisa Obrien,btownsend@hotmail.com,02/06/2023,1006,Books,2739.29,-2,,,Cancelled,"14353 Blair Mountains
+West Michaelfort, OH 50205"
+1211,242,Benjamin Moses,vanessablevins@gmail.com,06/03/2024,1081,Books,3215.67,6,19294.02,creditcard,Delivered,"851 Ricky Knolls Apt. 902
+Port Anneburgh, WI 26990"
+1212,85,James Diaz,mary30@hotmail.com,25/03/2024,1089,Clothing,4479.49,3,13438.47,CC,Delivered,
+1213,283,Julian Johnson,raylaura@hotmail.com,26/07/2024,1069,Toys,1748.52,-3,-10491.12,PayPal,Shipped,"252 Sampson Mills
+New Carol, DC 15194"
+1214,65,Dean Cardenas,johnsjoshua@hopkins-bishop.com,26/05/2023,1069,Toys,4009.09,8,32072.72,Credit Card,Delivered,"851 Barber Locks Suite 020
+Kimberlymouth, SC 46816"
+1215,169,Evan Cardenas,john01@hotmail.com,2024-02-30,1020,Home & Kitchen,1468.16,0,0,Credit Card,Pending,"24115 Katelyn Overpass
+Craigport, CT 73438"
+1216,44,Ivan Wilson,halljill@gmail.com,20/11/2024,1064,Electronics,3351.5,1,3351.5,Debit Card,Delivered,"5808 Smith Keys Suite 096
+South Julieburgh, NH 28266"
+1217,61,Jasmine Ho,erika14@gross-thompson.net,03/04/2023,1016,Toys,1287.12,2,5148.48,,,
+1218,440,Laura Mccarthy,pgreene@kim.biz,26/12/2023,1051,Clothing,2402.69,7,,Debit Card,,"041 Susan Dam
+Richardland, MA 54805"
+1219,133,Dawn Miller,danawright@gmail.com,04/11/2023,1037,Toys,761.53,1,,CC,Processing,"825 Simmons Mountains
+Mitchellland, SC 45896"
+1220,283,Alexis Robertson,bzamora@yahoo.com,01/04/2023,1073,Books,3854.61,-3,-11563.83,PayPal,Processing,"770 Garcia Gardens
+Lake Amanda, KS 30223"
+1221,27,Stacy Williams,jason59@yahoo.com,12/08/2023,1069,Electronics,31.97,0,0,creditcard,Cancelled,"84081 Ralph Union
+South Anthony, DC 59146"
+1222,107,Ryan Morales,jo26@yahoo.com,07/04/2023,1042,,4863.27,-1,-4863.27,Bank Transfer,Pending,"77960 Burke Crescent Apt. 423
+Port Angelahaven, WV 22109"
+1223,43,Lisa Perez DDS,cmiller@yahoo.com,30/01/2025,1057,Home & Kitchen,604.01,9,5436.09,Debit Card,,"08173 Boyd Route Apt. 486
+Parkerview, HI 44498"
+1224,339,Sarah Davis,shawdavid@gmail.com,24/06/2023,1066,Electronics,4338.87,7,,Credit Card,Shipped,"008 Perez Plains
+Cartermouth, KS 10493"
+1225,285,Kristen Gaines,kathleen64,25/08/2024,1009,Books,3040.44,6,,,Returned,
+1226,445,Bradley Ewing,melinda65@yahoo.com,12/11/2023,1086,Books,1043.18,4,4172.72,creditcard,Returned,"44742 Sue Spurs
+Burkeland, MA 97062"
+1227,330,Nancy Castillo,ortizraven@yahoo.com,11/12/2024,1064,Books,3715.44,-2,,PayPal,Returned,"57092 Smith Spring
+Port Amanda, GA 41083"
+1228,127,Joseph Montoya,brownhaley,26/03/2024,1086,Books,1185.5,-5,-5927.5,credit,Processing,"PSC 2078, Box 0177
+APO AA 55220"
+1229,347,Alexander Oliver,emeyers@hall-reed.com,21/08/2023,1022,Clothing,2882.92,8,23063.36,CC,Shipped,"8807 Kayla Row
+Brandimouth, VT 13422"
+1230,472,Katherine Miles,joseph33@robertson.com,31/12/2023,1034,Home & Kitchen,945.98,7,,CC,Delivered,"657 Gonzalez Pass
+New Kellyburgh, AL 33316"
+1231,230,Anthony Smith,ballen@brown.net,27/08/2024,1055,,408.14,1,408.14,Credit Card,Shipped,"278 Kelly Shoal Suite 786
+Hallfort, VT 99226"
+1232,189,William Cooper II,cweber@myers-ballard.com,03/06/2024,1029,Books,3919,2,7838,credit,Delivered,"76551 Hughes Rapids Suite 821
+Hopkinstown, DE 54234"
+1233,224,Aaron Snow,connor98@hotmail.com,21/04/2023,1038,Books,979.3,-4,-3917.2,CC,Returned,"319 Lauren Squares Apt. 574
+Port Susan, WI 94996"
+1234,384,David Quinn,carlos30,12/01/2025,1097,Toys,717.56,1,717.56,Bank Transfer,Cancelled,"29223 Watson Curve Apt. 116
+Sabrinashire, CA 20549"
+1235,376,Amanda Allen,fjones@cole.com,19/06/2024,1018,Home & Kitchen,4149.33,0,,creditcard,Cancelled,"4287 Paul Trail
+Jensenstad, WI 20667"
+1236,282,Jonathan Johnson,jeremy45@yahoo.com,16/05/2023,1071,Electronics,2127.02,-1,-2127.02,,Delivered,"329 Kaitlyn Valleys
+North Jenniferberg, ME 60706"
+1237,445,Mitchell Kirk,istevens@gill.biz,20/08/2024,1065,Home & Kitchen,618.99,7,4332.93,creditcard,Returned,"4034 Johnson River Apt. 168
+Jodibury, VA 91516"
+1238,120,Timothy Turner,coleandrew@kirk.com,15/04/2024,1097,Home & Kitchen,3379.28,-2,-6758.56,Bank Transfer,Shipped,"2569 Lucas Unions
+Haydenchester, WY 70558"
+1239,115,Katherine Johnson,smithdarryl@parrish-greer.org,17/04/2023,1001,,2785.63,-4,-11142.52,CC,Cancelled,"8709 Jones Lock
+West Kristinberg, NY 30243"
+1240,460,Sharon Kline,edward04@hotmail.com,04/04/2024,1088,Home & Kitchen,72.52,4,290.08,Bank Transfer,Delivered,"190 Hill Lane Apt. 182
+Leestad, FL 75395"
+1241,232,Crystal Barnes,peterschultz@yahoo.com,04/04/2023,1004,,4924.65,0,0,creditcard,Shipped,"8846 Smith Highway
+South Katherine, WA 50616"
+1242,258,Darlene Burns,vlyons@mendoza-carr.com,08/04/2024,1004,Books,3395.55,-1,-3395.55,CC,Returned,"3962 Johnson Fall Apt. 044
+East Rodneymouth, WA 39838"
+1243,358,Matthew Espinoza,beverly80@hotmail.com,02/12/2023,1082,Books,3585.01,-4,-14340.04,,Pending,"040 William Point Apt. 925
+South Mirandafurt, SC 76080"
+1244,197,Shirley Jones,nicholasmcdowell,19/05/2024,1027,Clothing,1174.82,4,4699.28,,Returned,"Unit 4547 Box 5891
+DPO AE 03028"
+1245,455,Jennifer Jimenez,rkirby@mendez.com,11/06/2024,1043,,3275.58,1,,credit,Processing,"98187 Pacheco Road
+Nathanshire, GA 00985"
+1246,410,,josephwaters@west-ramos.org,26/02/2025,1059,,976.77,0,0,Bank Transfer,Returned,"86580 Regina Unions Apt. 650
+Port Olivia, MT 42081"
+1247,136,Shannon Barnes,danielnoble@ballard-smith.com,03/02/2024,1032,Electronics,774.97,6,,PayPal,Shipped,"9606 Browning Orchard
+Tylerchester, MS 22960"
+1248,317,Marie Rollins,mark85@wolfe.com,03/04/2024,1033,Toys,2575.77,9,23181.93,credit,Shipped,"2146 Foster Mountains
+Robertsberg, MD 59565"
+1249,164,Michael Anderson,jennapena@henry.com,23/09/2024,1028,Home & Kitchen,3471.89,9,31247.01,,,"PSC 2855, Box 7657
+APO AA 80272"
+1250,224,Timothy Thompson,owenruben@carey.com,09/01/2024,1055,Electronics,1493.8,5,7469,Credit Card,,"42535 Brad Dale
+New Michelleberg, AK 14622"
+1251,306,Kelly Torres,echandler@sanchez.biz,21/06/2024,1060,,1495.2,3,,CC,Shipped,"032 Cheryl Lakes
+Lake Stephanie, TN 64800"
+1252,233,Nathan Perry,drobinson@hotmail.com,17/07/2023,1070,Electronics,822.22,5,8222.2,credit,Shipped,"USNV Rodriguez
+FPO AA 53139"
+1253,171,Katherine Morrison,velazquezjoshua@hotmail.com,28/02/2024,1062,Clothing,1258.68,4,5034.72,Debit Card,Pending,"284 Marks Motorway Suite 537
+Johnsonshire, NM 39630"
+1254,151,Latoya Miles,jonathangarcia@adams.net,18/05/2024,1080,Toys,3420.96,-1,-3420.96,PayPal,Pending,"61675 Elizabeth Court
+Hansenfort, AR 93964"
+1255,462,John Johnson,millerdebra@ho.info,11/02/2025,1034,,3890.83,3,11672.49,CC,Returned,"8898 Tristan Junctions Apt. 875
+West Shannonland, OR 40612"
+1256,314,Miguel Smith MD,megan04@yahoo.com,13/12/2023,1087,,2900.93,3,8702.79,credit,Processing,"9711 Cunningham Streets
+Ryanborough, UT 59034"
+1257,373,Jennifer Stevens,hilljulie@hill.info,29/05/2024,1088,Home & Kitchen,1418.02,7,9926.14,,Cancelled,"0014 Tracy Port
+West Kristy, TX 96491"
+1258,159,Yvonne Cooper,wdouglas@pierce-sullivan.com,28/03/2024,1056,Toys,125.91,-5,-629.55,creditcard,Processing,"36230 Johnny Inlet Apt. 916
+East Sherriberg, MA 49099"
+1259,95,Johnathan Gonzalez,amanda89@yahoo.com,03/01/2025,1013,Clothing,3610.39,-1,-3610.39,,Pending,"92669 Martinez Orchard Suite 197
+Cervantesview, WV 16680"
+1260,471,Colleen Bell,riceglenda@rodgers-cole.org,20/01/2025,1056,Books,919.93,3,2759.79,PayPal,Returned,"89352 Angela Radial
+South Amy, WI 28886"
+1261,232,Derek Barrett,robinsonkatie@anderson-david.com,13/06/2023,1018,Electronics,2802.17,1,,Debit Card,Processing,"875 Spencer Prairie Apt. 640
+New Claudiahaven, KY 50202"
+1262,179,Steven Carroll,smithsteven,2024-02-30,1054,Home & Kitchen,4064,0,0,credit,Delivered,"32456 Turner Plaza Apt. 429
+Port Lynn, IN 04245"
+1263,112,Erica Norris,hoffmandavid@hotmail.com,15/07/2024,1077,,96.81,0,0,creditcard,,"USNV Patterson
+FPO AP 52775"
+1264,317,Kimberly Johnson,wellschristina@donovan.com,26/10/2023,1043,Books,1510.45,5,15104.5,credit,Processing,"906 Mary Parkways
+North James, SD 48217"
+1265,496,Deanna Allen,ojackson@hotmail.com,16/09/2023,1039,Clothing,756.97,1,,Bank Transfer,Cancelled,"Unit 4504 Box 5742
+DPO AA 46234"
+1266,441,Gregory Obrien,michaelcooper@byrd.com,23/06/2023,1061,Toys,2524.6,-5,-12623,Credit Card,Returned,
+1267,51,Michael Davis,gilldwayne@yahoo.com,08/05/2023,1042,Electronics,2568.28,-2,,,Processing,"53895 Lee Rapids Apt. 498
+Leonardville, NJ 42843"
+1268,267,Robert Robinson,marybooth@gmail.com,17/02/2025,1081,Home & Kitchen,1667.01,7,11669.07,credit,Shipped,"417 Mark Islands Suite 801
+East Patricia, NC 25325"
+1269,294,Caitlin Walker,leslie06@gmail.com,07/04/2024,1079,,452.15,9,4069.35,credit,Delivered,
+1270,385,Kirk Porter,donnafitzgerald,07/05/2024,1018,,1782.19,-5,-8910.95,CC,,"765 Myers Harbors
+East Shannonborough, ND 94612"
+1271,386,Dawn Hudson,welchmeagan@williams.org,13/08/2024,1023,Books,1527.67,0,0,CC,Delivered,"0794 Derrick Locks Apt. 607
+Christinastad, NY 97765"
+1272,112,Patty Perez,rachael27@gmail.com,21/07/2023,1054,Books,4320.45,8,,credit,Returned,"629 Hawkins Spurs
+Port Ericfurt, LA 17150"
+1273,100,Ian Savage,bauerbilly@hotmail.com,01/06/2024,1030,Electronics,968.96,7,6782.72,Debit Card,Pending,"819 Brett Walk Suite 336
+Lake Pamelaview, OR 45724"
+1274,112,Shannon Barry DVM,meganadams@herrera.com,12/07/2024,1098,Toys,3083.19,-2,-12332.76,Credit Card,,"2014 Stanley Streets
+Pamelamouth, IN 90788"
+1275,439,Stephen Peters,douglasrush@yahoo.com,03/08/2023,1058,Clothing,944.14,-5,-4720.7,credit,Delivered,"570 Rivera Summit
+Tracyfort, TN 32643"
+1276,80,,elizabeth04,22/10/2023,1068,Toys,746.67,3,2240.01,PayPal,Pending,"USNS Fowler
+FPO AP 23735"
+1277,186,Ryan Hawkins,gabriel12,31/03/2024,1067,Toys,2638.11,6,,,Cancelled,"80780 Nelson Knoll Suite 335
+Marshberg, ME 83040"
+1278,112,Megan Dunn,eric07@estrada-howard.org,22/03/2023,1071,Toys,280.27,-2,-560.54,Bank Transfer,Returned,"1422 Harrell Lodge
+East Heathertown, FL 50126"
+1279,1,Ruben Harris,crystal24,20/06/2024,1018,Electronics,3516.44,6,21098.64,CC,Returned,"005 Becky Summit
+Tuckershire, GA 17368"
+1280,129,Benjamin Thomas,dthompson,23/11/2024,1007,Electronics,921.11,0,,PayPal,,"11879 Marvin Glen Apt. 671
+West Joshua, WI 77912"
+1281,219,Joseph Graves,delgadolauren,18/06/2024,1040,Clothing,4088.74,7,28621.18,,Delivered,"38450 Rodney Parkways
+East James, CT 97654"
+1282,53,Cindy Skinner,clee@yahoo.com,02/08/2024,1070,Toys,2604.68,1,2604.68,creditcard,Cancelled,"2325 Yoder Rest
+Lake Laurenton, WA 12463"
+1283,342,Benjamin Cabrera,taustin@yahoo.com,21/03/2023,1086,Electronics,32.19,2,64.38,CC,Shipped,"3477 Lambert Mountain
+North Vincentberg, WI 57404"
+1284,484,Misty Ellis,williamsandrew@kim.com,27/12/2024,1065,Clothing,,6,,Debit Card,,"PSC 8685, Box 3885
+APO AP 57795"
+1285,223,Jason Ali,crawforddebra@gmail.com,02/05/2024,1068,,3877.78,7,27144.46,CC,Shipped,"026 Erin Walks
+Waremouth, TX 14062"
+1286,224,Justin Wall,tsanford@larson.com,16/12/2024,1049,Clothing,3769.28,5,18846.4,Credit Card,,"8458 Wilson Mountains
+South Melissa, MN 67377"
+1287,384,Donald Mills,gibsonshawn@hotmail.com,16/02/2025,1052,Toys,3861.59,3,11584.77,Credit Card,Delivered,"8712 Richardson Place
+South Edward, KY 84517"
+1288,402,Dawn Maxwell,pamelasimon@yahoo.com,03/03/2024,1029,Home & Kitchen,3804.23,3,11412.69,,Cancelled,"325 Stevens Stream Apt. 230
+New Shirleyburgh, WA 45391"
+1289,125,Laurie Mcdaniel,cheryl24@hotmail.com,08/07/2024,1021,Toys,4168.7,2,8337.4,PayPal,Delivered,"PSC 3503, Box 1120
+APO AE 04733"
+1290,129,Courtney Williamson,deborah95@miller-stephens.info,03/12/2024,1090,Home & Kitchen,4463.59,4,17854.36,Bank Transfer,Returned,"40584 Jones Courts
+Ruthfurt, WI 78535"
+1291,52,Garrett Flynn,timothywood,05/08/2023,1078,Clothing,3386.5,5,16932.5,Debit Card,Shipped,"7737 Charles Road Apt. 271
+Lake Brittany, NV 29187"
+1292,171,Jason Arnold,rodriguezmelissa@martinez.com,11/12/2024,1009,,474.48,9,4270.32,,Pending,"68847 Potter Centers Apt. 023
+South Suzanneshire, NJ 32741"
+1293,217,Tammy Roberts MD,mendozabrooke@cole.com,30/07/2024,1047,,4918.74,6,,creditcard,Processing,"62900 Molina River
+Cantrellview, NH 50141"
+1294,159,Robert Ross,lindaorr@allen.org,09/03/2023,1076,Electronics,1605.83,6,9634.98,Debit Card,Returned,"514 Cooper Vista Apt. 559
+Myershaven, DC 60093"
+1295,197,Carlos Miller,sydney52,2024-02-30,1042,,4228.53,9,38056.77,Credit Card,Returned,"8863 Wendy Square
+North Albertland, FL 94117"
+1296,415,Christina Gomez,kevin75,14/06/2024,1051,Books,205.42,8,1643.36,credit,Shipped,"032 Stevenson Stream Suite 250
+New Clayton, MT 13853"
+1297,246,Michelle Garcia,vanessajohnson@estrada.com,03/04/2024,1056,Clothing,2789.36,-3,,credit,,"43158 Danielle Wells Apt. 095
+Hancockhaven, MI 16342"
+1298,323,Denise Flores,connieknight@yahoo.com,11/09/2023,1051,Electronics,4172.97,6,50075.64,Bank Transfer,Returned,"3043 Andrews Isle
+Torresstad, IN 63979"
+1299,438,Albert Cooper,daniel77@johnson.info,20/06/2024,1070,,3492.38,-4,-13969.52,Debit Card,Processing,"766 Mendoza Ranch
+Norrisview, NH 98378"
+1300,202,Christian Gonzalez,xwilliamson@ramirez.com,05/09/2024,1020,Clothing,1684.12,-1,,,Cancelled,
+1301,183,Joseph Smith,laurenschwartz@hotmail.com,18/03/2023,1088,Toys,105.13,-5,-525.65,Bank Transfer,Returned,"52373 Shannon Estate
+Port Josephville, CA 39524"
+1302,122,Jane Garcia,jennifer03@thomas.com,01/06/2023,1027,,3495.67,-3,-10487.01,CC,Cancelled,"5236 Audrey Turnpike
+Butlerberg, WV 87097"
+1303,400,,davidhuffman@hotmail.com,22/08/2023,1038,Home & Kitchen,705.13,-5,-3525.65,CC,Delivered,"377 Casey Loaf Suite 868
+East Josephstad, NV 33525"
+1304,254,Ronald Morse,riveraheather@yahoo.com,07/05/2023,1072,Clothing,45,7,630,creditcard,,"492 Hines Green Suite 301
+Cervantestown, MI 80996"
+1305,293,Juan Thomas Jr.,gjackson@stephens-beasley.info,10/10/2024,1065,Electronics,275.79,-3,-827.37,PayPal,Cancelled,"1260 Mccoy Rest
+Hoganfort, MS 31037"
+1306,279,Tiffany Jackson,andersonchristine@gmail.com,23/06/2023,1054,Toys,409.89,7,5738.46,credit,Returned,"6602 Chung Island
+Nicolebury, RI 89720"
+1307,324,Robert Brown,michael81@yahoo.com,18/01/2025,1024,Books,1251.88,-2,-2503.76,,,"1398 Walker Street
+Port Jason, RI 01656"
+1308,371,Margaret Bell,wayneobrien,31/03/2023,1047,Toys,4066.68,1,4066.68,Debit Card,Processing,"074 Charles Loop Apt. 770
+Gabrielport, DC 17802"
+1309,97,Maria Patterson,nvazquez@hotmail.com,20/12/2023,1071,,4419.39,6,,Bank Transfer,,"PSC 4016, Box 0545
+APO AA 94907"
+1310,197,James Ford,heathricardo@hotmail.com,07/09/2024,1083,Home & Kitchen,4294.42,9,38649.78,,Cancelled,"9186 Johnson View
+New Meganfort, NV 93273"
+1311,469,Mike Howard,vmccoy@garcia.com,14/04/2024,1086,Toys,855.44,6,10265.28,Bank Transfer,Cancelled,
+1312,394,Tracey Mcgrath,hjacobson@hall-lee.com,23/04/2024,1063,Books,1067.57,-1,-1067.57,Bank Transfer,Pending,"214 Brown Alley
+North Andrew, NV 92650"
+1313,239,James Evans,davidtorres@yahoo.com,19/11/2024,1057,Electronics,2520.58,-1,-2520.58,Bank Transfer,Pending,"5155 Johnson Crescent
+Mathewsmouth, MT 33956"
+1314,143,Robert Allen,mmckenzie@thompson.net,05/08/2023,1055,Clothing,4763.6,7,33345.2,Debit Card,,"695 Padilla Tunnel Suite 299
+Antoniofurt, MA 68645"
+1315,96,Victor Becker,adamorozco@washington.com,11/01/2025,1060,Home & Kitchen,2534.22,-5,,,Shipped,"15253 Patrick Gardens Apt. 115
+Wilsonton, WA 17281"
+1316,200,Martha Fritz,jamesbarnes@yahoo.com,28/09/2023,1099,Books,1384.81,2,2769.62,Credit Card,Shipped,"5270 Christina Stravenue Apt. 805
+East Pamelamouth, HI 35530"
+1317,123,Barry Wilkins,brian08@gmail.com,21/04/2024,1062,,1130.07,7,7910.49,Credit Card,Pending,"023 Kelly Causeway
+Maryburgh, AZ 47588"
+1318,186,Nathan Bell,kylewhite@smith-mitchell.com,21/12/2024,1030,,1271.81,-2,-2543.62,Debit Card,Returned,"524 Stephen Knolls Suite 009
+Kristieside, CA 44478"
+1319,325,Christina Mccoy,thorntonandrew@ball.net,04/08/2023,1093,,2809.58,4,11238.32,CC,Delivered,"96047 Bruce Inlet Apt. 302
+Jonesfort, MT 33944"
+1320,463,Stacey Cunningham,frenchchristopher@hotmail.com,09/03/2024,1022,Home & Kitchen,1125.72,-1,-1125.72,Debit Card,,"641 Carlson Rapid
+West Kyle, AR 35338"
+1321,348,Susan Herring,stacey73@rogers.com,17/06/2023,1075,Toys,4808.2,-4,-19232.8,credit,Delivered,"34886 Bruce Gateway
+Washingtonberg, NJ 08162"
+1322,258,,oliverjulie@nelson-wong.org,12/03/2024,1084,Home & Kitchen,2444.11,9,21996.99,Bank Transfer,Pending,"920 Tran Shore Suite 219
+Melissabury, CO 45289"
+1323,147,Mike Andrews,anna79@pennington.org,01/02/2025,1029,,2748.6,6,16491.6,,Cancelled,"82111 Garcia Expressway Apt. 043
+North Donna, HI 37919"
+1324,251,Deborah Padilla,smithbobby@gmail.com,17/07/2023,1041,Books,3920.72,7,,,Processing,"1556 Angela Spurs
+Millerchester, RI 30829"
+1325,442,Misty Haynes,allisonweber@chandler.biz,04/06/2024,1042,Clothing,3607.19,-5,-18035.95,PayPal,,"18263 Carter Knolls
+Galvanburgh, DC 41608"
+1326,419,Nicole Smith,shawn82@brown-abbott.com,21/01/2024,1098,Clothing,4795.77,3,14387.31,PayPal,Pending,
+1327,402,Jennifer Gonzalez,qjackson@arnold.com,03/02/2024,1065,Home & Kitchen,3947.95,9,35531.55,creditcard,Returned,"2210 Jack Knolls
+Livingstonshire, OR 42316"
+1328,345,Christina Shaffer,isaiah80@jones.org,17/06/2023,1031,,1373.84,-4,-5495.36,Credit Card,Processing,"USCGC Torres
+FPO AE 49321"
+1329,450,Aaron Cabrera,gary53@gmail.com,03/10/2023,1030,Electronics,2140.39,0,0,PayPal,,"1751 Jennifer Ville Suite 163
+Biancafort, AZ 57264"
+1330,146,Daniel Deleon,xgardner@hotmail.com,16/03/2024,1018,Home & Kitchen,1923.88,-5,-9619.4,PayPal,,"055 Baker Isle
+Wilcoxhaven, FL 30934"
+1331,147,Gary Johnson,brennanjoshua@nelson-watkins.com,2024-02-30,1017,,747.42,-5,-3737.1,Credit Card,Shipped,"58683 Jennifer Cape
+Jillport, WY 25540"
+1332,351,Erin Bowers,derekwallace@douglas.com,20/08/2024,1038,Toys,2464.33,3,7392.99,credit,Cancelled,"9087 Michelle Run Suite 546
+East Warrenborough, CA 48352"
+1333,198,Linda Williams,khill@yahoo.com,2024-02-30,1014,Clothing,,-2,,CC,,"4279 Veronica Groves Suite 516
+East Allisonbury, ME 20155"
+1334,307,Christopher Garza,holly20@jones.net,01/04/2024,1087,Clothing,4134.58,3,12403.74,Credit Card,Cancelled,"PSC 2367, Box 3223
+APO AP 53468"
+1335,488,Jeffrey Walker,gonzalezcheryl@hotmail.com,15/07/2024,1089,Clothing,1465.61,5,7328.05,CC,Pending,"PSC 9663, Box 1226
+APO AP 72306"
+1336,416,Sean Evans,tuckersamantha@woods-mcdowell.com,13/03/2024,1079,Electronics,3860.06,-1,,creditcard,Returned,"0206 Sherry Meadows Suite 652
+Mcfarlandmouth, AZ 69831"
+1337,423,Paul Wolf,brookeluna@gmail.com,22/10/2023,1056,,3743.29,1,3743.29,PayPal,Processing,"6342 Patrick Crossing
+Daniellehaven, AR 42470"
+1338,127,,ile@rojas.com,15/02/2024,1022,,2297.55,-5,,,Processing,
+1339,38,Michael Reyes,debra80@yahoo.com,26/11/2024,1067,,4709.37,0,0,PayPal,Returned,"7127 Elizabeth Lane
+Ariastown, HI 90882"
+1340,337,Benjamin Brown,morrisaaron@gmail.com,16/03/2024,1056,,530.8,2,1061.6,Bank Transfer,,"6792 Hansen Dam Suite 840
+West Amyfort, MA 74518"
+1341,359,Michelle Mendez,richard17@gmail.com,10/06/2024,1019,Electronics,2505.4,8,20043.2,creditcard,,"6361 Rodriguez Circles
+Reevesmouth, NV 98422"
+1342,128,Erika Hutchinson,aaronpatterson@hotmail.com,08/10/2023,1057,Books,2655.82,-5,,CC,Pending,"7737 Sutton Station Suite 391
+Lambview, HI 52533"
+1343,266,Aaron Cruz,matthewweaver@graves.info,26/08/2023,1044,Home & Kitchen,3379.84,3,,CC,Shipped,"07058 Brian Vista
+New Andrewberg, TN 87525"
+1344,475,Joseph Johnson,sydney23@gmail.com,29/12/2024,1098,Home & Kitchen,1169.06,-3,,Bank Transfer,Shipped,"8490 Joseph Light
+Lisaville, DE 28096"
+1345,440,Alexandra Bailey,msingh@gmail.com,08/01/2024,1035,,4108.57,-5,,Bank Transfer,Shipped,"52433 Scott Street Apt. 374
+North Juliechester, IA 36242"
+1346,472,Kelly George,alexandra58@yahoo.com,2024-02-30,1001,Toys,,-5,,credit,Cancelled,"6102 Hayes Freeway
+Danielborough, TN 90789"
+1347,433,Karen Mathews,sdaniels@henson-ramos.net,02/03/2024,1052,Clothing,1751.18,7,12258.26,Debit Card,Shipped,"PSC 8012, Box 9122
+APO AA 27094"
+1348,150,Kerri Myers,rasmussentara,18/04/2024,1085,Electronics,1965.98,8,15727.84,Bank Transfer,Returned,"9608 Cameron Rapids Apt. 965
+West Nicholas, MI 86350"
+1349,414,Tanner Young,wmartin@roberts-hernandez.com,05/07/2024,1093,Toys,4162.03,5,20810.15,CC,Processing,"99775 Jenkins Ville
+Jefferyton, TX 50263"
+1350,477,Jeffrey Davis,patrick16@yahoo.com,06/03/2024,1070,Toys,3667.1,0,0,,Processing,"2926 Jeffrey Hills
+Jenniferberg, AR 40724"
+1351,297,Terry Cervantes,nerickson@yahoo.com,03/04/2024,1037,,4757.22,5,47572.2,CC,Cancelled,"05767 Travis Mountains Suite 856
+New Madisontown, CO 97962"
+1352,98,Diana Reynolds,crystalbarnett@henry.com,29/01/2025,1065,Electronics,3535.06,0,0,CC,Pending,"594 Cisneros Dam
+Simmonsport, VT 68368"
+1353,262,Bryan Hardin,klester@murphy-schmidt.biz,18/09/2023,1051,Home & Kitchen,2063.42,-5,-10317.1,credit,Returned,"4571 Adams Ferry Suite 459
+Jennifershire, HI 33106"
+1354,251,Jamie Schneider,fred24@hotmail.com,01/02/2025,1001,Clothing,4663.02,8,74608.32,Debit Card,Processing,"72440 Garcia Tunnel Suite 109
+Port Oscar, DE 21130"
+1355,143,Lindsey Ayala,debraramirez@gmail.com,29/06/2023,1091,Home & Kitchen,3154.09,8,25232.72,Debit Card,Returned,"1522 Theresa Circles
+Boyerbury, AL 04163"
+1356,345,,patriciahamilton@fisher.com,06/07/2023,1021,Toys,1858.67,-3,-5576.01,Bank Transfer,Processing,"371 Stacie Lights Suite 727
+Johnsonport, SD 53451"
+1357,111,Richard Leonard,lindseyjoe@smith.com,23/07/2024,1053,Clothing,3381.58,1,3381.58,creditcard,Delivered,"Unit 6432 Box 9486
+DPO AA 52293"
+1358,499,William Velazquez,kennethcoleman@hotmail.com,28/10/2023,1016,Books,2448.7,4,9794.8,PayPal,Pending,"53639 Mitchell Trail Apt. 956
+New Anthony, AK 07936"
+1359,59,Larry Mccoy,newmanthomas@tapia.com,12/12/2023,1061,Toys,1114.3,-3,,CC,Pending,"Unit 3849 Box 0795
+DPO AA 31373"
+1360,368,,smithbeth@johns.org,20/01/2024,1054,Home & Kitchen,3043.71,-3,,Credit Card,Delivered,"41604 Ann Trail
+Russellborough, CA 27592"
+1361,1,Brian Barry,yhanson@gmail.com,14/06/2023,1040,Home & Kitchen,4720.26,-3,-14160.78,PayPal,Cancelled,"4492 Williams Landing Apt. 193
+Nelsonmouth, IN 03502"
+1362,384,David Clarke,amy38@henderson.com,04/07/2023,1026,,,6,,PayPal,Processing,"49773 Lacey Well
+West Randy, GA 95733"
+1363,303,Timothy Garcia,allisonnelson@hotmail.com,16/01/2024,1080,Home & Kitchen,4987.93,1,4987.93,Debit Card,Processing,"4432 Matthew Village
+Mathewschester, AK 28264"
+1364,253,,onealfelicia@jennings.net,01/12/2024,1092,Electronics,4053.13,-2,-8106.26,Debit Card,Processing,"38923 Steven Loop Apt. 262
+New Sara, SD 36877"
+1365,139,Dr. Rachel Johnston,cuevasdeborah@hotmail.com,07/06/2024,1065,Toys,1160.41,-2,-2320.82,credit,Shipped,"4361 Sara Valley Apt. 406
+West Emily, NH 50067"
+1366,452,Billy Santos,elizabeth46@gmail.com,2024-02-30,1074,Clothing,1526.35,-3,-4579.05,credit,Shipped,"62763 Gray Stravenue
+Lake Adam, DE 91251"
+1367,36,Karen Spencer,pmayo@gmail.com,03/08/2024,1064,Home & Kitchen,3933.7,4,15734.8,Debit Card,Shipped,"46563 Mcdowell Port
+West John, PA 54878"
+1368,159,Michael Joyce,robert54,01/04/2024,1043,,4572.64,5,22863.2,,Shipped,"8107 Solis Ford Suite 942
+Hunterberg, DC 84155"
+1369,8,Amanda Simon,hedwards@pope.com,14/06/2023,1017,,4238.96,3,12716.88,,Shipped,"84841 Todd Course Suite 377
+New Victoria, UT 45089"
+1370,232,Stephanie Lee,tanya55@yahoo.com,16/05/2023,1059,Home & Kitchen,4405,-4,,Credit Card,Delivered,"30268 Christina Wells Suite 450
+Lake Jeffrey, MS 25054"
+1371,98,Rachel Payne,stephanietaylor@yahoo.com,2024-02-30,1023,Electronics,3014.54,-2,,Debit Card,Pending,"Unit 1152 Box 2354
+DPO AA 36122"
+1372,146,Colleen Cabrera,martinezangel,01/10/2024,1007,,4441.6,2,8883.2,Bank Transfer,Cancelled,"7231 Sheila Locks
+Lake Danielport, WV 42501"
+1373,303,Toni Sweeney,eric98@hotmail.com,31/05/2024,1044,Clothing,2367.03,0,0,credit,Returned,"399 Sullivan Springs Suite 392
+North Dawnview, TX 51637"
+1374,207,Lisa Smith,kellylauren@gmail.com,30/09/2023,1053,Toys,,8,,Debit Card,Shipped,"35881 Reed Stream
+New Danielle, IA 70576"
+1375,130,Justin Williams,josephbaxter@williams.org,07/08/2023,1071,Books,257.73,1,257.73,,Delivered,"581 Valerie Falls
+Crystalshire, AZ 84866"
+1376,403,Eric Martin,joseph58@jones.biz,20/11/2023,1079,Electronics,4808.35,7,33658.45,Debit Card,Processing,"7081 Ford Summit
+Jenniferborough, MN 50602"
+1377,151,Lynn Dunn,ingrammichael@hotmail.com,29/12/2024,1034,,3383.56,1,6767.12,,Cancelled,
+1378,53,Kayla Smith,lambjacob@hotmail.com,12/06/2023,1046,Toys,3648.94,-4,-14595.76,Debit Card,Cancelled,"6278 Solis Crossroad Suite 266
+Ambermouth, UT 79007"
+1379,119,Sandra Miller,charles95@myers.com,10/01/2024,1068,Books,3406.85,-2,-6813.7,CC,Cancelled,"1738 Steven Orchard
+Marybury, IL 61612"
+1380,160,,higginsgarrett@yahoo.com,2024-02-30,1078,Home & Kitchen,732.11,4,2928.44,Bank Transfer,Delivered,"84687 Griffith Camp Apt. 537
+Lake Alexanderview, OR 27941"
+1381,407,Paige Morales,parkerdeanna@romero-green.net,25/08/2023,1078,Home & Kitchen,567.8,4,2271.2,creditcard,Returned,"654 John Plaza
+Daniellebury, DE 68943"
+1382,115,William Watkins,holmesrichard@hotmail.com,03/12/2023,1016,Clothing,209.55,0,0,Credit Card,Shipped,"95732 Mercado Alley Apt. 219
+Sparksmouth, OR 20235"
+1383,74,,hilllarry,2024-02-30,1071,Books,4432.41,-3,-13297.23,CC,Cancelled,"91113 Lisa Points
+New Jeremy, MD 96668"
+1384,112,Michael Boyd,juliastewart@gutierrez-lee.com,11/01/2025,1096,Home & Kitchen,4414.49,3,,Bank Transfer,Delivered,"27823 Smith Spurs Suite 131
+New Jasonbury, ME 06461"
+1385,455,Heather Barnes,ashley75,2024-02-30,1019,Home & Kitchen,527.12,7,,,Processing,"890 Julie Mountains Apt. 651
+Spencerbury, MS 42416"
+1386,419,William Bennett,ydavis@yahoo.com,29/04/2024,1002,,2787.25,-2,,credit,Pending,"4603 Angela Loaf Apt. 732
+Michaelside, MI 93071"
+1387,421,Kristin Gonzalez,amiller@bradshaw.com,21/12/2024,1010,Clothing,4871.88,4,19487.52,credit,Processing,"5436 Trevor Trafficway Apt. 671
+Port Jared, VT 40625"
+1388,103,Joshua Crawford,patricia69@yahoo.com,2024-02-30,1050,Toys,,7,,PayPal,Delivered,"0816 Justin Junction Apt. 210
+Williamhaven, MT 82661"
+1389,339,Patrick Rodriguez,jesusdoyle@gmail.com,17/12/2024,1081,Home & Kitchen,1068.41,-4,,Bank Transfer,Delivered,"54699 Melanie Point
+Brianfort, VA 63438"
+1390,253,Joseph Flores,kurt04@hotmail.com,05/06/2024,1012,Electronics,3202.77,0,0,Debit Card,Delivered,"40412 Barnett Neck
+Danielstad, AR 69611"
+1391,226,Steven Miles,garnerxavier@wilson.biz,07/09/2024,1070,Electronics,2420.19,-5,,Credit Card,Cancelled,"1106 John Park Apt. 239
+Montgomerychester, MI 84736"
+1392,111,Kyle Frye,christophergonzalez@hancock-hill.net,12/04/2024,1022,Toys,3896.13,0,0,Debit Card,Delivered,"82616 Kristen Islands
+Lake Shannon, CA 79201"
+1393,472,Brian Smith,tamara21@hotmail.com,30/04/2024,1032,Books,,7,,Debit Card,Pending,"253 Ramos Inlet Apt. 565
+Lake Lynnborough, WV 54294"
+1394,98,Christina Yates,marissarussell@myers.com,09/12/2024,1084,Clothing,2848.56,6,,Bank Transfer,Cancelled,"54691 Kenneth Lock
+Keithtown, LA 88298"
+1395,152,Heather Washington,smiller@obrien.com,31/12/2023,1001,,4040.65,4,16162.6,creditcard,Processing,"49610 Holder Drive Suite 975
+Trantown, MT 97789"
+1396,348,Regina Russell,tyler10@oneal-herrera.com,01/03/2025,1054,Electronics,555.31,-5,-2776.55,Credit Card,Pending,"85824 Lewis Ways Apt. 783
+West Ashleymouth, FL 16172"
+1397,401,Jason Landry,ccalderon@ryan.com,11/06/2023,1058,Electronics,786.35,8,12581.6,PayPal,,"63640 Johnson Lane
+Lake Alexis, SC 78557"
+1398,383,Sarah Russell,snydercurtis@yahoo.com,14/06/2023,1070,Toys,3632.32,2,7264.64,CC,Processing,"99812 Chavez Forges Suite 456
+Stevenmouth, VA 06162"
+1399,365,Kathleen Martin,harrisannette@dean-evans.com,12/09/2023,1083,Books,1498.57,-1,-1498.57,Debit Card,Delivered,"320 Emily Islands Apt. 833
+Shannonland, NM 10113"
+1400,337,Katelyn Delacruz,cpittman@taylor.info,22/02/2025,1018,Books,3357.75,0,0,Credit Card,Shipped,"0499 Tracy Cliff Suite 746
+Danaview, KY 18775"
+1401,193,Allison Dunn,stevenmarshall@ashley.com,26/07/2023,1006,Toys,,-4,,PayPal,Shipped,"426 Liu Trail Suite 832
+Richmondtown, NJ 97997"
+1402,309,Corey Barnes,martinsarah@cole.com,06/05/2024,1045,Electronics,4179.74,-4,-16718.96,CC,Cancelled,"905 Jennifer Tunnel Suite 026
+Barbertown, MA 80798"
+1403,162,Meghan Griffin,wmiller,22/01/2025,1097,Clothing,3825.57,6,22953.42,Debit Card,Shipped,"646 Renee Lake
+East Andre, NC 44178"
+1404,207,Vincent Gilbert,adam75@hotmail.com,26/08/2024,1023,Electronics,1614.69,3,4844.07,Credit Card,Processing,"38711 Bryan Camp
+Lake Jasonstad, NH 92164"
+1405,444,Katherine Herrera,autumn67@collins-fuller.com,20/07/2023,1023,Books,4931.71,-3,-14795.13,CC,Cancelled,"USNV Lyons
+FPO AP 25006"
+1406,168,Marcus Griffin,garygonzales@johnson.info,24/07/2023,1026,,4671.68,0,,Bank Transfer,Processing,"3746 Thomas Radial Apt. 786
+Ramirezfort, IL 32909"
+1407,483,,christopher97,19/07/2023,1077,Electronics,1461.48,4,5845.92,creditcard,Delivered,"628 Costa Gateway Apt. 125
+Amberstad, FL 52842"
+1408,160,Kim Bailey,lori49@forbes.com,18/12/2023,1007,Clothing,4647.88,-1,,credit,Returned,"792 Finley Shore
+East Andreaport, IL 28512"
+1409,67,Justin Torres,lukeward@hotmail.com,26/05/2023,1079,Home & Kitchen,2900.26,8,,credit,Returned,"521 Jacob Ridge Suite 006
+East Troy, WA 57292"
+1410,288,Mrs. Kelsey Clark,parkerpatricia@yahoo.com,18/10/2024,1044,Electronics,3699.41,6,44392.92,Debit Card,Pending,"72230 Michael Station Apt. 099
+West Christopherfort, VA 50100"
+1411,397,Charles Murphy,harrisnicole,30/10/2024,1027,Toys,1365.07,-2,,Debit Card,Delivered,"581 Roberta Summit
+West Heidiville, DC 16998"
+1412,276,Vincent Mitchell,elliswilliam@bradley-hoover.com,19/08/2023,1026,Home & Kitchen,3105.99,4,12423.96,CC,Shipped,"62183 Brandi Port
+Adamsmouth, PA 75227"
+1413,303,Dr. Christopher Johnson,swebb@gmail.com,08/10/2024,1097,Toys,2849.76,-4,-22798.08,Credit Card,Delivered,"8539 Lauren Lights
+North Brian, VA 83646"
+1414,403,Angel Owen,calebroman@gmail.com,12/12/2023,1079,Toys,711.9,2,,credit,,"9495 David Well
+Nortonmouth, MI 50043"
+1415,383,Stephanie Parker,ryan24@carroll.com,21/09/2023,1036,Toys,2914.07,4,11656.28,Debit Card,Returned,"55968 Johnston Union
+Catherinemouth, WI 73200"
+1416,391,Stacey Harvey,beckywheeler@gmail.com,20/07/2024,1055,Electronics,2312.32,1,2312.32,PayPal,Shipped,"5296 Landry Freeway Apt. 177
+Port Jeffrey, OR 97997"
+1417,134,Vincent Pacheco,brendacosta@yahoo.com,05/09/2024,1064,Books,4488.32,5,22441.6,Debit Card,Processing,
+1418,194,,nina68@yahoo.com,28/10/2023,1091,Home & Kitchen,3557.77,-4,-14231.08,credit,Processing,"006 Potts Harbor
+Hernandezhaven, NY 88038"
+1419,400,Lauren Taylor,fitzgeraldcarrie@hotmail.com,25/04/2023,1057,Clothing,172.56,0,0,,Returned,"89339 Rivas Cliff
+North Walter, IN 99286"
+1420,127,Rebecca Carter,maywhitney@johnson.info,29/04/2023,1069,Books,3475.66,8,55610.56,creditcard,Delivered,"54728 Jenny Camp
+Richardfurt, ND 96814"
+1421,32,Michelle Mcdaniel,xprince,30/06/2023,1061,Electronics,1704.38,2,3408.76,credit,Shipped,"85714 Roger Walks Suite 383
+North Calvinview, OH 41553"
+1422,175,William Wilson,thompsonedward,29/04/2024,1002,Toys,,1,,PayPal,Pending,"USS Warren
+FPO AE 41714"
+1423,459,Julia Hart,kramermegan@yahoo.com,30/03/2024,1055,Clothing,84.19,9,757.71,Credit Card,Processing,"50784 Lawrence Trail
+North Michaeltown, GA 18150"
+1424,442,Alan Wagner,ricardosanchez@mccall-barker.com,30/08/2023,1097,Home & Kitchen,1636.81,-5,-8184.05,PayPal,Delivered,"85024 Joseph Knoll
+West Danielville, KY 69363"
+1425,370,Alexander Santiago,nathanramirez@mcintyre.com,15/04/2023,1080,Books,1400.95,-1,-1400.95,,Pending,"4795 Rodriguez Cliff Apt. 877
+Jamestown, OR 53457"
+1426,469,Christopher Robinson,emoody@hotmail.com,01/08/2023,1087,,281.47,-4,-1125.88,,Shipped,"9261 Johnston Mills
+East Tylerside, IA 11898"
+1427,374,,daniel78@holder-holt.com,22/05/2024,1038,Books,3477.82,0,0,Debit Card,Returned,"931 Miller Landing
+Port Rodney, AZ 10274"
+1428,21,Michelle Williams,zortiz@gmail.com,07/09/2023,1080,Clothing,3200.68,1,3200.68,Debit Card,,"07733 Rebecca Mountains Suite 958
+Lake Connormouth, VT 97918"
+1429,237,Leslie Smith,david68@gmail.com,25/09/2024,1078,Electronics,2039.87,8,,credit,Cancelled,"4609 Christopher Square Apt. 009
+Fernandezmouth, NJ 05124"
+1430,157,Ashley Ellis,eddie67@yahoo.com,18/01/2024,1029,Home & Kitchen,552.63,8,,Bank Transfer,Returned,"33940 Barnett Pine Suite 917
+South Danielle, OR 33673"
+1431,37,Justin Schneider,tmurray@gmail.com,2024-02-30,1026,Clothing,4642.04,1,4642.04,creditcard,Pending,"Unit 2338 Box 7224
+DPO AA 50670"
+1432,229,Michael White,nicole23,28/08/2023,1035,Toys,2110.66,-3,-6331.98,PayPal,Delivered,"70708 Mark Vista Apt. 946
+Medinamouth, MA 66466"
+1433,364,Dr. Dennis Adams,erichardson@gmail.com,20/01/2025,1079,Home & Kitchen,2316.13,1,,credit,Processing,"051 Kathryn Islands
+Gregoryside, MA 83846"
+1434,50,Victoria Glover,zsuarez@gmail.com,24/05/2024,1067,Books,902.33,9,8120.97,Bank Transfer,Shipped,"3020 Gonzalez Drives
+Kristenmouth, CT 43248"
+1435,437,Paul Mcguire,jacksonbrandon@sanford.info,27/05/2023,1087,Clothing,1928.89,-1,,credit,Returned,"015 Pitts Square Apt. 976
+South Elizabethport, DE 70945"
+1436,263,Joy Cohen,carlyburton@yahoo.com,23/08/2023,1029,Books,4373.66,2,17494.64,creditcard,Processing,"303 Kevin Course
+Port Davidhaven, SD 30006"
+1437,282,Latoya Hart,jessicaanderson@simmons.biz,22/07/2023,1034,Books,2584.64,9,,creditcard,Processing,"65988 David Manors Apt. 117
+Castrostad, OK 45988"
+1438,26,Stephanie Sharp,kenneth37@murphy.org,30/07/2023,1097,Books,2901.27,6,17407.62,,,"77973 Garcia Islands Suite 323
+Lake Adamport, AR 37558"
+1439,225,,greenechad@goodman.org,17/02/2024,1041,Electronics,3372.62,2,6745.24,Debit Card,Shipped,"78179 Cole Track
+South Williamberg, HI 59629"
+1440,276,Laura Crawford,christyolson@castillo.com,06/08/2024,1041,Books,4030.26,1,4030.26,Debit Card,Pending,"USNS Adams
+FPO AE 27373"
+1441,285,Dillon Jennings,meghan45@gmail.com,25/02/2024,1023,Toys,1890.05,0,0,creditcard,Shipped,"171 Hubbard Drives
+West Jonathanside, MT 06622"
+1442,96,Renee Shah,randy49@gmail.com,01/10/2024,1071,Toys,236.94,-4,-947.76,credit,Shipped,"6968 Hughes Walks Apt. 341
+South Lanceton, GA 84108"
+1443,283,Kathleen Garrett,bwarren@garcia.com,04/08/2024,1003,Home & Kitchen,,0,,creditcard,Delivered,"9775 Leonard Ridge
+North Jared, MI 65644"
+1444,366,Elizabeth Bell,adriennemiller@yahoo.com,06/10/2024,1058,,647.48,7,4532.36,Debit Card,Cancelled,"PSC 3080, Box 3830
+APO AA 96938"
+1445,447,Kelly Martinez,sblake@yahoo.com,06/11/2023,1032,Books,4077.7,6,24466.2,Credit Card,Processing,"3673 Michael Parkway Apt. 710
+South Craig, NC 77019"
+1446,480,Brittany Mercer,williamsyvette@vasquez.com,21/04/2024,1031,Books,2599.39,9,23394.51,credit,Pending,"69450 Samuel Fort
+Port Lisaville, NV 41577"
+1447,452,Marilyn Bridges,umckinney@gmail.com,26/07/2024,1082,Clothing,3350.07,5,16750.35,,Delivered,"5449 Shaw Locks
+North Timothyview, AL 32475"
+1448,316,Megan Lopez,susanrandall@burgess-wright.biz,16/12/2024,1043,Electronics,3015.34,3,9046.02,CC,Processing,"32035 Emily Hollow
+South Sethfurt, OH 52549"
+1449,303,Karen Melendez,luis54@kennedy.com,04/10/2023,1007,,77.6,9,698.4,credit,Cancelled,"7053 Kristen Station Apt. 126
+Coreystad, AK 60015"
+1450,146,Debra Jenkins,kristen01@smith.com,27/01/2024,1001,Home & Kitchen,2887.97,-4,-11551.88,credit,Delivered,"01008 Deanna Cape
+West Ashley, CT 47282"
+1451,3,Joshua Jenkins,kevinmoore,10/07/2024,1061,,4334.12,-5,,Debit Card,Cancelled,"74627 Wright Plains Suite 751
+Johnsonport, ND 84012"
+1452,34,Nichole Nguyen,mdiaz,05/12/2023,1014,Books,2641.53,5,,,Cancelled,"00937 Rachel Club Apt. 774
+Andersenbury, IL 70178"
+1453,191,Christina Casey,jeffrey34@hughes-baker.biz,30/11/2024,1052,Clothing,4202.8,7,,credit,Cancelled,"3855 April Orchard Apt. 643
+South Joseph, ID 72413"
+1454,48,Andrew Dunn,emilyforbes@morgan.com,05/08/2023,1096,Electronics,1697.06,-1,-1697.06,Debit Card,Delivered,"5250 Bobby Parks
+Jeffreyport, CT 36152"
+1455,16,Susan Morris,hunterkaren@baker.org,09/11/2024,1006,Home & Kitchen,4290.3,5,21451.5,creditcard,Shipped,"098 Monica Alley Apt. 591
+Taylorshire, OH 41034"
+1456,171,,timothybarker@yahoo.com,27/09/2023,1010,,4619.1,0,,PayPal,Cancelled,"9679 Richard Mission Suite 521
+West Bryan, OH 75516"
+1457,219,Megan Allen,dylan90@weber.com,14/05/2024,1071,Home & Kitchen,3748.83,-3,-22492.98,,Shipped,"995 Brett Plaza
+Philipbury, LA 63903"
+1458,157,Julie Garner,jacqueline81@newman.biz,16/08/2023,1090,Books,3749.25,2,7498.5,Bank Transfer,Processing,"973 Cabrera Lodge Apt. 413
+South Patrickburgh, AK 42368"
+1459,476,Karen Love,robertwang@harrison-schmidt.com,07/10/2023,1098,Home & Kitchen,4663.54,1,4663.54,Credit Card,Processing,"72884 Erik Row Suite 503
+Lake Rachel, IN 37339"
+1460,45,James Matthews,sfrank@gmail.com,10/03/2023,1030,Clothing,1445.04,-4,-5780.16,Bank Transfer,Pending,"4171 Heather Shoal Suite 278
+South Anna, RI 33514"
+1461,372,Lisa Fuentes,jennifer00@yahoo.com,12/08/2023,1021,Home & Kitchen,1437.64,6,8625.84,CC,,
+1462,5,Bryan Reed,carrie15@wang.net,28/05/2023,1060,Toys,2000.99,1,4001.98,creditcard,Shipped,"243 Wiley Islands
+Leahland, SD 33573"
+1463,98,Deborah Stone,carolyn18@mora.net,28/09/2023,1081,Clothing,2503.99,9,22535.91,,Processing,"PSC 6380, Box 2921
+APO AP 18998"
+1464,379,Jennifer Orr,lawrence67@yahoo.com,05/09/2024,1097,,1962.88,9,35331.84,credit,,"2320 Conway Turnpike
+North Alexandrastad, NJ 46389"
+1465,232,Victor Nash,jasonaustin@johnson-wyatt.info,28/07/2023,1074,Electronics,4773.43,-5,-23867.15,Debit Card,Cancelled,"47751 Grant Vista Apt. 378
+New Josephchester, IA 02950"
+1466,36,Lori Newton,jeffreyhughes@andrews.com,02/04/2023,1063,Electronics,4670.09,3,14010.27,CC,,"19320 Simmons Forks Apt. 389
+East Mikayla, NV 18014"
+1467,279,Leah Thompson,odurham,19/02/2024,1042,Books,738.74,7,5171.18,,,"9394 Levy Junction Apt. 379
+North Larry, MA 40951"
+1468,348,Jay Lewis,michael85@yahoo.com,28/02/2025,1051,Books,3406.18,1,6812.36,Credit Card,Cancelled,"112 Michelle Dam Suite 393
+Port Timothyside, AL 13392"
+1469,496,Patrick Flores,ghenderson@rich.com,08/07/2023,1064,Toys,1350.45,0,0,,Shipped,"68387 Rice Branch
+Jeffreyfort, KY 92578"
+1470,301,Shannon Hanna,brianna68@hotmail.com,30/08/2024,1076,,2272.07,7,15904.49,CC,Cancelled,"15024 Boyd Lodge Suite 530
+Levineland, AK 18749"
+1471,180,Morgan Horn,alexandriawall@yahoo.com,24/04/2023,1056,Electronics,1595.17,-4,-6380.68,Debit Card,Pending,"35430 Garza Mountain
+Lake Travis, NC 77013"
+1472,94,Julian Swanson,tshort@mitchell.info,28/09/2023,1080,Electronics,4953.61,-3,-14860.83,Bank Transfer,Returned,"PSC 1139, Box 7554
+APO AA 87915"
+1473,98,Cody Baldwin,bwells@brown-wise.com,06/09/2024,1041,Electronics,2534.75,-5,-12673.75,PayPal,Delivered,"7036 April Trail
+Durhamshire, MS 29014"
+1474,187,Nicole Thompson,marysolomon@gmail.com,01/10/2024,1032,Electronics,1199.92,9,,Bank Transfer,Cancelled,
+1475,480,April Ryan,vicki67@gmail.com,16/03/2024,1015,Home & Kitchen,3077.38,4,12309.52,Debit Card,Cancelled,"PSC 5061, Box 5409
+APO AA 42706"
+1476,115,Gregg Sanchez,weaverlinda@mooney.info,2024-02-30,1062,,2300.21,7,16101.47,CC,,"430 Collins Villages
+Christinestad, KS 07329"
+1477,190,Robert Kemp,caitlin27@gmail.com,29/05/2023,1027,Clothing,2935.3,-1,-2935.3,Debit Card,Pending,"774 Henderson Spurs
+East Markchester, WV 06619"
+1478,252,Jonathon Butler,dclay@kidd.org,2024-02-30,1028,Clothing,3268.18,3,9804.54,creditcard,Processing,"07343 Kevin Hollow
+Foxview, MN 19156"
+1479,468,James Rodriguez,patrick33,18/09/2024,1081,Toys,3157.02,7,,Credit Card,Processing,"PSC 5737, Box 3476
+APO AA 85709"
+1480,415,Dana Marshall,david25,08/02/2025,1064,Home & Kitchen,2707.23,0,,,,"5596 Lisa Overpass
+Brownborough, MD 00527"
+1481,470,Robert Peterson,williammitchell@gmail.com,31/03/2024,1059,Electronics,2785.88,-1,-2785.88,creditcard,Shipped,"Unit 1390 Box 4552
+DPO AA 67352"
+1482,160,Shannon Rodriguez,johnhenry@hotmail.com,06/12/2023,1058,Electronics,4648.27,6,55779.24,,Cancelled,"601 Bailey Place Apt. 474
+East Michaelstad, UT 85981"
+1483,255,Allison Williamson,melissa32@hotmail.com,27/09/2024,1002,Books,2187.12,-3,-6561.36,Bank Transfer,Cancelled,"PSC 1342, Box 0033
+APO AA 13901"
+1484,322,Jodi Stokes,orichard@flynn.com,01/02/2025,1036,Books,2029.05,-1,-2029.05,CC,,"662 Stephanie Pines Suite 119
+South Kyle, TX 98731"
+1485,127,Mrs. Robin Pugh,montoyaian@gmail.com,26/05/2023,1071,Toys,4069.01,2,,PayPal,Cancelled,"9057 John Crest Apt. 531
+Allisonfort, IA 24312"
+1486,17,Anthony Cross,ggordon@bates.com,19/07/2024,1013,Electronics,,6,,PayPal,Shipped,"02465 Wilson Way
+East Monicamouth, ME 79263"
+1487,280,Jon Thomas,lmarks@bird-martin.com,10/09/2024,1015,Toys,3311.08,-4,-13244.32,Credit Card,Returned,"26562 Duncan Course
+Andrewhaven, MN 51950"
+1488,489,Stephanie Sanchez,ewilson@hotmail.com,19/12/2023,1089,Home & Kitchen,4529.72,-1,-4529.72,Debit Card,Delivered,"PSC 9297, Box 9072
+APO AA 56017"
+1489,222,Vickie Nguyen,fowlermelissa@yahoo.com,11/09/2023,1087,Clothing,2358.06,0,0,Credit Card,Delivered,
+1490,53,Nicholas Roberts,melissajohnson,13/01/2024,1060,Electronics,1186.66,4,4746.64,,Delivered,
+1491,57,Mr. Jeremy Foley,hhansen@hotmail.com,16/08/2023,1022,,663.06,2,1326.12,credit,Returned,"508 Melissa Courts
+Lake Brenda, AL 67913"
+1492,322,James Sanchez,patriciawilliams,09/09/2024,1063,Home & Kitchen,4213.07,2,8426.14,credit,Cancelled,"495 Campbell Parkway
+Maryview, KY 39888"
+1493,359,Michael Morris,erikaholt,19/08/2023,1090,Electronics,4332.8,9,38995.2,credit,,"69532 Grace Squares Apt. 962
+New William, TX 72159"
+1494,173,Dr. Marcus Hernandez,mhines@gmail.com,06/09/2024,1097,,,-1,,Debit Card,Processing,"350 Gordon Pass
+Walterchester, NM 18151"
+1495,279,,ericpittman@owens.com,07/04/2023,1075,Books,596.22,3,1788.66,Credit Card,Pending,"597 Howard Plains
+Lisamouth, PA 08990"
+1496,113,Cynthia Butler,carrollemily@yahoo.com,24/11/2024,1074,Toys,1254.16,-2,-2508.32,creditcard,Cancelled,"169 Benjamin Roads
+South Jillfort, ID 58815"
+1497,287,Elizabeth Gray,wfleming@gmail.com,05/02/2025,1025,Books,2563.94,6,15383.64,CC,Returned,"819 Jasmine Springs
+South Bailey, RI 99480"
+1498,430,Victoria Curtis,jenningskatrina@cooper.info,03/04/2023,1048,Clothing,2857.1,3,8571.3,Bank Transfer,Shipped,"883 Johnson Green Suite 501
+North Rebeccaland, WA 25890"
+1499,341,Dr. Tara Schultz,john61@gmail.com,09/10/2024,1043,Books,3308.93,5,,,Returned,"2638 Helen Bypass
+Port Justin, CO 33952"
+1500,150,Eric Fischer,brownisaac,07/12/2024,1038,Electronics,2049.9,1,,credit,Processing,"50837 Paul Mountain
+West Kristashire, CT 01412"
+1501,449,,miguel04@gmail.com,11/06/2024,1041,,77.5,0,0,CC,Delivered,"2730 Warren Street Apt. 582
+North Ivan, IA 66240"
+1502,126,Scott Hall,jessica37@dixon.com,08/08/2024,1045,Books,2014.36,-2,-4028.72,PayPal,Cancelled,"7766 Kristina Summit
+Port Nicoleburgh, GA 37322"
+1503,154,Dana Schultz,dwallace@merritt.info,09/01/2025,1088,Electronics,918.76,-4,-3675.04,creditcard,Processing,"500 Brenda Ford Suite 939
+Douglasstad, KY 28044"
+1504,489,Eric Fox,wallacedavid@yahoo.com,14/07/2023,1040,Clothing,4922.29,2,9844.58,Credit Card,Delivered,"74665 Long Walks Apt. 987
+Starkhaven, IA 67038"
+1505,385,Stephanie Buchanan,martinjonathan,21/01/2024,1097,,3000.52,0,0,,Pending,"00760 Christopher Bypass Apt. 692
+New Dustinside, WI 04592"
+1506,473,Mr. Michael Guzman II,smithdonald@rice.com,22/07/2024,1017,Books,3747.04,6,22482.24,,Shipped,"271 Holloway Neck
+Lake Stephen, WA 34025"
+1507,272,Steven Navarro,ptaylor@hotmail.com,08/01/2025,1088,Toys,3056.25,9,27506.25,PayPal,Delivered,"15686 Brooks Union Apt. 748
+Port Dawn, ND 86924"
+1508,103,Philip Warren,eriksnyder@gmail.com,26/06/2023,1057,Toys,82.16,-3,-246.48,creditcard,Pending,"5238 Thompson Viaduct
+Darrellfurt, MD 19592"
+1509,416,Robert Hernandez,angela09@patel-edwards.com,12/03/2023,1002,,1125.25,1,1125.25,PayPal,Returned,"0763 Nunez Station
+Angelashire, KS 72584"
+1510,392,David Patton,msilva@yahoo.com,2024-02-30,1096,Toys,2082.87,4,8331.48,PayPal,Delivered,"510 Cunningham Route
+Angelaland, MN 33088"
+1511,298,Jeffrey Fernandez,hpreston@hayes-richards.org,11/04/2024,1062,Books,473.64,1,,credit,Delivered,"92677 Jacobson Knolls Suite 667
+Gonzalezville, ME 36299"
+1512,245,,brenda33@yahoo.com,04/08/2024,1088,Books,2823.15,0,,creditcard,,"939 Thomas Stravenue Apt. 103
+New Katherine, NE 50401"
+1513,175,Michelle Williams,crystal86@lloyd.com,27/03/2024,1009,,3660.71,-4,-14642.84,credit,Shipped,"84880 Franklin Lights Apt. 674
+Natashamouth, NE 61516"
+1514,38,Kristen Weeks,eprice@hotmail.com,10/12/2023,1068,Books,4725.11,2,9450.22,Credit Card,Shipped,"PSC 2695, Box 1776
+APO AP 89964"
+1515,476,Lisa Neal,solissara@hotmail.com,14/02/2024,1081,Electronics,2858.21,-5,-14291.05,PayPal,Processing,"00148 Michael Roads
+South Katieport, OK 48201"
+1516,169,Gabriela Flores,scottperry@hotmail.com,13/03/2023,1017,Clothing,1379.8,7,9658.6,Bank Transfer,Returned,"522 Jones Wall Apt. 466
+South Dustinside, OK 90503"
+1517,246,Ashley Giles,sstewart@young.org,2024-02-30,1050,Toys,3540.38,-5,-17701.9,,,"085 Adams Wells
+Lake Meganville, AL 84493"
+1518,25,Joseph Dougherty,natasha25@frazier.info,09/09/2024,1094,Electronics,4483.04,0,0,creditcard,Processing,"Unit 1898 Box 8024
+DPO AP 05875"
+1519,354,Elizabeth Mitchell,ashley96@odom-williams.com,16/12/2023,1040,,1998.55,-1,,PayPal,Pending,"28638 Christian Rapid
+North Michaelmouth, KY 60220"
+1520,305,Zachary Calderon,laurahoward@yahoo.com,2024-02-30,1058,Toys,2042.77,3,6128.31,creditcard,Processing,"136 Sandoval Overpass Apt. 222
+New Elizabeth, NJ 37586"
+1521,408,Jennifer Smith,michelle20@stephens.com,03/04/2024,1075,Electronics,3909.53,7,27366.71,,Pending,"65804 Christy Prairie
+New Keithton, VT 07552"
+1522,407,Linda Brown,kimberly08@griffin.com,08/07/2023,1085,Books,2395.83,6,14374.98,Debit Card,Returned,"290 David Court Suite 239
+North Molly, VT 66206"
+1523,12,Jamie Miles,privera@ibarra.com,11/02/2024,1021,,,1,,CC,Shipped,"Unit 0841 Box 7291
+DPO AP 46131"
+1524,315,Jon Fitzgerald,vjackson@hotmail.com,10/05/2024,1018,,1465.05,-4,,Debit Card,Pending,"82515 Julie Locks
+North Glendatown, VA 75631"
+1525,390,Michael Anderson,zochoa@yahoo.com,14/02/2024,1055,Toys,442.44,7,3097.08,PayPal,Returned,"5947 Gallagher Lake Suite 154
+New Duanechester, OR 98638"
+1526,312,Kelly Watson,twatson@jones-allen.info,27/03/2024,1029,Books,3347.57,6,20085.42,,Processing,"662 Navarro Road Suite 821
+Ambermouth, CO 65934"
+1527,35,Douglas Church,valerie77@gmail.com,05/07/2023,1024,Toys,2163.9,1,2163.9,CC,Pending,"74611 Stanley Creek
+Lake Ashley, MS 56392"
+1528,172,Theresa Garcia,rwalker,14/09/2023,1074,Home & Kitchen,3047.1,9,27423.9,Debit Card,Cancelled,"288 Spencer Trail
+Lake Maria, CO 31721"
+1529,19,,lopezamanda@garcia.biz,30/01/2024,1017,Electronics,2236.62,-3,,PayPal,Delivered,"695 Bradley Motorway Apt. 577
+South Michael, SD 81233"
+1530,320,Austin Boyd,brownkimberly@yahoo.com,24/02/2025,1018,Home & Kitchen,3219.66,-5,-16098.3,,Processing,"319 Thomas Light Suite 795
+North Gregory, NM 64335"
+1531,263,,kristine88,12/04/2023,1042,Electronics,2184.04,5,21840.4,PayPal,Shipped,"USCGC Clark
+FPO AE 09350"
+1532,493,Charles Riley,gomezmichael@adams-webb.biz,24/11/2023,1084,Clothing,192.57,2,385.14,credit,Processing,"USNV Greene
+FPO AP 47875"
+1533,399,Mrs. Alyssa Paul PhD,pamelasmith@collins.com,12/07/2024,1045,,1573.98,8,12591.84,,Cancelled,"896 Horton Centers
+North Derek, TX 08358"
+1534,141,Michael Sanchez,debbie71@ewing-martin.net,20/06/2024,1082,Toys,533.47,6,,Debit Card,Returned,"267 Guzman Corner
+Johnsonfort, NH 85045"
+1535,459,Rebecca Welch,rnichols@mcgee.com,02/02/2024,1017,Clothing,479.73,-3,-1439.19,PayPal,Returned,"5271 Wang Causeway
+Austinland, MD 51286"
+1536,370,Joshua Sullivan,nancy77@yahoo.com,07/06/2023,1073,Clothing,3642.28,5,36422.8,creditcard,Processing,"17530 Smith Glen Suite 419
+New Zacharyton, CO 61760"
+1537,470,Amber Allen,ieverett@morales.info,20/01/2024,1014,,4887.23,2,9774.46,Debit Card,Cancelled,
+1538,142,Brian Carroll,vwhite@hotmail.com,26/04/2024,1049,,,1,,PayPal,Processing,
+1539,91,Michael Robbins,grobinson@hotmail.com,05/02/2024,1029,Electronics,570.11,6,3420.66,creditcard,Delivered,"04235 Rachael Valleys
+Mitchellmouth, NC 34605"
+1540,353,Justin Ellis,mauricebaker@yahoo.com,13/02/2024,1095,Home & Kitchen,4991.12,9,44920.08,creditcard,Delivered,"152 Rachel Road
+North Alan, DE 52885"
+1541,321,John Larson,davidfernandez@gmail.com,01/08/2024,1004,Books,246.38,-4,-985.52,Credit Card,,"Unit 0779 Box 2067
+DPO AP 06704"
+1542,287,Loretta Mason,kennethsanders,27/03/2023,1082,Electronics,3240.87,7,22686.09,creditcard,Pending,"534 Courtney Extensions Suite 733
+Port Davidport, VA 27803"
+1543,214,Marilyn Green,summerthompson@blake.com,10/08/2023,1020,Books,729.8,8,5838.4,Debit Card,,"03275 David Ville
+North Karenland, NV 39418"
+1544,446,Michael Perry,escobarroger@wells.com,17/05/2023,1047,Clothing,4844.24,8,38753.92,Debit Card,Delivered,"2449 Woods Villages
+North Brianna, NV 29625"
+1545,341,Anthony Alexander,griffindavid@roberts.com,21/10/2023,1009,Books,3949.86,-5,-19749.3,Bank Transfer,Cancelled,"193 West Brooks
+South Samanthamouth, TN 18166"
+1546,50,Mark Garcia,bethany06,19/08/2023,1077,Home & Kitchen,1731.92,1,3463.84,CC,Pending,"900 Scott Island
+East Jayfort, CT 53859"
+1547,152,Debbie Davidson,eallen@tyler-beltran.com,21/08/2024,1079,Electronics,399.51,7,2796.57,credit,Cancelled,"215 Holly River
+Lake Melissafort, DC 62923"
+1548,185,Shannon Quinn,judy15@hotmail.com,05/11/2023,1027,,3924.69,-5,-19623.45,Debit Card,,"722 Blair Islands
+West Rachelmouth, SC 61592"
+1549,62,Pamela Allen,josephmercado@yahoo.com,01/12/2024,1015,Home & Kitchen,4569.26,0,0,,Returned,"900 Bush Vista
+Ronnieshire, VT 25816"
+1550,189,Richard Jordan,jterrell@foster.com,2024-02-30,1092,Home & Kitchen,4998.71,7,,CC,Cancelled,"PSC 6872, Box 4364
+APO AP 22576"
+1551,124,Donald Cuevas,tjackson@mitchell.com,01/06/2023,1019,Electronics,3817.72,5,19088.6,creditcard,,"01275 Jackson Harbors
+Murphyland, WI 02954"
+1552,149,Thomas Rogers,vvalenzuela@kirk-hernandez.biz,12/05/2023,1090,,1309.92,4,10479.36,PayPal,,"230 Bonilla Throughway
+Williamville, WI 71603"
+1553,313,Tiffany Baldwin,williamsjohn@harper-banks.com,15/11/2024,1052,Home & Kitchen,4490,5,22450,Credit Card,,"4693 Palmer Corner
+West Heather, IA 59414"
+1554,57,,amanda54@smith-walker.com,11/02/2025,1026,,135.66,4,542.64,,Returned,"Unit 4753 Box 1926
+DPO AE 77068"
+1555,341,,ywalton@williams.com,16/05/2023,1089,Toys,3022.63,2,6045.26,CC,Returned,"5268 Sherry Way Apt. 965
+North Whitneyport, NM 88110"
+1556,304,Karen Rodriguez,emily61@crawford-jones.com,2024-02-30,1026,Toys,1173.86,1,1173.86,,Processing,"4171 Williams Haven Suite 873
+East Caitlinchester, VT 17571"
+1557,179,Alexandra Kelley,allison91@yahoo.com,08/07/2024,1026,Toys,1299.78,-2,-2599.56,,Returned,"385 Sheri Falls Suite 560
+West Shirleyside, IA 20932"
+1558,169,Carla Austin,ugarcia@wagner-cole.com,29/06/2023,1046,Books,,-5,,,Pending,"PSC 1664, Box 1399
+APO AP 29364"
+1559,325,Daniel Wilson,shelly84@yahoo.com,09/01/2024,1092,Home & Kitchen,,-5,,CC,Returned,"0498 Randall Route
+Brianstad, PA 13510"
+1560,270,Samuel Day,matthew71@yahoo.com,11/05/2024,1049,Electronics,1763.32,-2,-3526.64,Credit Card,Returned,"755 Kaufman Hills Apt. 609
+Robertburgh, NJ 74019"
+1561,53,Joseph Thompson,eugene01@smith.com,25/05/2024,1082,Electronics,96.77,-1,-96.77,creditcard,Returned,"PSC 0574, Box 7529
+APO AA 58942"
+1562,490,Laura Pierce,debra25,27/08/2023,1096,Books,4024.61,6,24147.66,Bank Transfer,Cancelled,"118 Matthew Lock
+Simsside, MD 46796"
+1563,443,Phillip Weber,pmadden,30/08/2023,1053,Electronics,3770.13,1,3770.13,credit,Returned,"516 Jimenez Street Suite 681
+East Kenneth, KY 80427"
+1564,100,Erica Jackson,morgan71@smith-allen.com,11/11/2024,1003,Toys,1552.1,8,12416.8,creditcard,Pending,"3537 Ortega Cape
+East Michael, NJ 04933"
+1565,480,Kathryn Wallace,ilopez@brooks-duncan.com,09/08/2023,1066,Home & Kitchen,1618.74,-2,,Debit Card,,"487 Thomas Point Suite 371
+Amandashire, MS 64612"
+1566,263,James Harmon,alexanderarthur@yahoo.com,18/02/2025,1097,Electronics,1491.88,4,5967.52,CC,Cancelled,"183 Conner Fall Apt. 319
+Christinashire, CT 80073"
+1567,52,Kelly Smith,williamsstephen@gmail.com,13/04/2023,1042,Electronics,689.23,8,5513.84,,Delivered,"PSC 9183, Box 3894
+APO AE 55786"
+1568,59,Ashley Smith,mcbridedaniel@mclean.com,11/06/2023,1019,Clothing,4566.93,6,27401.58,creditcard,Returned,"80104 Holly Passage Suite 900
+Port Christinafort, OR 00760"
+1569,491,Maria Stevens,salazarross@patterson.com,22/10/2024,1017,Clothing,2801.48,-5,-14007.4,Debit Card,Processing,"67354 Hatfield Summit
+Tylerton, OR 93355"
+1570,107,Tonya Estes,cpugh@yang.biz,17/03/2023,1033,Clothing,3138.85,5,31388.5,CC,Processing,"518 Tina Village
+North Larryborough, VT 21303"
+1571,4,Matthew Wood,lisamitchell@gmail.com,10/03/2023,1076,Home & Kitchen,1465.49,4,5861.96,Debit Card,,"8065 Johnson Lights
+West Johnstad, MN 22277"
+1572,102,Emily Moreno,cherylcook@williams.com,2024-02-30,1049,Toys,3678.51,1,,,,
+1573,195,Melissa Weber,tarabailey@hotmail.com,15/02/2025,1056,,1729.99,-4,,Bank Transfer,Cancelled,"87619 Brittany Mission
+Denisemouth, TN 47098"
+1574,261,Sean Martin,hopkinsedward@hotmail.com,08/06/2023,1063,Toys,514.25,7,,CC,Processing,"PSC 4459, Box 6314
+APO AA 56619"
+1575,364,Kathryn Hernandez,hillrobin@yahoo.com,29/10/2023,1003,Toys,316.93,5,1584.65,Debit Card,Delivered,"351 Amanda Groves Suite 456
+Fosterchester, MT 29097"
+1576,479,Jennifer Williams,amy69@jimenez-hart.net,2024-02-30,1049,Home & Kitchen,466.27,-4,,PayPal,Shipped,"34342 Heather Row Apt. 010
+Brandonburgh, UT 67686"
+1577,371,Karen Ashley,smithchristopher@weaver.com,20/06/2024,1055,Home & Kitchen,287.13,2,574.26,Debit Card,Processing,"199 Sarah Fort Suite 785
+Higginstown, OK 63495"
+1578,349,Andrew Walton,jacob12@gmail.com,03/11/2024,1026,Clothing,4215.97,6,25295.82,credit,Processing,"60986 Sean Mill Apt. 391
+Walkerborough, NE 85737"
+1579,46,James Weeks,margaretschmidt@brown-sanchez.info,21/12/2023,1099,Electronics,2613.02,4,,,Pending,"604 Julie Stream
+Aaronburgh, CA 16999"
+1580,354,Kyle Jones,ttaylor@moreno.biz,19/04/2023,1072,Books,1505.94,4,6023.76,Credit Card,Shipped,
+1581,310,Patrick Palmer,jacksonbonilla@hotmail.com,10/04/2023,1052,Books,1363.65,4,5454.6,Debit Card,,"16749 Linda Port
+South Kimberlyville, MN 30663"
+1582,423,Brenda Ballard,snyderkatherine@gmail.com,07/05/2023,1007,,1034.95,-1,-1034.95,Bank Transfer,Shipped,
+1583,307,Christopher Reyes,robert60@atkinson.net,27/01/2025,1046,Electronics,1685.62,4,13484.96,PayPal,Processing,"467 Mckinney Mount Suite 203
+Hardinghaven, OK 98785"
+1584,143,Mark Riddle,monica28@jackson-aguirre.com,18/10/2023,1046,,2274.84,-4,-9099.36,PayPal,,"615 Bush Overpass Suite 876
+West Tammymouth, IN 44054"
+1585,268,Rachel Ryan DDS,hwatson@norton.biz,09/09/2024,1016,Clothing,1071.77,-1,,Credit Card,Shipped,"624 Renee Vista
+South Jordan, MA 94527"
+1586,369,Eric Rivera,april41@gmail.com,19/01/2024,1024,,,2,,creditcard,,"13736 White Estates
+Nicholasfort, DC 53011"
+1587,123,Amy Kemp,singhjames@mcdaniel.com,25/11/2023,1061,Electronics,4109.14,0,0,credit,,"598 Ruiz Parks Apt. 894
+Danielmouth, MS 15573"
+1588,105,Mark Peters,jessecox@yahoo.com,05/11/2023,1054,Electronics,3056.48,-3,-9169.44,Credit Card,Cancelled,"802 Johnny Points Apt. 592
+Coreyville, AR 14276"
+1589,157,Bruce Garcia,ashley96@gmail.com,13/09/2023,1062,Books,3970.51,2,7941.02,credit,Delivered,"1356 John Vista
+East Heather, NV 46593"
+1590,146,Kenneth Baker,wardzachary@hotmail.com,24/02/2025,1001,Clothing,4255.76,9,38301.84,Debit Card,,"7480 Flores Lane Suite 502
+Francoberg, AL 20554"
+1591,144,Brittany Harris,kimberlyholmes@gmail.com,24/09/2023,1049,Home & Kitchen,1348.92,8,,,Pending,"102 Zhang Lake Apt. 818
+Williamschester, HI 80313"
+1592,119,Erika Harris,mcconnelljeremy@curtis.com,18/09/2024,1025,,2669.72,3,8009.16,Bank Transfer,Processing,"82104 Garcia Harbor
+South Annastad, AR 05118"
+1593,318,Ryan Mcmillan,crystal24@gmail.com,22/05/2023,1010,Books,2287.41,-1,-2287.41,PayPal,Processing,"57181 Edwards Expressway Apt. 851
+East John, CA 52944"
+1594,274,Pamela Jones,rgrant@gmail.com,16/07/2024,1080,,4439.86,7,31079.02,Credit Card,Pending,"0676 Matthew Centers
+Sandovalfurt, GA 27879"
+1595,91,Kevin Cox,christina46@yahoo.com,19/04/2024,1016,,3721.91,-4,-29775.28,Bank Transfer,Returned,"6347 Freeman Shoals
+West Amymouth, ND 04091"
+1596,57,Megan Dawson,christopherschwartz@yahoo.com,05/10/2023,1058,Home & Kitchen,1360.58,-4,,credit,,"271 Sharon Via Apt. 485
+Bautistaville, NE 34944"
+1597,438,Linda Williams,wkennedy@yahoo.com,09/10/2023,1072,Clothing,3556.38,1,3556.38,,,
+1598,345,Greg Hernandez,gthomas@hotmail.com,27/10/2024,1029,Electronics,568.42,-5,-2842.1,PayPal,,"78072 Zachary Place Suite 733
+Alexanderbury, VT 68166"
+1599,228,Cindy Jenkins,cheryl49@gmail.com,29/12/2024,1092,Toys,4558.64,4,18234.56,PayPal,Shipped,"6527 Mckenzie Crossing Apt. 112
+Kaylaberg, MO 20119"
+1600,473,Jane Cruz,jacobsmith,28/10/2024,1006,,3870.13,6,23220.78,credit,,"USNS Gallagher
+FPO AE 48289"
+1601,116,James Bond,micheallee@gmail.com,25/08/2024,1016,Toys,920.08,-4,-7360.64,,,
+1602,317,Tracy Gould,cblack@gmail.com,19/08/2023,1020,Clothing,1642.22,4,13137.76,PayPal,Pending,"587 Kathleen Alley Suite 011
+West Heatherton, NJ 02695"
+1603,278,Daniel Silva,kathleen55@baird.com,22/11/2023,1080,Toys,617.53,-2,-1235.06,,Delivered,"15254 Gregory Stravenue
+Tinaside, TN 08443"
+1604,126,Erica Powell,rmiles@ferguson.com,03/12/2024,1071,,1986.65,-5,-9933.25,PayPal,Delivered,"333 Gonzales Pine
+Davisburgh, NY 65314"
+1605,392,Jill Davis,jeanetterubio@gmail.com,11/08/2023,1078,Home & Kitchen,769.91,-2,-1539.82,Debit Card,Returned,"6667 Joseph Grove Suite 608
+New Samanthamouth, MN 91044"
+1606,395,Michelle Chaney,moorejose@white-parker.com,10/02/2024,1043,Toys,,7,,credit,Pending,"560 Lydia Unions Suite 824
+Blackburnhaven, LA 79717"
+1607,128,Emily Norris,ramirezjoshua@gmail.com,10/04/2024,1026,Clothing,4102.28,6,49227.36,,,"111 Taylor Valley
+Adamsport, NY 76182"
+1608,57,Anthony Rogers MD,tjones@hotmail.com,26/03/2023,1090,Clothing,1208.19,5,6040.95,Bank Transfer,Delivered,"960 Pineda Brook
+Port Sallybury, IN 19096"
+1609,121,Joshua Murphy,elizabeth75@gmail.com,05/07/2023,1078,Home & Kitchen,3578.6,7,25050.2,creditcard,Cancelled,"086 Edwards Knoll
+Clarkview, IL 00604"
+1610,,Joseph Morales,adamstewart@moore.com,29/01/2025,1071,Toys,1659.39,4,6637.56,Debit Card,Cancelled,"41468 Taylor Common
+Kathrynchester, IA 36071"
+1611,238,Ronnie Braun,kimberly04@gmail.com,12/07/2024,1033,Toys,2778.02,9,,CC,Cancelled,"381 Alicia Mountains
+New Grant, ID 00682"
+1612,289,Gary Crawford,xbell@brown.com,02/05/2023,1026,Electronics,2666.72,-1,-2666.72,Bank Transfer,,"PSC 4907, Box 1573
+APO AP 87345"
+1613,95,Jenna Roberts,wtaylor,07/09/2023,1045,Books,4757.46,3,14272.38,credit,,"17044 Williams Loaf Suite 171
+North Zachary, KS 32084"
+1614,125,Adam Jackson,smithjennifer@williams.biz,21/10/2023,1084,Clothing,3889.51,-5,-19447.55,PayPal,Returned,"2105 Stephanie Forges Apt. 058
+Lake Mark, MD 30026"
+1615,117,Frederick Lopez,lisa31@harris.com,09/09/2023,1063,Electronics,4465.36,6,26792.16,CC,Processing,
+1616,47,Maria Douglas,jodi00@hotmail.com,20/01/2025,1067,Clothing,2654.71,-1,,Bank Transfer,Returned,"6967 Amber Summit
+New Megan, SD 43833"
+1617,88,Adam Gregory,lcruz@mclaughlin.biz,2024-02-30,1052,Electronics,4252.63,-4,-17010.52,Debit Card,Returned,
+1618,487,Mark Webb,suzanne16,21/03/2023,1068,Books,1202.35,3,3607.05,CC,Shipped,"4689 Ariel Islands
+North Donnahaven, IA 48122"
+1619,236,Nancy Rodriguez,churchchristopher@taylor.com,07/08/2023,1026,Electronics,1155.56,0,,CC,Cancelled,"9194 Cohen Rapid
+Aliciaton, RI 54671"
+1620,372,Michelle Finley DVM,jessica61@yahoo.com,04/11/2024,1075,Clothing,676.78,-4,-2707.12,,,"PSC 1894, Box 8375
+APO AA 27639"
+1621,384,Stephanie Duarte,esmith@yahoo.com,06/07/2024,1002,Toys,4567.66,8,,Credit Card,Cancelled,"9902 Tucker Causeway Apt. 074
+North Stacey, OK 28655"
+1622,271,Nathan Lee,sarah04@yahoo.com,15/10/2023,1014,Clothing,3742.43,-3,-11227.29,Bank Transfer,Returned,"PSC 2986, Box 5343
+APO AE 84465"
+1623,188,Benjamin Robinson,brian14@hotmail.com,27/09/2023,1030,,1241.58,8,9932.64,Credit Card,,"6303 Thompson Rest
+New Sharonview, HI 49864"
+1624,486,Rachael Murray,richardwilson@brown.net,23/12/2023,1049,Home & Kitchen,3816.15,2,7632.3,credit,Pending,
+1625,191,Scott Stephenson,zcallahan@sanchez-walton.net,28/06/2024,1012,Home & Kitchen,4772.21,-5,-23861.05,Bank Transfer,Delivered,"358 Carroll Squares
+Angelville, KS 32144"
+1626,446,Mathew Washington,millerrebecca@yahoo.com,19/02/2025,1090,,4811.69,6,28870.14,Bank Transfer,Delivered,"7770 Larry Alley
+West Scottchester, SC 81982"
+1627,68,Douglas Lopez,mrowland@king-ramos.org,26/04/2023,1044,Home & Kitchen,991.38,-3,-2974.14,,Returned,"26843 Jeffrey Green
+Lisatown, MS 81457"
+1628,277,Robert Schneider,kflores@white.biz,27/03/2023,1033,Home & Kitchen,3425.44,7,23978.08,PayPal,Processing,"5626 Jessica Summit Apt. 827
+Kochside, GA 19054"
+1629,348,Sharon Welch,cooperbrianna@hotmail.com,25/02/2024,1013,Books,3933.48,4,15733.92,Debit Card,Cancelled,"0303 James Land Suite 154
+Abigailbury, ME 91709"
+1630,246,Cynthia Tate,alisondaniel@eaton.info,26/11/2023,1078,Toys,,-5,,Debit Card,Pending,"43529 Wilkerson View
+Port Amber, WV 81750"
+1631,450,Evan Holland,michellecherry@hotmail.com,30/12/2023,1088,Toys,1658.43,5,8292.15,Debit Card,,"283 Linda Island Apt. 183
+Sabrinaton, NC 14411"
+1632,75,David Chavez,eric66@fields.net,08/11/2023,1098,Clothing,1567.24,5,7836.2,creditcard,Processing,"2867 Cynthia Wall
+Jimmyport, MI 13117"
+1633,153,Rebecca Sanchez,flemingmadeline@wheeler.info,27/02/2024,1026,,2976.79,2,5953.58,credit,Cancelled,"509 Wall Pike Apt. 316
+Lake Tannerside, NE 33643"
+1634,143,Aaron Rodriguez,martinezmarisa@yahoo.com,17/03/2023,1021,Electronics,4946.76,-5,,CC,Returned,"4638 Patrick Circles
+South Jamesland, GA 15521"
+1635,434,Leslie Norton,plucero@hall.com,21/02/2024,1028,Clothing,4924.83,7,,PayPal,Cancelled,"0247 Reyes Station Suite 895
+South Benjamin, WV 66602"
+1636,484,Cynthia Glenn,rebeccacrosby@hotmail.com,24/01/2024,1048,Clothing,,-1,,Credit Card,Returned,"9167 Kristen Row Apt. 125
+West Jennifer, AL 92919"
+1637,85,Joseph Miller,onavarro@wood-chen.com,2024-02-30,1040,Clothing,543.73,-2,,Debit Card,Shipped,"PSC 9605, Box 9769
+APO AE 10402"
+1638,184,Jason Moore,gonzalezalexander@williams.com,07/07/2024,1066,Clothing,4195.25,1,8390.5,creditcard,Delivered,"86794 Schwartz Pine
+Hallmouth, IA 19024"
+1639,284,David Gonzalez,zpowell@wilson.com,28/03/2024,1073,Toys,,8,,Credit Card,Processing,"59221 Flores Estates Apt. 039
+East Jennifermouth, OH 53752"
+1640,461,Margaret Hunt,marcus54@hotmail.com,13/02/2024,1087,Electronics,2837.81,-1,-2837.81,PayPal,Delivered,"5085 Jessica Via Suite 172
+Jamesmouth, AL 59788"
+1641,219,,scott36@williams.net,03/12/2024,1079,Clothing,2379.11,2,4758.22,credit,Cancelled,"732 Shannon Spur Suite 347
+South Aprilport, MA 56248"
+1642,68,Vincent Ryan,larry78@yahoo.com,02/01/2025,1077,Toys,672.05,6,4032.3,PayPal,Pending,"504 Matthew Glen
+Reneemouth, NM 41969"
+1643,46,Joseph Fitzgerald,grayjohn@gmail.com,14/10/2023,1023,Clothing,3080.55,8,24644.4,,,
+1644,496,Timothy Johnson,veronicapeterson@gmail.com,07/09/2023,1081,Home & Kitchen,2023.72,5,,CC,Returned,"410 Robert Union
+North Michael, SD 17161"
+1645,93,Joseph Blanchard,michellehardin@gmail.com,17/12/2023,1048,Clothing,2080.39,-5,-10401.95,Debit Card,,"26347 Johnson Via
+Jonesside, GA 94614"
+1646,237,Heather Short,alyssa20@moore.com,21/07/2023,1002,,185.86,-1,-185.86,credit,Delivered,"9271 Bowen Fork Suite 000
+Williamview, MN 15005"
+1647,445,Andrea Bowen,swalters@hicks-glover.com,26/07/2024,1084,,3544.86,-2,-7089.72,,Pending,"8333 Moore Plaza
+Cortezfort, WV 67056"
+1648,499,Scott Ferguson,lisalewis@yahoo.com,05/10/2024,1020,Clothing,1530.64,-3,-4591.92,Debit Card,Pending,"055 Mathews Rapids
+Lake Tiffanyside, PA 64929"
+1649,452,Justin Moran,townsendmichelle@yahoo.com,19/08/2023,1059,Books,1832.77,-1,-1832.77,PayPal,,"4044 Amanda Crest
+Gailchester, CO 55644"
+1650,203,,nicole30@gmail.com,21/03/2024,1046,Home & Kitchen,3362.64,4,26901.12,PayPal,Delivered,"682 Yu Hills Suite 140
+Deannaborough, PA 92393"
+1651,399,Victoria Rojas,michaelperkins@gmail.com,20/06/2023,1003,Electronics,4478.79,9,40309.11,creditcard,,"USNS Sanchez
+FPO AE 06481"
+1652,217,Sarah Williams,cjackson@ford.com,09/05/2023,1055,Clothing,3534.22,-3,-10602.66,Bank Transfer,Cancelled,"18190 Joseph Stream
+North Russell, MD 03280"
+1653,473,Laura Short,steven35,20/12/2024,1012,Electronics,4350.3,2,8700.6,Bank Transfer,Pending,"294 Brian Lights Apt. 980
+Cainhaven, AZ 63748"
+1654,431,Jennifer King,emma03@cole.com,27/12/2023,1040,Home & Kitchen,3391.09,7,23737.63,PayPal,Pending,"063 Diane Grove
+New Dawnmouth, IL 91928"
+1655,340,Michelle Russell,lucas00@jimenez.com,2024-02-30,1066,Clothing,2403.05,-3,-7209.15,PayPal,Cancelled,"Unit 6241 Box 9552
+DPO AP 55537"
+1656,38,Angela Fischer,sethdennis@hotmail.com,14/07/2023,1078,Books,3611.27,-5,-18056.35,Credit Card,Delivered,"37259 Ingram Ramp Suite 751
+East Michelleville, AK 44638"
+1657,99,Brent Kidd,james98@hotmail.com,21/07/2024,1016,Toys,460.8,3,,creditcard,Pending,"94308 Clarke Port Suite 705
+West Jefferytown, CT 41041"
+1658,288,Monica Carrillo,carllyons@hill.com,01/09/2023,1083,Books,,9,,CC,Processing,"53759 Nathan Forks
+Susanbury, NC 29996"
+1659,253,Mr. Jared Morris Jr.,caitlintucker@richardson.com,04/07/2023,1034,Books,545.31,3,1635.93,Credit Card,Shipped,"3676 Leroy Pines Apt. 745
+Brandonfurt, NC 88864"
+1660,221,Michael George,kathy66@yahoo.com,25/10/2024,1044,Toys,3098.64,0,0,CC,Shipped,"93146 Melissa Road
+West Melanie, MD 53956"
+1661,356,Michael Schneider,kathryndavis@gmail.com,18/11/2024,1006,Toys,998.46,4,3993.84,,Shipped,"80706 Owens Inlet Suite 868
+South Peterfort, OH 95639"
+1662,22,Dustin Nelson,stephanie16@sherman-booth.org,11/02/2025,1077,,3298.45,-5,-16492.25,Bank Transfer,Returned,"PSC 8128, Box 2474
+APO AA 92856"
+1663,249,Robert Archer,brianna70@brennan.info,28/07/2023,1064,Toys,4912.04,2,,Bank Transfer,Processing,
+1664,9,Jeremy Harris,paula53,14/03/2024,1022,Clothing,674.93,-4,-2699.72,creditcard,Returned,"00025 Wood Drive
+East Shaun, AL 64568"
+1665,245,Jamie Stevenson,amanda78@nelson.com,15/02/2024,1018,Electronics,4342.14,3,,PayPal,Delivered,"313 Colin Branch
+North Michael, VA 45580"
+1666,324,Tracy Perez,mbishop@yahoo.com,16/04/2024,1012,,14.05,8,,PayPal,Cancelled,"24519 Sonia Mission
+Lake Conniechester, OK 08407"
+1667,99,Julia Torres,henryfranklin@bean.net,12/11/2023,1052,,1705.5,2,3411,,,"038 Patricia Prairie
+East Morganhaven, WA 84090"
+1668,289,Carla Huang,scotttina@hotmail.com,13/07/2023,1094,Electronics,2620.09,-3,-7860.27,credit,Processing,"07999 Jeffrey Vista Suite 538
+Petersonmouth, TX 80804"
+1669,179,Eric Delgado,moorekevin@garcia.org,20/05/2024,1051,,1677.42,7,11741.94,credit,Delivered,"374 Moreno Manor Suite 142
+New Christina, MO 56730"
+1670,222,Alexa Steele,lhatfield@elliott.com,29/04/2023,1071,Toys,103.53,-1,-103.53,creditcard,,"USNS Carson
+FPO AE 74181"
+1671,393,Carol Moore,stacey23@gmail.com,25/02/2024,1096,Books,3477.51,3,10432.53,credit,Delivered,"718 Stacy Camp Apt. 741
+Janetbury, UT 77553"
+1672,249,Maureen Montoya,zbaxter@yahoo.com,10/04/2024,1048,Home & Kitchen,1157.52,7,8102.64,Bank Transfer,Returned,"6301 Ramirez Stream
+Greenmouth, AR 37433"
+1673,146,Dustin Baker,douglas15@kirk-morales.com,18/05/2024,1019,Toys,3789.89,-5,-18949.45,Credit Card,Shipped,"5168 Glover Harbor
+Spencemouth, AL 34162"
+1674,441,Caroline Griffin,vharris@rogers-kim.info,07/01/2024,1006,Books,3446.55,3,,credit,Cancelled,"7278 Dennis Meadows
+Harrisport, OH 85800"
+1675,95,Maria Jones,pgray@hotmail.com,06/06/2024,1084,Books,3419.54,9,30775.86,Debit Card,Returned,
+1676,256,,jose13@singleton-foster.com,10/04/2023,1027,,,-2,,creditcard,Cancelled,"1864 Adam Vista
+Lake Gary, AL 08882"
+1677,324,Christopher Watson,randy15@huffman.com,27/11/2023,1053,Clothing,559.05,-2,-1118.1,,Processing,"3884 Williams Crescent Apt. 335
+Lake Ashley, TN 96092"
+1678,492,Janet Blair,garydavis@blankenship-duffy.com,02/05/2023,1048,Clothing,3856.34,9,69414.12,credit,,"157 Karen Bypass
+Javiertown, MI 41462"
+1679,3,Kimberly Snyder,jackierobinson@rodgers.com,18/05/2024,1007,,4734.48,-2,-9468.96,Debit Card,Delivered,"793 Warner Walks
+Wilsonfurt, WY 89211"
+1680,15,Amy Moreno,burkejeffrey@jones.com,29/07/2024,1059,,4375.32,4,,credit,Pending,"74332 Bobby Fords Suite 932
+Rodriguezmouth, SC 66508"
+1681,279,Mr. Robert Patel MD,kcameron@lopez.net,05/08/2023,1069,Electronics,4905.03,6,29430.18,Credit Card,Pending,"366 Eric Squares
+Lake Tara, WI 47879"
+1682,335,Ann Patterson,lewisjason@hotmail.com,19/05/2023,1011,Electronics,4491.13,3,13473.39,Credit Card,Cancelled,"33284 Knight Alley Apt. 873
+Michellebury, NM 23927"
+1683,246,,nmcdonald@yahoo.com,01/03/2024,1015,Home & Kitchen,1838.16,8,14705.28,credit,Shipped,"Unit 8118 Box 1178
+DPO AA 96132"
+1684,257,,justin70@garcia.com,17/06/2023,1064,Home & Kitchen,3444.78,0,0,creditcard,Shipped,"52023 Ortega Turnpike Suite 244
+Christinahaven, FL 58334"
+1685,496,Tyler Barrett,patricia34,20/05/2024,1003,Home & Kitchen,3634.39,5,18171.95,creditcard,Cancelled,"3392 Hansen Bypass Apt. 826
+West Heather, GA 04986"
+1686,475,Sydney Cunningham,lucas19@rodriguez.biz,22/01/2025,1069,Home & Kitchen,4022.5,2,8045,Debit Card,Returned,"4058 Alvarez Mountains
+South Christopher, OR 63778"
+1687,383,Christopher Cross,christine00@price.com,17/11/2024,1023,Books,1249.77,6,7498.62,,Pending,"1163 Sloan Burg Suite 675
+Paulborough, DC 48454"
+1688,159,Albert Mejia,tnovak@hotmail.com,07/04/2023,1053,Books,845.46,8,6763.68,Debit Card,Returned,"898 Thomas Motorway
+Lake Rachelbury, FL 58992"
+1689,474,David Palmer,tracyalvarez@warren.org,30/01/2025,1037,Electronics,4877.38,-2,,,,"6362 Frost Lock Apt. 555
+East Richardfort, ME 70308"
+1690,339,Frank Fitzgerald,tchan@perez-wilson.com,25/02/2024,1009,Clothing,2119.82,-3,,credit,Pending,"14752 Sabrina Ville
+Alexanderfurt, ND 55896"
+1691,151,Jacqueline Jones,yprice@reid.com,09/02/2025,1015,,,8,,,,"75064 Connor Track Suite 061
+Barbaraport, IL 23252"
+1692,395,Randall Pope,eric83@pittman.com,04/11/2023,1003,Clothing,2636.16,-5,-13180.8,PayPal,Delivered,"2870 Luke Locks Apt. 739
+Charlesfort, FL 21477"
+1693,177,Olivia Ray,xmiddleton@park-grimes.com,02/06/2023,1093,Toys,559.62,4,,Bank Transfer,Returned,"PSC 5351, Box 5574
+APO AA 08744"
+1694,162,Jason Wallace,richard35,12/11/2024,1070,Books,1270,9,11430,CC,Cancelled,"26034 Debra Unions Apt. 741
+Brianhaven, DC 46837"
+1695,379,Nicolas Ramsey,leslie76@beltran-white.com,17/10/2023,1017,Home & Kitchen,513.26,9,4619.34,Bank Transfer,Pending,
+1696,32,Tanya Mills,darrell02@hotmail.com,29/05/2024,1026,Home & Kitchen,,1,,Credit Card,Returned,"532 Amanda Drives Apt. 673
+Christinaport, AZ 73022"
+1697,416,Joseph Ali,davidpowers@powell.com,16/11/2023,1021,Toys,,-2,,PayPal,Cancelled,"11745 Kenneth Point
+West Cindy, OK 74529"
+1698,444,Dawn Bradford,oconnordawn@hotmail.com,02/04/2024,1072,Clothing,3303.63,8,52858.08,Bank Transfer,Delivered,"89029 Julie Forks Suite 041
+Jennifermouth, NE 11034"
+1699,178,Barbara Ayala,lbrock@hotmail.com,15/11/2023,1021,Home & Kitchen,2269.04,2,4538.08,credit,Pending,"14013 Randy Cape
+New Sherriton, ME 20924"
+1700,426,Jennifer Jackson,glenwatkins@fuller-caldwell.com,19/02/2025,1011,Clothing,1802.77,8,14422.16,,,"301 Alyssa Pass
+New Ricky, NH 47853"
+1701,100,Sarah Benitez,barmstrong@yahoo.com,03/04/2023,1038,,207.78,-3,,,Delivered,
+1702,267,Jennifer Romero,manderson@hotmail.com,14/01/2025,1072,Toys,3955.29,-5,-19776.45,Debit Card,Shipped,"5372 Stephens Manors
+East Stephaniehaven, OH 45435"
+1703,322,Teresa Rice,kbenson@hotmail.com,22/02/2024,1088,Clothing,3582.16,-1,-3582.16,Debit Card,Cancelled,"8334 Rodriguez Drives
+Rogersmouth, IN 80702"
+1704,64,Michael Shah,colemelissa,24/02/2025,1035,,1239.79,8,19836.64,creditcard,Pending,"PSC 2561, Box 5884
+APO AA 51275"
+1705,416,Nicholas Bailey,briangoodwin@martin-ball.com,14/04/2023,1014,Clothing,521.37,-4,-2085.48,,Pending,"9534 Mata Lock
+Baileyview, RI 94192"
+1706,167,Mary Chambers,johnharris,18/06/2024,1014,Clothing,654.48,-3,-1963.44,creditcard,Processing,"011 Kelly Ford Suite 608
+Port Michael, MS 89398"
+1707,329,Amanda Wilson,joseph01@hayes.com,12/12/2023,1010,Home & Kitchen,1054.83,8,8438.64,credit,Processing,"98065 Perry Rapid Suite 282
+North Sydney, IA 74340"
+1708,42,Jerry Medina,barbarajohnson@gmail.com,13/01/2024,1012,Electronics,2382.72,0,,,Delivered,"7350 Bates Roads
+Phillipsview, IN 61300"
+1709,43,Vanessa Meyer,campbellbrian@petersen-edwards.com,25/09/2023,1038,Books,178.53,-3,-535.59,Debit Card,Pending,"56376 Phelps Island Apt. 849
+Jenkinsland, ME 75755"
+1710,284,Tiffany Jackson,beverlymeyer@yahoo.com,16/03/2024,1034,Clothing,2985.31,-3,-17911.86,Bank Transfer,Cancelled,"USCGC Delgado
+FPO AA 55503"
+1711,396,Jill Ware,lorimiller@little-johnson.org,29/04/2023,1041,Clothing,2403.23,6,14419.38,creditcard,Delivered,"51945 Andrew Curve
+Julietown, OR 13881"
+1712,11,Melanie Lyons,daniel65@jimenez.net,14/08/2023,1010,Clothing,318.3,0,0,creditcard,,"8878 Payne Heights Apt. 407
+New Marvin, SD 62466"
+1713,94,Catherine Walsh,elizabethwalker,07/05/2024,1017,Electronics,2476.3,-1,-2476.3,Credit Card,Delivered,"153 Medina Row Suite 864
+Lindsayborough, PA 97611"
+1714,301,Amy Cooper,millerjasmine@patterson.com,15/09/2024,1017,,4429.08,4,17716.32,Debit Card,Delivered,"6076 Ann Union
+North Andreamouth, VT 97646"
+1715,385,,xrivera@gmail.com,28/06/2023,1067,Toys,821.91,3,2465.73,credit,,"8071 Patricia Centers
+Brittneychester, OR 88339"
+1716,252,Billy Farrell,william19@yahoo.com,22/10/2023,1062,Home & Kitchen,,-5,,creditcard,Shipped,"3703 Love View Apt. 303
+East Amanda, ME 63654"
+1717,498,Lisa Lopez,deanmichelle@hotmail.com,30/06/2023,1095,Electronics,3045.95,7,21321.65,Bank Transfer,Processing,"8352 Santana Mission
+East Erin, FL 85313"
+1718,241,Samantha Ward,meyerwilliam@yahoo.com,28/09/2023,1001,,1132.69,-3,-3398.07,Bank Transfer,Cancelled,"24813 Dixon Ford Apt. 449
+East Shannonshire, MN 26589"
+1719,34,Lindsey Perez,leslie32@hotmail.com,24/10/2023,1012,Clothing,,-3,,Bank Transfer,Shipped,"00385 Amanda Crescent Suite 922
+Blakeville, AZ 45269"
+1720,214,Peter Olson,vegasandra,13/03/2023,1004,,4052.77,5,20263.85,PayPal,Shipped,"69953 Bell Parkways Suite 281
+East Staceystad, TX 68633"
+1721,336,Kimberly Parker,jamesnelson@gmail.com,30/06/2023,1042,Electronics,642.2,0,0,PayPal,Shipped,"3302 Stephens Corner
+North Amber, OR 79713"
+1722,89,Melissa Carroll,tylerwilliams@hall.com,21/02/2024,1013,Electronics,3363.03,2,6726.06,CC,Processing,"02788 Cardenas Junctions Suite 283
+North Melvin, OK 36307"
+1723,263,Randy Schroeder,katiemoore,09/01/2025,1098,Electronics,2238.57,-3,-6715.71,Bank Transfer,Returned,"50195 Skinner Ridges Apt. 662
+Ortegaborough, KS 77335"
+1724,92,Cynthia Edwards,jason75@morales.com,24/12/2023,1085,Toys,3923.76,-3,-11771.28,creditcard,Processing,"58499 Scott Ford Apt. 143
+Kennethmouth, DE 01025"
+1725,409,Mike White,mmorris@ferrell.biz,07/08/2023,1086,Books,2606.77,0,,credit,Shipped,"156 Diaz Rapid
+Lake Ronald, PA 16316"
+1726,457,Lori Davis,lovelindsey@hotmail.com,03/12/2023,1004,Home & Kitchen,4151.81,2,8303.62,,Returned,"2426 Allen Streets
+New Mirandaburgh, MO 42671"
+1727,89,Phillip Gregory,silvamichelle@ramirez.com,02/10/2024,1082,Toys,3492.87,0,0,credit,,"401 Billy Island
+Ericborough, IN 50469"
+1728,417,Mary Bradley,jbennett,23/04/2024,1069,Toys,106.3,7,,PayPal,Processing,"3359 Reid Mountains
+Lake Brian, AL 49659"
+1729,114,,mitchell62@powell-simmons.com,22/02/2024,1019,Books,2570.95,6,,Debit Card,Cancelled,"7675 Nichole Knolls
+South Tylerstad, CT 13294"
+1730,104,Rebecca Jones,carpenterbrandy@gmail.com,18/08/2023,1002,Toys,627.86,8,5022.88,creditcard,Shipped,
+1731,390,Jose Aguilar,robert92@hotmail.com,21/11/2024,1012,Electronics,3822.46,4,15289.84,CC,Pending,"PSC 4241, Box 3052
+APO AA 56941"
+1732,195,Gregory Neal,andrewwarren,11/08/2024,1081,Electronics,3792.72,-3,-11378.16,PayPal,,"42767 Jackson Village
+West Latoya, AZ 66176"
+1733,313,Karen Stanton,abbottaaron@gmail.com,18/12/2023,1074,,3084.22,-2,-6168.44,,Returned,"4356 Brown Trail
+Grahamchester, FL 39552"
+1734,113,Amber Bray,heatheranderson@miller-lin.com,26/01/2024,1098,Clothing,3201.58,-5,-16007.9,Credit Card,Processing,"79396 White Canyon
+Mckayburgh, WA 02730"
+1735,492,Joshua Waller,ashleyoconnor@yahoo.com,02/10/2023,1006,Toys,4729.19,7,33104.33,CC,Cancelled,"990 Christine Shore Suite 964
+Potterbury, NM 96617"
+1736,74,Kenneth Reese,knorton@johnson-simmons.com,06/03/2024,1008,Clothing,1910.17,2,3820.34,PayPal,Delivered,"766 Grace Prairie
+Port Michael, WY 35153"
+1737,412,Heather Valencia,esingh@oneill.com,27/11/2024,1051,Home & Kitchen,863.51,-2,,credit,Cancelled,"6713 William Fork
+Davidfurt, ND 57315"
+1738,375,Denise Davis,jasonhayes@yahoo.com,2024-02-30,1011,Electronics,531.46,0,0,CC,Cancelled,"585 Campbell Inlet
+North Ellenhaven, MT 28912"
+1739,419,Kathryn Miles,llewis@hotmail.com,15/08/2023,1063,,1708.77,5,8543.85,creditcard,Shipped,"953 Todd Trafficway
+East Marciaville, MS 68201"
+1740,216,Michael West,mistystanley@kline.biz,05/04/2023,1057,Home & Kitchen,3559.85,-3,,credit,Shipped,"899 Michael Manors Apt. 529
+Allenchester, TN 57600"
+1741,276,Thomas Waller,bryan56@yahoo.com,07/03/2023,1012,,3364.25,5,16821.25,Bank Transfer,Processing,"06698 Hendrix Station
+South Laurie, NJ 79536"
+1742,248,Nina Hudson,tcastillo@yahoo.com,01/04/2023,1073,Books,2795.32,6,16771.92,Bank Transfer,Processing,"11465 Taylor Station
+Port Keithhaven, SC 32278"
+1743,163,Emily Leach,gvillanueva@hotmail.com,09/08/2024,1002,Electronics,559.42,5,,Bank Transfer,Returned,"6400 Jacqueline Lake
+Shortbury, NJ 75265"
+1744,393,Robert Freeman,hammondmichael@hughes.com,26/02/2024,1008,Home & Kitchen,2146.18,0,0,CC,Processing,"72034 Frazier Ways
+East Markfurt, OR 48696"
+1745,356,Julia Allen,nicholas52@wang.biz,25/02/2024,1011,Books,2833.65,6,,Credit Card,Returned,"7874 Brian Divide Apt. 162
+Katherineland, DE 38117"
+1746,456,,bankskyle@yahoo.com,25/04/2023,1053,Home & Kitchen,1426.56,5,7132.8,,Shipped,"9424 Samantha Road Suite 451
+North Nicole, CT 34499"
+1747,407,Jerry Ortega,esnyder@gmail.com,2024-02-30,1010,,1680.01,3,5040.03,creditcard,Shipped,"148 Carl Islands
+Combston, DC 56083"
+1748,191,Nicole Mitchell,brandi33@gmail.com,11/09/2023,1085,Books,2881.05,3,8643.15,CC,Pending,"7905 Alan Estates
+North Shawn, CT 37947"
+1749,226,Rebecca Harrison,eileenkennedy@yahoo.com,19/11/2023,1084,Books,628.97,4,,Debit Card,Pending,"371 Christopher Highway
+Heatherburgh, MT 39104"
+1750,176,Julia Miller,flowerscolton@hotmail.com,23/07/2023,1008,Electronics,,-3,,creditcard,,"46310 Melody Glens
+East Vanessa, IL 85001"
+1751,98,Kenneth Wagner,christineharris@mosley-ochoa.info,17/09/2024,1036,Clothing,,-3,,credit,Shipped,"2591 Savage Path Suite 445
+Russellhaven, NV 24357"
+1752,495,James Jacobs,umyers@hotmail.com,18/06/2023,1093,,230.22,-2,,credit,Delivered,"3389 Yates Mall
+North Lauraville, WA 48742"
+1753,35,Mark Walker,williambrady@yahoo.com,15/01/2024,1076,,4360.57,6,26163.42,CC,Pending,"33762 Garcia Junction Suite 257
+New Kristintown, NH 12633"
+1754,465,Dorothy Hill,adrian85@shaw.com,18/08/2024,1014,Books,2184.33,1,4368.66,CC,Returned,"9244 Wood Trace Suite 472
+North Cheryl, IL 34721"
+1755,496,,tracycarr@yahoo.com,18/12/2023,1054,Books,4171.52,-3,-12514.56,,Cancelled,"03482 Miranda Landing Suite 528
+Port Jeremiah, NC 13434"
+1756,486,Monique Riggs,ricardo86@kerr.com,05/03/2024,1085,Electronics,3814.04,4,15256.16,Credit Card,Processing,"831 Bradley Tunnel Suite 657
+Josephton, TX 32909"
+1757,95,John Davis,francodavid@gmail.com,17/12/2023,1086,Clothing,1743.39,2,3486.78,CC,Processing,"295 Meredith Cove Apt. 228
+Lake Patrickland, MN 14131"
+1758,151,Dr. John Cherry,amandachang@hotmail.com,16/12/2024,1021,,2355.01,5,11775.05,Bank Transfer,,"22215 Mccormick Path
+Brookstown, ME 79534"
+1759,150,Marco King,ksantos@yahoo.com,12/03/2024,1050,Toys,4998.54,2,9997.08,,Pending,
+1760,189,Mrs. Amy Rodriguez,dominique73@hotmail.com,15/12/2023,1094,Toys,1812.04,0,0,Debit Card,Cancelled,"4733 Daniel Expressway Apt. 100
+Wesleymouth, PA 26803"
+1761,223,Carolyn Baldwin,potterstacey,05/03/2024,1039,Clothing,,-2,,Bank Transfer,Cancelled,"691 Gibson Forks Suite 978
+Lake Jesse, HI 01528"
+1762,36,Wendy Harrington,oelliott@gmail.com,2024-02-30,1020,Home & Kitchen,3521.05,5,17605.25,Debit Card,Pending,"1499 Terri Alley
+Whitefort, WI 62899"
+1763,267,Julia Jones,doylekevin@yahoo.com,29/07/2023,1088,Electronics,4839.47,6,29036.82,PayPal,Delivered,"2207 Torres Trail Suite 718
+New Philipport, IA 37000"
+1764,368,Zachary Green,thoward@mcintyre-peterson.com,09/05/2024,1087,Clothing,2246.91,5,22469.1,Debit Card,Delivered,
+1765,182,,hernandezbrittany,07/02/2025,1007,Toys,2382.91,-1,-4765.82,Bank Transfer,,"905 Gregory Dam
+Scottbury, HI 08845"
+1766,12,Dustin Gould,uharris@montes.net,22/07/2024,1009,Books,3040.51,6,18243.06,PayPal,Delivered,"62758 Campbell Turnpike
+East Mark, SC 33835"
+1767,278,Joshua Williamson,jerryrivas@hotmail.com,14/12/2024,1001,Toys,2346.75,-4,-9387,Bank Transfer,,"USNV Wilson
+FPO AE 85637"
+1768,216,Leroy Anderson,ayalasamantha@schmitt.com,16/05/2024,1026,Books,1390.35,7,9732.45,credit,Returned,"6725 Bartlett Gateway
+Kerrhaven, MS 60947"
+1769,354,Marcus Byrd,jwilliams@yahoo.com,08/01/2025,1038,Electronics,807.21,0,,Bank Transfer,Pending,"82848 Hayes Corners Suite 075
+East Elizabeth, KS 28930"
+1770,360,,plevine@gmail.com,13/10/2023,1038,Books,1623.28,-3,-4869.84,PayPal,Cancelled,"983 Gregory Junctions
+Andreafort, FL 58923"
+1771,285,Lorraine Wilson,millernatasha@gmail.com,04/12/2023,1061,Clothing,338.08,9,3042.72,Debit Card,,"121 Justin Drive Suite 485
+Lake John, LA 44794"
+1772,272,Cassandra Chang,cbyrd@taylor.com,27/06/2023,1044,Books,2814.08,0,0,credit,Processing,"81014 Brown Parkway
+Arnoldside, OK 90087"
+1773,368,Ray Smith,kblake@yahoo.com,21/03/2023,1086,Home & Kitchen,3516.95,6,21101.7,Credit Card,Delivered,"082 Kelly Rapid Suite 248
+West Brian, NC 30187"
+1774,61,Erin Valenzuela,dswanson@romero-harvey.com,04/01/2025,1044,Clothing,2354.51,-1,,Credit Card,Processing,"8873 Megan Meadow Suite 012
+Charlesmouth, MD 02814"
+1775,83,David Newman,kbyrd@yahoo.com,03/05/2023,1074,Electronics,3834.69,8,30677.52,creditcard,,"Unit 3854 Box 5702
+DPO AE 81884"
+1776,367,Dustin Hardy,pjacobs,11/01/2025,1062,Clothing,3732.54,-4,-14930.16,Credit Card,Shipped,"66273 Aaron Squares Suite 773
+Davisbury, ID 54599"
+1777,216,Paul Welch,martinanthony,27/11/2024,1006,Home & Kitchen,327.36,9,2946.24,Credit Card,,"1244 Parker Dale
+Joshuafort, IA 46700"
+1778,341,Joshua Gentry,qwilcox@glover-harper.com,31/10/2024,1017,Electronics,1792.28,6,21507.36,,Delivered,"407 Graham Fields Apt. 754
+Michellemouth, VT 44732"
+1779,396,Jasmine Valentine,xgordon,28/04/2024,1051,Toys,4037.02,7,,Credit Card,Shipped,"2687 Peters Cove
+West Davidchester, RI 70333"
+1780,186,Michael Winters,hoffmanmichael@gmail.com,08/10/2024,1038,Home & Kitchen,1588.42,8,,PayPal,Shipped,"13047 Brown Views Suite 562
+West Heather, IA 12378"
+1781,18,Charles Evans,xsmith@larson-dean.info,16/03/2023,1024,Electronics,4232.21,-1,-4232.21,CC,Delivered,"Unit 6296 Box 6665
+DPO AP 25466"
+1782,176,,mathisscott@patton.com,07/06/2023,1051,Books,4163.33,-1,-4163.33,Credit Card,Shipped,"USNV Patterson
+FPO AE 80295"
+1783,99,Russell Morton,smithchris@hotmail.com,02/12/2024,1010,Clothing,2122.53,8,16980.24,Bank Transfer,Pending,"4676 Nguyen Passage
+Lake Christinaport, VA 78308"
+1784,395,Joseph Butler,jason54@gmail.com,15/06/2023,1072,Electronics,12.92,3,38.76,CC,Cancelled,"474 Alexander Valleys
+Lake Joshua, WA 53169"
+1785,444,Jennifer Kelly,benitezdonald@fritz.com,02/03/2023,1021,Clothing,1723.66,5,,Credit Card,Processing,"PSC 0032, Box 6123
+APO AP 42973"
+1786,232,Mary Burnett,jonathan12@gmail.com,19/12/2024,1070,Books,3863.19,2,15452.76,CC,Pending,"04392 Brian Plain
+Lake Jimmy, OH 48325"
+1787,402,Kevin Berry,john65@johnson.biz,25/07/2023,1085,Electronics,4776.44,6,,Debit Card,Pending,"9611 Scott Lodge
+Alexandermouth, AR 54224"
+1788,75,Alicia Williams,millerbrooke,05/07/2024,1057,Toys,1594.35,6,9566.1,PayPal,Delivered,"94764 Theresa Turnpike
+North Michael, NC 07278"
+1789,264,Jennifer Mcconnell,droberts@ellis-johnson.info,29/03/2023,1039,Home & Kitchen,3730.73,1,,PayPal,Delivered,"0788 Jackson Meadows Apt. 386
+New Candiceton, MO 39317"
+1790,454,Paul Ortiz,wdennis@gmail.com,01/06/2024,1088,Electronics,2368.5,9,21316.5,creditcard,Processing,"PSC 7051, Box 6490
+APO AP 58331"
+1791,283,Jennifer Harrell,walkerevelyn@guerra.com,02/12/2024,1033,Books,4539.82,9,40858.38,CC,Cancelled,"59504 Woodward Drives Suite 152
+North Latoyaville, SC 17127"
+1792,205,Amber Chapman,damonlewis@buchanan.com,14/03/2023,1059,Electronics,3917.67,6,23506.02,creditcard,,"699 Mercer Ways Apt. 174
+Geoffreyhaven, NJ 59736"
+1793,222,Louis Powell,crystalreynolds@taylor.info,12/10/2023,1018,Clothing,3491.37,7,,credit,Pending,"246 Ray Shoal Apt. 089
+Catherinechester, MD 35697"
+1794,383,Joanna Pierce,zjones@gmail.com,30/06/2023,1056,,,9,,,Shipped,"Unit 2400 Box 0472
+DPO AP 21001"
+1795,51,Kenneth Wallace,daviscraig@allen.com,14/07/2023,1092,Electronics,156.75,8,1254,Bank Transfer,Cancelled,"842 Megan Road Suite 283
+West Melindaview, TX 46528"
+1796,338,Jennifer Johnson,ashley39@hotmail.com,26/11/2024,1057,Toys,236.06,-3,-708.18,CC,Pending,"89587 Marcus Branch Suite 854
+South John, LA 36826"
+1797,366,Patricia Gutierrez,harriserik@yahoo.com,29/12/2024,1096,Electronics,2488.53,4,19908.24,PayPal,,"489 Reynolds Pines
+East Michael, HI 39979"
+1798,143,Maria Jackson,robert34@yahoo.com,26/03/2023,1076,Home & Kitchen,963.22,-2,-3852.88,creditcard,Shipped,"00397 Long Key Apt. 223
+Port Andrew, MI 09628"
+1799,372,Janice Luna MD,paula79@gmail.com,15/09/2024,1048,Electronics,3639.89,0,,Debit Card,Pending,"8327 Vanessa Landing Suite 792
+Brennanfurt, AR 21864"
+1800,68,Daniel Johnson,randall69@hotmail.com,08/12/2024,1042,,363.71,-3,-1091.13,Credit Card,Returned,"6749 Kimberly Mountains
+Port Joshua, FL 69811"
+1801,98,Robert Adams,margaret81@gmail.com,09/08/2023,1027,Clothing,269.96,5,1349.8,PayPal,Processing,"71569 Ward Walks Suite 249
+North Christine, MN 32730"
+1802,395,Mark Wood,chelsey55@yahoo.com,03/11/2023,1074,Electronics,1304.01,3,3912.03,Debit Card,Cancelled,"778 Amanda Landing
+Carlside, AL 19333"
+1803,24,Denise Strong,smithnicole@yahoo.com,22/05/2024,1052,Toys,1310.34,2,,Credit Card,Processing,"4085 James Fort Suite 877
+Lake Jacobchester, NC 19089"
+1804,435,Dawn Shaw,meganwilkinson@gmail.com,27/04/2023,1042,Books,1552.09,0,0,,Delivered,"48929 Garcia Square
+Lake Joseph, ID 35170"
+1805,378,Jonathan Hall,robert81@mullen-watson.com,24/05/2023,1032,Electronics,1395.93,-2,-2791.86,PayPal,Pending,"11111 Sergio Valleys
+Velezberg, KY 88633"
+1806,468,Michael Stewart,david44@johnson-osborn.com,03/03/2024,1026,Electronics,3182.91,1,3182.91,creditcard,Shipped,"64992 Alvarado Island
+Wilkersontown, NM 34015"
+1807,483,Michael Ritter,ethompson@yahoo.com,01/01/2025,1025,Home & Kitchen,4590.46,7,32133.22,PayPal,Shipped,
+1808,52,Elizabeth Jones,abaker@yahoo.com,2024-02-30,1075,Toys,3696.03,9,,CC,Cancelled,"727 Farmer Roads
+Lake Ashley, LA 37674"
+1809,150,Donna Morales,jeanpatterson,01/05/2024,1023,,4217.65,5,21088.25,CC,Cancelled,"2717 Isabella Route Apt. 717
+Scottberg, CA 09500"
+1810,143,Matthew Hubbard,matthew24@cunningham.com,2024-02-30,1098,Books,3715.78,-3,-11147.34,Debit Card,Processing,"95262 Mendoza Flats
+Watersberg, PA 88564"
+1811,56,Nathaniel Curtis,eric55,23/03/2024,1057,Clothing,3795.65,4,15182.6,creditcard,Shipped,"435 Aguilar Harbor Suite 163
+Lake Cynthia, DC 58600"
+1812,38,Billy Hernandez,davislisa@hampton.net,23/04/2023,1052,Electronics,3195.44,9,28758.96,credit,Shipped,"USNV Smith
+FPO AA 57918"
+1813,108,Cynthia Green,dillon56,26/01/2025,1087,,509.94,2,1019.88,CC,Shipped,"192 Emily Squares Apt. 267
+Lake Peter, WY 55615"
+1814,180,Dale Wilson,denisesingleton@hotmail.com,2024-02-30,1093,Books,3058.73,-5,,Bank Transfer,Pending,"96333 Davis Brooks Apt. 722
+Benjaminmouth, NY 64196"
+1815,41,Robert Williams,davenporterika@yahoo.com,13/09/2023,1031,Clothing,482.39,-3,-1447.17,,Shipped,"Unit 3551 Box 3440
+DPO AA 17154"
+1816,185,Chelsea Gross,jeffery64@gmail.com,15/03/2023,1064,,,5,,Bank Transfer,Delivered,"60773 Ryan Station Suite 751
+Port Rebecca, NV 19841"
+1817,422,Alan Ruiz,fergusonjennifer@yahoo.com,02/07/2024,1071,Toys,266.77,-1,-266.77,PayPal,Shipped,"584 Erika Junction Suite 748
+Colleenmouth, OH 97017"
+1818,397,Hannah Banks,wilsonmaria@ramos-rojas.com,18/01/2024,1033,Toys,3607.68,-1,-3607.68,Bank Transfer,Delivered,"515 Anderson Mission Suite 895
+West Lindseyport, PA 04872"
+1819,222,Christopher Nelson,xfarley@walker.com,08/07/2024,1085,Books,2615.25,4,10461,Credit Card,Pending,"206 David Junction Apt. 393
+Lake Cindystad, MI 10333"
+1820,121,April Clayton,castilloalicia@yahoo.com,26/05/2024,1002,Clothing,782.46,8,6259.68,,Cancelled,"4621 Roberto Brook Apt. 623
+Perryburgh, OK 13002"
+1821,132,,shelly72@hotmail.com,20/11/2023,1018,Toys,2452.57,-4,-9810.28,Bank Transfer,Delivered,"0360 Nicole Ways
+Wheelerfort, MA 61645"
+1822,162,Johnny Walters,charles27@valdez.com,02/01/2024,1047,Books,2100.47,4,8401.88,Credit Card,Pending,"51199 Ruiz Course Suite 281
+East Douglas, VT 19272"
+1823,214,Mrs. Julie Burns DDS,jennifer86,15/11/2023,1033,Toys,182.73,2,365.46,Debit Card,Shipped,"92261 Sheila Expressway Suite 195
+New Anthonyton, KY 10562"
+1824,220,Brianna Saunders,thomas88,25/03/2023,1098,Toys,3821.36,-1,-3821.36,Bank Transfer,Pending,"Unit 6511 Box 7184
+DPO AA 76253"
+1825,234,Amanda Wright,savannah69@smith-underwood.net,19/12/2023,1084,,,1,,,Shipped,"166 Valdez Drive Suite 641
+Derrickview, VT 45612"
+1826,330,Paul Allen,wroberts@gmail.com,06/03/2024,1035,,436.69,9,3930.21,Credit Card,Processing,"USS Montgomery
+FPO AA 78460"
+1827,145,Melissa Davis,mckeeshelly@hotmail.com,20/02/2024,1051,Toys,4493.59,1,,Bank Transfer,Pending,"337 Smith Pine Apt. 524
+Jaredport, AL 62418"
+1828,238,Michael Johnson,hsmith@johnson-powers.com,26/07/2024,1018,Home & Kitchen,4338.05,8,,Debit Card,Cancelled,"846 Frank Pass Suite 449
+Thompsonbury, LA 35384"
+1829,75,Holly Ramirez,john27@wells-warren.com,20/12/2023,1088,,1668.77,-1,-1668.77,Bank Transfer,Delivered,"24440 Burns Avenue
+Shortshire, RI 94327"
+1830,8,Brian Carr,robin04@wells.com,09/01/2025,1072,Clothing,700.79,2,,Credit Card,Processing,"5011 Matthew Stravenue
+South Davidfort, NC 98887"
+1831,73,,lunahenry,15/03/2023,1030,Books,,3,,Bank Transfer,Cancelled,"756 Knox Valley Suite 284
+Sheliahaven, WV 40335"
+1832,441,Timothy Johnson,pamespinoza@bean-aguilar.com,2024-02-30,1044,Books,2772.87,-2,-5545.74,,Returned,"82168 Mark Crest
+Rodrigueztown, NY 40579"
+1833,491,Vanessa Nguyen,jamessmith@johnson-miller.org,30/12/2023,1053,Clothing,4635.31,-2,-9270.62,PayPal,Shipped,"Unit 4238 Box 2673
+DPO AA 49242"
+1834,400,Scott Wright,juliemann@lane.biz,23/08/2023,1010,Clothing,3455.81,2,6911.62,creditcard,Delivered,
+1835,252,Jocelyn Mclaughlin,elizabeth38@hotmail.com,20/09/2024,1087,Clothing,586.16,-5,-2930.8,creditcard,Cancelled,"020 Watson Tunnel Suite 037
+Joycehaven, ND 88078"
+1836,229,Jennifer Stark,anthonybowen@reid-brooks.com,25/12/2024,1052,Clothing,4841.2,9,43570.8,Credit Card,Delivered,"4501 Kristin Spurs Suite 027
+Vasquezchester, MA 92442"
+1837,6,Steven Rivera,brian90@gmail.com,20/01/2025,1049,Electronics,4420.96,-2,,Credit Card,Returned,"Unit 8466 Box 8499
+DPO AE 82664"
+1838,173,Sean Shaffer,harriskatherine@king.biz,2024-02-30,1011,Books,4286.68,0,0,Credit Card,,"13316 William Centers Apt. 406
+Lake Ronaldtown, OK 87885"
+1839,140,Shane Nelson,nathan49,21/02/2025,1066,Electronics,,7,,Credit Card,Shipped,"298 James Drive
+Kleinside, MA 06510"
+1840,167,Daniel Johnson,michellemyers@guerrero.org,14/12/2023,1058,Toys,2072.77,-2,,Bank Transfer,Shipped,"305 Jason Drives
+Barrerashire, WV 05532"
+1841,169,Thomas Zavala,stephanie37@ball-holder.net,04/07/2024,1090,Toys,1321.22,0,0,,Pending,"7802 Joshua Alley
+East Robinborough, MT 57626"
+1842,392,David Harrison,derek96,01/11/2023,1036,Books,818.07,-1,-818.07,creditcard,Shipped,"48909 Lane Brooks
+East Brianshire, LA 24023"
+1843,433,Roy Compton,aprille@lewis-williams.com,11/09/2023,1033,Toys,3970.25,8,,Debit Card,Shipped,"90540 Gail Viaduct Suite 550
+Moniqueview, VT 09371"
+1844,282,Peter Ochoa,sandra64@hotmail.com,04/08/2024,1047,Clothing,543.42,3,,creditcard,Cancelled,"923 Donald Pass
+New Christy, MN 00804"
+1845,121,Timothy Young,whernandez@yahoo.com,08/02/2025,1013,Electronics,3489.74,4,13958.96,,Processing,
+1846,193,Cynthia Chapman,brandon39@gmail.com,21/02/2024,1040,Clothing,1961.42,3,5884.26,Credit Card,Shipped,
+1847,4,Ashley Weiss,owenscolleen,30/12/2024,1089,Toys,4843.35,-2,-9686.7,credit,Shipped,"9908 Gary Stream
+Port Brian, CT 15785"
+1848,28,Brittany Rodriguez,frazierashley@hotmail.com,15/12/2024,1068,,1953.13,7,13671.91,Bank Transfer,Returned,"PSC 4322, Box 3260
+APO AE 16507"
+1849,164,Jeffrey Obrien,chadkirk@gmail.com,21/07/2023,1042,Electronics,2886.95,8,,credit,Processing,"2893 Kelly Flat
+Millerton, AL 19243"
+1850,421,Eric Case,abutler@hotmail.com,21/12/2024,1019,Clothing,887.33,-2,-1774.66,Bank Transfer,Returned,"8531 Thomas Ville
+Robertville, NV 07588"
+1851,338,Shawn Barnett,austinmeza@gmail.com,07/03/2024,1082,Books,4779.57,6,28677.42,Credit Card,Delivered,"000 Edwards Lights
+Westmouth, MO 76063"
+1852,135,Stephanie King,brendanjones@yahoo.com,25/02/2025,1094,Clothing,3310.16,2,6620.32,Bank Transfer,Delivered,"61854 Megan Land
+Kendramouth, OK 21630"
+1853,495,Lisa Pittman,crystal19@mcneil.com,16/11/2023,1019,,642.24,4,,Credit Card,Shipped,"9074 Weaver Orchard
+South Nathan, VA 41701"
+1854,364,Kevin Morgan,perryjose@yahoo.com,14/01/2025,1058,Toys,2976.19,9,26785.71,,Shipped,"8938 Kenneth Loaf Apt. 172
+Tracybury, NE 03719"
+1855,320,Sarah Crawford,wsmith@yahoo.com,09/11/2023,1023,Electronics,4080.2,-2,-8160.4,CC,Pending,
+1856,341,Evan Wood,dixonkimberly@nguyen.org,13/10/2023,1054,Books,4229.31,-4,-16917.24,PayPal,Delivered,"1145 Joseph Lodge
+Brittanychester, CA 79772"
+1857,499,Angela Myers,karla50@maxwell.com,17/02/2024,1080,Electronics,4846.96,7,33928.72,Bank Transfer,Cancelled,"03685 Thomas Isle
+East Loganton, DC 23741"
+1858,144,Sergio Newton,afranklin@stokes-mendoza.com,18/09/2024,1065,Books,1790.56,7,12533.92,Credit Card,Shipped,"90891 Vicki Alley
+West Mirandaport, NV 24343"
+1859,326,Andrea Short,olsonsara@lewis.com,05/12/2023,1012,Electronics,839.44,8,,credit,Cancelled,"744 Evans Forks
+Johnsonhaven, OK 33593"
+1860,216,Eric Allison,singletondiana@martin.com,10/10/2024,1024,Toys,2817.25,9,25355.25,Credit Card,Shipped,"775 Jacobson Drives
+Monicaburgh, WI 77438"
+1861,300,John Jennings,bwyatt@harris-hanson.com,01/07/2023,1034,Books,1444.57,-4,,credit,Cancelled,"PSC 8349, Box 0543
+APO AA 67674"
+1862,131,Stephanie Bates,nicholasmarquez@becker.com,29/04/2024,1053,Home & Kitchen,3322.44,-5,-16612.2,creditcard,,"750 Aaron Mountain Suite 305
+Danielfurt, IN 05294"
+1863,291,Hannah Lee,vhill@carlson.info,22/10/2024,1008,Electronics,4827.23,-1,-4827.23,Bank Transfer,Cancelled,"9269 Carter Loop
+East Donna, ND 25116"
+1864,69,Louis Ramsey,jamesolson@yahoo.com,19/03/2023,1018,Electronics,3961.26,9,35651.34,Debit Card,Processing,"25460 Gilmore Points
+Lake David, CA 95535"
+1865,251,Erik Mason,yrogers@gmail.com,17/02/2024,1057,Clothing,400.54,0,0,credit,Delivered,"55877 Wilson Mall Suite 456
+Nataliehaven, IL 65204"
+1866,414,Stacey Snyder,brookeporter@deleon-long.com,29/01/2025,1005,Books,1576.33,3,4728.99,Credit Card,Shipped,"USS Watson
+FPO AP 93588"
+1867,274,Spencer Patterson,melissa91@bell.org,20/12/2023,1026,,4763.45,-1,-4763.45,Bank Transfer,Delivered,"01007 Janice Skyway Apt. 842
+Davisville, AZ 45324"
+1868,444,Brenda Perez,colliermatthew@grant-spencer.org,15/12/2024,1030,Home & Kitchen,877.67,7,,Credit Card,Processing,"284 Crystal Parkway
+Port Williammouth, PA 29192"
+1869,363,Glenn Carter,garciaryan@walker.com,06/05/2024,1054,Toys,1407.15,0,0,Debit Card,Processing,"6936 Carroll Knoll
+Port Kathrynmouth, WV 28773"
+1870,181,Steven Davies,ayerskaren@gmail.com,26/03/2024,1013,Clothing,1343.72,0,0,PayPal,Cancelled,"80499 Daniel Pines Suite 907
+North Laura, MN 22904"
+1871,166,Kristopher Hopkins,dgordon@bridges-torres.info,20/09/2023,1083,Home & Kitchen,3298.34,-3,-9895.02,CC,Returned,"Unit 4549 Box 6055
+DPO AA 28194"
+1872,90,Rachel Harrison,esnyder@yahoo.com,13/06/2024,1029,Books,1082.94,6,6497.64,CC,Returned,"0264 Michael Parks
+Gutierrezfort, IL 07831"
+1873,201,John Campbell,kevin11@black.com,29/04/2024,1003,Home & Kitchen,1566.85,-2,-6267.4,Debit Card,Processing,"879 May Square
+East Hannah, MN 41487"
+1874,345,Michael Young,wesleywalker@stewart.net,13/03/2024,1090,Electronics,98.14,-5,-490.7,,Returned,
+1875,18,Ashley Taylor,xwelch@ramirez.com,14/09/2024,1058,Electronics,693.79,-2,-1387.58,Bank Transfer,Shipped,"59613 Hunter Plaza
+South Marcusshire, NH 56560"
+1876,38,Scott White,jonathan61@gmail.com,26/09/2024,1076,Clothing,3988.72,-5,-19943.6,Debit Card,Pending,"66625 Kelly Neck Apt. 495
+Clarkside, IL 62742"
+1877,125,Pamela Moore,kylelewis@gmail.com,11/09/2024,1002,Books,1551.86,9,13966.74,PayPal,,"778 Jeffrey Unions
+Christineland, ME 47491"
+1878,450,Cynthia Bolton,valerie06@morris-graves.com,24/02/2025,1075,Books,3685.34,-1,,Credit Card,Cancelled,"Unit 4409 Box 2355
+DPO AP 75030"
+1879,172,Amy Roberts,john51,28/12/2024,1028,Home & Kitchen,3278.99,5,16394.95,Bank Transfer,Pending,"876 Reynolds Motorway Apt. 560
+Hahnview, MS 58279"
+1880,140,Sara Lyons,poncekendra@obrien.com,20/08/2024,1082,Clothing,,5,,creditcard,Returned,
+1881,241,Jonathon Walters,xchapman@gmail.com,28/06/2024,1077,Books,336.12,2,672.24,credit,Cancelled,"226 Smith Knolls Apt. 674
+West Jessica, NJ 45952"
+1882,219,Amber Williams,maliksilva@smith.org,04/01/2025,1086,,2016.54,2,,Debit Card,Pending,"23673 Valdez Corners Apt. 682
+Georgeberg, ME 21575"
+1883,125,Luke Watts,istewart,20/05/2024,1076,,,-1,,creditcard,Delivered,"4360 Sarah Cliff
+New Glendaport, NY 08810"
+1884,57,,pattersonivan@ray.org,20/04/2023,1002,Electronics,3765.28,8,30122.24,creditcard,Returned,"425 Jennifer Divide Apt. 436
+Michaelstad, VA 12772"
+1885,147,Dustin Alvarado,pjohnson@hotmail.com,01/11/2023,1007,Home & Kitchen,4397.59,4,,PayPal,Pending,"7660 Reese Mountain
+East Scottshire, NV 77783"
+1886,475,Christopher Buchanan,mackenzie80@foster-turner.com,10/11/2023,1026,Toys,3155.03,-4,,creditcard,Shipped,"13116 Mercedes Roads Suite 075
+Morganfort, GA 65915"
+1887,455,Frank Bullock,jennywood@hotmail.com,20/08/2023,1090,Electronics,2442.75,6,29313,Debit Card,Delivered,"9957 Bush Pike Suite 797
+Shelleyville, WY 78684"
+1888,316,Ryan Stokes,zstone@mays.biz,04/03/2024,1088,Clothing,1851.37,0,0,,Returned,"USNV Wright
+FPO AP 92666"
+1889,382,Savannah Bradford,matthewriggs@hotmail.com,27/10/2024,1076,Books,2120.59,-5,-10602.95,CC,,"936 Victoria Bypass Apt. 549
+New Lisa, IN 73286"
+1890,360,Ann Anderson,williambutler@gmail.com,24/07/2024,1016,Electronics,4514.87,1,,CC,Processing,"PSC 7683, Box 8038
+APO AA 13179"
+1891,422,Steve Sanchez,jacobskelly@holder-ramirez.com,28/02/2025,1023,Toys,4905.75,5,,Bank Transfer,Returned,"739 Henry Plains
+New Valerie, NE 63819"
+1892,,Sean Marshall,kaitlinlivingston@harris-moore.biz,22/08/2023,1040,Toys,2559.85,-2,-5119.7,Credit Card,Shipped,"0257 Ricky Mills Apt. 664
+South Tonyastad, CA 38735"
+1893,386,Tyler Taylor,michael61@gmail.com,18/08/2024,1060,,515.61,-1,-515.61,PayPal,,"71381 Joshua Harbor Apt. 528
+East Joannaberg, NC 84320"
+1894,460,Lisa Bell,jennifer48@johnson.net,09/07/2023,1073,Clothing,2913.88,0,0,Debit Card,,"6098 Brooks Vista
+Lambertfurt, KS 33877"
+1895,347,Marvin Wright PhD,heather32,22/02/2024,1032,Electronics,3183.96,5,15919.8,Bank Transfer,,"751 Morgan Extensions Apt. 766
+New Dale, KS 10596"
+1896,189,Eric Thompson,carlsonkaren@joseph.biz,01/05/2024,1015,Home & Kitchen,3999.81,-5,-19999.05,Debit Card,Cancelled,"64916 Mckenzie Locks Apt. 545
+South Benjamin, MO 14959"
+1897,190,Jeremy Curry,bakerlaura@waller-wright.com,06/04/2023,1013,Electronics,1301.76,3,3905.28,Bank Transfer,Cancelled,"691 Cooper Dale Suite 899
+South Saraland, IA 99373"
+1898,368,,carrollwesley@shepard.net,03/07/2023,1005,,2338.87,4,9355.48,CC,Processing,"649 Scott Neck Suite 973
+New Stephen, UT 27754"
+1899,408,Troy Simon,susan16,20/12/2024,1075,Toys,4473.52,-2,-8947.04,creditcard,,"227 Higgins Bridge Apt. 914
+Vanessahaven, NV 92585"
+1900,311,Amanda Collins,lorilane,24/04/2024,1074,Clothing,4892.33,2,9784.66,,Processing,"615 Jenna Avenue
+Lake Steventown, ME 07242"
+1901,416,Tonya Manning,kwilliams@hotmail.com,16/06/2024,1052,Clothing,2780.75,-1,-5561.5,Debit Card,Delivered,"686 William Ports
+Lake Michael, SD 73505"
+1902,421,Anna Schmidt,benjaminfranklin@santiago.com,05/12/2023,1077,Home & Kitchen,2526.85,5,12634.25,,,
+1903,116,Steven Page,christopher14,05/05/2023,1041,Clothing,1793.93,2,3587.86,credit,Pending,"25475 John Square Apt. 568
+West Jamesberg, SC 35320"
+1904,133,,tony74@yahoo.com,17/12/2023,1053,,2093.56,9,18842.04,credit,,"17609 Paul Summit Suite 720
+Brownville, CO 57011"
+1905,57,Rita Patel,sara06@yahoo.com,06/01/2025,1050,,2769.68,-5,,creditcard,Cancelled,"503 Brian Highway
+Hawkinsmouth, NH 61351"
+1906,43,Diana Castaneda,beckywilliams@moreno.org,12/12/2024,1015,,1533.47,2,3066.94,CC,Cancelled,"13773 Richard Overpass
+Lake Robinville, WA 32743"
+1907,172,Stephanie Benjamin,lesliesmith@mills.org,2024-02-30,1007,Clothing,2944.99,5,14724.95,PayPal,Pending,"770 Leon Spur
+Jennifertown, KY 42286"
+1908,159,,townsendann@gmail.com,23/08/2023,1040,Clothing,3257.63,7,22803.41,,Pending,"60315 Howard Pike Apt. 540
+Richardsonshire, NM 70017"
+1909,172,Joseph Porter,cmyers@gmail.com,28/04/2023,1028,,4803.84,5,,Bank Transfer,Returned,"097 Alicia Passage
+Lesterview, MO 14798"
+1910,316,John Morales,ambercraig@frank-nichols.com,14/03/2023,1032,Clothing,564.93,-2,-1129.86,PayPal,Delivered,"42599 Melissa Underpass Apt. 271
+New Angelatown, IN 62656"
+1911,302,Dr. Debra Riley,brownjames@chavez.com,20/02/2024,1099,Clothing,2397.46,-4,-9589.84,Debit Card,Delivered,"51688 Pruitt Falls
+Mclaughlinborough, PA 83427"
+1912,148,Mr. Michael Wu PhD,wardadam@brewer.net,11/12/2024,1015,Toys,1977.03,5,19770.3,Debit Card,Delivered,"70283 Krista Valleys Apt. 658
+Port Alexa, MA 67048"
+1913,79,Heather Cross,smithwilliam@gmail.com,28/04/2024,1085,Electronics,2428.23,0,,Bank Transfer,Shipped,"55330 Hernandez Terrace
+East Jesseton, NV 14230"
+1914,373,Samantha Dominguez,robinsonbecky@gmail.com,12/11/2023,1070,Books,45.95,-4,-183.8,Credit Card,Cancelled,"6613 Gary Via Suite 671
+Kevinborough, MO 27628"
+1915,212,Christopher Gibson,scott64@hotmail.com,27/03/2024,1065,Clothing,4655.95,-1,-4655.95,creditcard,Delivered,"92624 Rodriguez Rue Suite 183
+Lake Joshuamouth, DC 95646"
+1916,202,Lori King,sarahbutler@zamora.com,15/11/2024,1004,Books,70.32,-4,-562.56,Credit Card,Returned,"0826 Harris Light Apt. 604
+East Karen, MT 34063"
+1917,251,,marialester@gmail.com,24/01/2024,1011,Books,3270.55,-3,-9811.65,creditcard,Returned,"USNS Adkins
+FPO AE 18643"
+1918,228,Charles Smith,edward29@yahoo.com,04/12/2023,1026,Toys,,5,,Debit Card,Delivered,"93882 Brown Heights Suite 296
+Candicemouth, NY 38974"
+1919,163,Kristina Gibson,lorihughes@hotmail.com,13/10/2023,1061,Clothing,1109.29,0,0,creditcard,Pending,"939 Harold Summit
+Port Susanmouth, AK 94116"
+1920,226,Emily Munoz,donnaedwards@hayes-baldwin.org,27/10/2024,1037,,2731.78,-5,-13658.9,CC,Returned,"673 Erica Road
+East Charlotte, LA 73543"
+1921,146,Shirley Sparks,ogrant@yahoo.com,30/04/2024,1023,Books,,0,,CC,Processing,"659 Mark Shores
+West Dale, KY 17084"
+1922,19,Lindsey Beltran,emily71@kelly.com,19/10/2024,1093,Clothing,2501.03,-3,-7503.09,Bank Transfer,Pending,"4444 King Dam Apt. 367
+West Robert, ND 69102"
+1923,440,Kevin Carlson,angelaluna@gmail.com,28/12/2024,1085,Home & Kitchen,746.27,1,746.27,Credit Card,Processing,"14912 Cruz Village Suite 475
+South Robertview, MS 12555"
+1924,401,Jennifer Robertson,woodgregory@thornton.com,2024-02-30,1091,,4522.49,-4,,,Cancelled,"134 David Stravenue
+New Deborahstad, MS 66178"
+1925,46,Jason Henderson,hickmanolivia@brown.com,06/04/2023,1040,Home & Kitchen,4936.14,8,39489.12,Debit Card,Shipped,"5871 Kenneth Ridges
+Port Danielle, MD 44374"
+1926,232,Matthew Taylor,ucolon@strong-knight.com,30/01/2024,1077,Home & Kitchen,1976.33,0,,credit,Returned,"3603 Conrad Key Suite 294
+South Lawrence, WV 10726"
+1927,304,Robert Paul,david28@yahoo.com,13/03/2024,1023,Books,2085.88,2,4171.76,,Pending,"623 Ryan Estates Apt. 347
+Dustinmouth, NY 09474"
+1928,13,Sherri Thomas,sbrown@scott.biz,2024-02-30,1016,Home & Kitchen,1550.62,9,,Bank Transfer,Processing,"809 Woodward Park
+Phillipsview, NH 41734"
+1929,142,Samantha Butler,dcantu@hotmail.com,19/10/2024,1094,Toys,2621.17,9,23590.53,credit,Delivered,"1585 Morrison Common Apt. 803
+North Patrick, NE 98525"
+1930,414,Dr. Joshua Rojas Jr.,virginiareilly,06/04/2024,1061,Toys,,9,,,Processing,"91617 Sheppard Summit Apt. 379
+Lake Georgefurt, HI 66105"
+1931,,Michelle Boyer,jeffreyruiz@gmail.com,01/12/2024,1068,Books,64.43,-5,-322.15,Credit Card,Processing,"6156 Pamela Tunnel
+Patriciafort, ID 13591"
+1932,372,Heather Ortiz,meghanthompson@yahoo.com,05/12/2024,1080,Clothing,34.59,5,172.95,creditcard,Cancelled,"4836 Obrien Walks
+Jenniferside, ME 15948"
+1933,53,Adrian Pittman,charlescontreras@edwards-simmons.com,03/11/2024,1031,Electronics,320.49,5,1602.45,CC,,"9789 Shea Burg Suite 060
+South Kimberly, VT 01342"
+1934,373,Courtney Blankenship,marshallnicole@clark.com,15/07/2024,1053,Clothing,2081.32,7,14569.24,Credit Card,,"055 Carolyn Divide Suite 758
+South Theresa, FL 86549"
+1935,258,Rachel Underwood,nicholas47@bell-parsons.com,05/12/2024,1025,Clothing,1752.5,3,5257.5,credit,Delivered,"728 James Grove
+Sierrafurt, AR 20330"
+1936,143,,djohnson@rodriguez.org,29/05/2023,1044,Clothing,3923.12,-1,-7846.24,creditcard,Cancelled,"525 Susan Burgs Apt. 678
+Port Edward, OH 24461"
+1937,470,Lisa Lynch,kevin69@yahoo.com,21/06/2023,1012,Clothing,3742.29,-1,-3742.29,creditcard,Cancelled,
+1938,440,Brandon Sullivan,yrosales@rhodes-wilson.org,06/09/2023,1090,,4318.41,7,,creditcard,Cancelled,"491 Ross Centers Suite 706
+West Dannyport, TN 66466"
+1939,458,Eric Sandoval,angela36@nguyen.com,01/07/2023,1097,Electronics,1077.12,6,,PayPal,Cancelled,"Unit 1227 Box 9447
+DPO AA 04585"
+1940,11,Ricardo Riley,kelly44@hotmail.com,2024-02-30,1092,,2532.89,-1,-2532.89,CC,,"19621 Lewis Walk Suite 007
+East Reneefort, VT 77299"
+1941,329,Miranda Richards,johnathan34@hotmail.com,05/09/2024,1009,Home & Kitchen,4165.49,0,,Debit Card,Pending,
+1942,223,Nancy Mason,huntererica@gilbert-velez.com,16/10/2023,1012,Clothing,4233.57,-4,-16934.28,credit,Cancelled,"40161 Le Heights
+South Juliehaven, NJ 27532"
+1943,271,Christina Ortega,deannahenson@arroyo.com,28/03/2023,1069,Toys,162.94,0,0,Bank Transfer,Pending,"589 Robin Mountains
+Lake Joseville, MN 29437"
+1944,455,Barbara Green,rshort@gmail.com,15/01/2024,1054,Books,4503.83,8,36030.64,Debit Card,Processing,"54878 Robert Island
+Port Meganmouth, UT 99537"
+1945,357,Andrea Green,ygiles@gmail.com,01/02/2024,1054,Books,3415.22,5,17076.1,,Processing,"PSC 9779, Box 2075
+APO AA 87446"
+1946,459,Donald Pugh,james49@gmail.com,14/12/2024,1028,,3634.72,-2,-7269.44,CC,Cancelled,"50845 Gilmore Divide Apt. 383
+Tinaport, OK 38775"
+1947,407,,mcdowellvictor@hotmail.com,16/06/2024,1056,,4161.79,2,8323.58,Bank Transfer,Returned,"94037 Amy Bypass Apt. 578
+Meganville, GA 51016"
+1948,155,Ryan Fox,pittmankimberly@wiley.org,18/04/2023,1099,Toys,3330.25,7,23311.75,Bank Transfer,Shipped,"USS Carrillo
+FPO AP 20932"
+1949,372,Mrs. Mariah Jackson,ericwatts,03/07/2023,1069,Clothing,3288.31,5,16441.55,Credit Card,Returned,"4772 Delgado Pass
+Reyesfort, WI 10712"
+1950,7,Ashley Travis,jamesstewart@newman.com,06/11/2024,1098,Electronics,769.04,3,2307.12,,Processing,"458 Dave Valleys
+East Peggy, VT 13733"
+1951,121,Bridget Aguilar,jorge02@gmail.com,09/05/2024,1098,Home & Kitchen,2553.68,3,7661.04,Credit Card,Shipped,"215 Stanley Squares
+Robertside, RI 55978"
+1952,347,Anna Alexander,hornetrevor@yahoo.com,11/08/2023,1077,Books,1411.99,2,2823.98,Credit Card,Returned,"371 Jennifer Shores Apt. 618
+Lake Jessicamouth, ID 74109"
+1953,163,Toni Bell,wrightlori@gmail.com,12/03/2024,1058,Home & Kitchen,2242.74,-3,-6728.22,creditcard,Cancelled,"1276 Hood Divide
+Fullerhaven, NC 63331"
+1954,89,Russell Willis,aguilarwillie@yahoo.com,03/11/2023,1078,Electronics,2133.45,4,8533.8,CC,Pending,"2294 Michael Corners
+Michaelview, AL 03411"
+1955,135,Amy Nash,diazgabrielle@yahoo.com,05/11/2024,1075,,805.8,5,4029,PayPal,Shipped,"45124 Sarah Brook
+South Derekbury, CT 39873"
+1956,185,Angela Smith,rossdaniel@eaton.com,26/07/2023,1042,Books,1170.09,5,,Credit Card,,"646 Aaron Curve
+Ramirezburgh, VT 90597"
+1957,315,Ann Knight,petersonsean@jones-sparks.com,10/12/2023,1038,Home & Kitchen,158.72,-2,-317.44,Debit Card,Delivered,"86817 Sean Stravenue
+Collinshaven, IL 73665"
+1958,177,Teresa Johnson,qreed@gmail.com,09/06/2023,1068,,3804.5,-5,,Bank Transfer,Shipped,"49960 Brady Terrace Suite 806
+North Laura, VA 60840"
+1959,27,Tyler Lynch,rmiddleton@douglas-gray.com,01/11/2023,1053,Electronics,4658.17,3,13974.51,CC,Shipped,"90647 Kemp Port Apt. 705
+East Julie, WY 05113"
+1960,219,Amber Murphy,teresa77@gmail.com,13/07/2024,1033,Home & Kitchen,3740.88,-1,-3740.88,Credit Card,,"0866 Malone Meadow Suite 724
+Youngland, IA 51187"
+1961,356,Cynthia Evans,annlopez@yahoo.com,21/07/2023,1071,Clothing,3887.59,0,0,credit,Cancelled,"PSC 4169, Box 1412
+APO AA 40976"
+1962,40,Linda Cardenas,friedmancaroline@king.biz,16/11/2024,1056,,1809.53,-3,-5428.59,Debit Card,Returned,"81659 Harris Spur Suite 602
+Port Allisonchester, SC 08759"
+1963,227,Drew Webb Jr.,vsimon@hotmail.com,06/04/2024,1072,Electronics,1928.33,5,,,Returned,"87954 Brown Roads
+South Edwardberg, AK 73596"
+1964,191,Matthew Roberts,jbauer@gmail.com,08/07/2023,1051,Home & Kitchen,2091.11,4,8364.44,Bank Transfer,Processing,"812 Krista Radial
+Hollystad, MD 14247"
+1965,410,,yolandaholt@williams.org,23/08/2024,1074,Clothing,572.25,2,1144.5,CC,Pending,"741 Lam Parkways
+New Jeremy, OR 45516"
+1966,446,Lisa Lee,millselizabeth@walton-kelly.com,26/07/2024,1043,Clothing,1269.77,9,,credit,Cancelled,"390 Jerome Road
+West Jessica, MA 27023"
+1967,144,Timothy Moreno,robert72@hotmail.com,2024-02-30,1015,Electronics,2953.95,1,,CC,,"6285 Butler Summit Apt. 214
+Christianbury, WI 39342"
+1968,200,Jasmine Mercer,bjensen@dominguez-le.com,10/05/2024,1038,Toys,136.36,-5,-1363.6,CC,Cancelled,"4019 Joseph Crossroad
+South Shannonland, NH 63612"
+1969,416,Samantha Haley,jacobrhodes@hotmail.com,22/06/2023,1015,Books,2692.65,4,10770.6,credit,Cancelled,"63205 Hayes Mills Apt. 566
+North Christian, LA 23450"
+1970,211,Chelsea Ford,kingrodney@gmail.com,03/09/2023,1005,Electronics,4232.94,6,25397.64,,Returned,"2914 James Cliff Apt. 922
+Amberville, AZ 16153"
+1971,460,Ashley Brown,derek80@hotmail.com,16/04/2023,1093,Clothing,190.07,-1,,credit,,"456 Norman Flats Suite 050
+New Jenniferview, MA 82054"
+1972,219,David Park,ilong@hotmail.com,2024-02-30,1083,Clothing,3525.45,4,14101.8,Debit Card,Delivered,"2803 Turner Pass Apt. 292
+West Shannon, NH 88248"
+1973,239,Thomas Allison,keith25@salazar.com,10/05/2024,1054,Electronics,559.76,3,1679.28,creditcard,Shipped,"2965 Matthew Spring
+Lake William, DC 95299"
+1974,412,Julie Mata,kristen86@yahoo.com,23/08/2023,1051,Toys,3859.09,6,23154.54,CC,Returned,"942 William Radial Suite 719
+Mitchellville, IN 59751"
+1975,396,Mr. Michael Daniel,sgiles@hobbs.com,09/04/2024,1010,Books,4060.85,5,40608.5,,,"908 Amanda Glens
+North Richard, GA 90720"
+1976,45,Brian Cox,msmith@anderson.info,08/07/2024,1012,Home & Kitchen,821.96,6,4931.76,CC,Pending,"5502 Cardenas Park Suite 177
+West Ryan, OR 44649"
+1977,34,William Jones,jenniferroman@gmail.com,31/08/2023,1004,Electronics,2264.11,0,0,credit,Shipped,"5406 Mcclain Keys
+Sanchezfort, NM 43551"
+1978,252,Maxwell Hernandez,amandadavis@yahoo.com,27/09/2024,1095,Books,,2,,,Shipped,"1539 Scott Fords Apt. 843
+South Margaretton, DE 26651"
+1979,389,Amy Hubbard,floresfaith@oconnor.net,01/09/2023,1018,Books,928.71,4,3714.84,,Returned,
+1980,81,John Kemp,martha43@davidson.org,11/10/2023,1080,,1710.92,-5,-17109.2,Credit Card,Processing,"859 David Plaza
+Lake Patrickfort, NV 81613"
+1981,370,Patricia Zhang,shannongibbs@gmail.com,07/05/2023,1036,Clothing,2548.57,4,10194.28,Credit Card,Pending,"9801 Joshua Summit
+Faithland, MO 03239"
+1982,255,Richard Thomas,shawwillie@williams.biz,09/04/2023,1025,Home & Kitchen,1785.15,5,,creditcard,Returned,"087 Burton Walks
+South Nicole, LA 10351"
+1983,196,Joseph Le,robert14@meyer.com,28/03/2023,1087,Electronics,120.62,1,120.62,Credit Card,Cancelled,"8723 Walsh Pines Apt. 983
+Michaelstad, MD 40329"
+1984,302,,jacksonbrittney@hotmail.com,2024-02-30,1076,Clothing,2420.63,-3,,credit,Processing,"349 Hudson Ridges
+Arnoldport, LA 45299"
+1985,408,Amanda Combs,leslie87@yahoo.com,02/04/2024,1098,,3822.8,3,11468.4,Bank Transfer,,"Unit 9275 Box 5835
+DPO AE 23930"
+1986,449,Daniel Sanders,jking@gmail.com,28/06/2024,1036,,1698.27,0,0,Debit Card,Pending,"945 Jonathan Groves Apt. 313
+New Karenshire, ME 43802"
+1987,9,Madison Brady,gerald30@gmail.com,16/03/2024,1067,Clothing,2763.04,-1,-2763.04,credit,Shipped,"5114 Williamson Road Apt. 856
+Ellisborough, AL 85612"
+1988,311,Jessica Roy,holmesdavid@cunningham-brock.com,06/03/2024,1009,Toys,1413.59,2,2827.18,CC,Returned,"1687 Miller Circles Suite 950
+Jordanport, SD 12536"
+1989,285,Lisa White,lpalmer@yahoo.com,24/02/2025,1061,Books,2612.07,2,5224.14,Credit Card,Shipped,"65914 Baker Fall Apt. 483
+Johnsonland, OK 45769"
+1990,241,Laura Edwards,jeffreyvaughn@hotmail.com,24/04/2023,1053,Electronics,3334.73,6,20008.38,,Pending,"553 Danielle Roads Apt. 423
+Danielberg, MD 43545"
+1991,250,Douglas Gentry,banderson@gmail.com,06/11/2024,1018,Electronics,439.97,6,2639.82,credit,Shipped,"6298 Linda Mission Apt. 951
+East Manuelborough, NH 84284"
+1992,364,Eugene Cain,johnsonnancy,02/02/2024,1043,Electronics,,-3,,,Returned,"587 Sandra Spur
+Stevenstad, NC 61237"
+1993,4,James Short,harrismeghan@bell-kelley.biz,01/07/2024,1035,Clothing,1475,-4,-5900,creditcard,Processing,"2352 Gregory Cape Suite 783
+Port Dustinshire, NM 46960"
+1994,118,Ryan Skinner,brian71@morales-hudson.com,02/09/2024,1063,Toys,3798.35,9,34185.15,CC,Returned,"44086 Kelly Place Apt. 505
+Williamsland, MN 57635"
+1995,288,,osellers@mann-flynn.com,16/11/2023,1098,Home & Kitchen,2300.7,-4,-9202.8,,Delivered,"033 Waters Flats Suite 552
+Nicholaston, NM 67113"
+1996,373,Timothy Conley,amy00@young-young.net,26/01/2025,1078,,3138.45,8,25107.6,,Shipped,"43375 Hernandez Square Suite 339
+West Johnhaven, DE 52558"
+1997,64,,kevin36@lynch-carey.com,10/09/2024,1004,Clothing,4840.26,-1,-4840.26,creditcard,Delivered,"0873 Sims Plaza
+West Mariomouth, VT 14350"
+1998,145,Julie Acosta,edward13,04/08/2024,1093,Home & Kitchen,687.93,4,2751.72,PayPal,Processing,"214 Molina Neck
+Ryanchester, LA 38399"
+1999,223,Nicholas James,gallowayemily@gmail.com,24/01/2025,1041,,1930.18,6,11581.08,Bank Transfer,Delivered,
+2000,238,Zachary Lewis,rgentry@gmail.com,19/04/2023,1045,,4210.44,1,4210.44,Debit Card,Shipped,"93266 Morris Forges
+Phelpsstad, TX 80441"

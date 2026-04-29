@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_84d9a6c71d5826c1be7a8d8a83152eec {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_84d9a6c71d5826c1be7a8d8a83152eec" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_84d9a6c71d5826c1be7a8d8a83152eec = L.map(
+                "map_84d9a6c71d5826c1be7a8d8a83152eec",
+                {
+                    center: [17.5253407, 73.5155673],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 13,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f9cdb23fcf8413134aaea5ac274c9c38 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_f9cdb23fcf8413134aaea5ac274c9c38.addTo(map_84d9a6c71d5826c1be7a8d8a83152eec);
+        
+    
+            var circle_5558d10f000fc99b68440b7bb682ee97 = L.circle(
+                [17.5253407, 73.5155673],
+                {"bubblingMouseEvents": true, "color": "#f87171", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f87171", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.2, "radius": 40000.0, "stroke": true, "weight": 3}
+            ).addTo(map_84d9a6c71d5826c1be7a8d8a83152eec);
+        
+    
+            circle_5558d10f000fc99b68440b7bb682ee97.bindTooltip(
+                `<div>
+                     40.0km Radius
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_8cd97382aeee36048a4d16abe63f6536 = L.marker(
+                [17.523357, 73.5348612],
+                {
+}
+            ).addTo(map_84d9a6c71d5826c1be7a8d8a83152eec);
+        
+    
+            var icon_83d8d9adff12c990e7d159d712bd34b1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_8cd97382aeee36048a4d16abe63f6536.bindTooltip(
+                `<div>
+                     Shubh Abhishek (Competitor)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_8cd97382aeee36048a4d16abe63f6536.setIcon(icon_83d8d9adff12c990e7d159d712bd34b1);
+            
+    
+            var marker_2733d399b76051b6158df2c0701ac28f = L.marker(
+                [17.5233723, 73.5334503],
+                {
+}
+            ).addTo(map_84d9a6c71d5826c1be7a8d8a83152eec);
+        
+    
+            var icon_897dd616ffd86519a5b4ed1ed09593f2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_2733d399b76051b6158df2c0701ac28f.bindTooltip(
+                `<div>
+                     Hindustan Petrolium (Competitor)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_2733d399b76051b6158df2c0701ac28f.setIcon(icon_897dd616ffd86519a5b4ed1ed09593f2);
+            
+    
+            var marker_507f891c383d962e3ba0647f40e3c1cc = L.marker(
+                [17.5154333, 73.5101731],
+                {
+}
+            ).addTo(map_84d9a6c71d5826c1be7a8d8a83152eec);
+        
+    
+            var icon_5493d2a9648cf94a3dd1eb69076215af = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_507f891c383d962e3ba0647f40e3c1cc.bindTooltip(
+                `<div>
+                     Oam Sukai Mandir (Competitor)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_507f891c383d962e3ba0647f40e3c1cc.setIcon(icon_5493d2a9648cf94a3dd1eb69076215af);
+            
+    
+            var marker_f8580f2cb52fff6e0f9b0e7061ab97f6 = L.marker(
+                [17.4736811, 73.1927726],
+                {
+}
+            ).addTo(map_84d9a6c71d5826c1be7a8d8a83152eec);
+        
+    
+            var icon_387f8e7b5a1508723a40030403e1b5e6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_f8580f2cb52fff6e0f9b0e7061ab97f6.bindTooltip(
+                `<div>
+                     Varati Mandir (Competitor)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_f8580f2cb52fff6e0f9b0e7061ab97f6.setIcon(icon_387f8e7b5a1508723a40030403e1b5e6);
+            
+    
+            var marker_7b7a2098e4c00c9c6aadabd8eae7c4a3 = L.marker(
+                [17.2247095, 73.5443741],
+                {
+}
+            ).addTo(map_84d9a6c71d5826c1be7a8d8a83152eec);
+        
+    
+            var icon_0543d9dd65ed5f8b44e7de5856369c9d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_7b7a2098e4c00c9c6aadabd8eae7c4a3.bindTooltip(
+                `<div>
+                     Competitor (Competitor)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_7b7a2098e4c00c9c6aadabd8eae7c4a3.setIcon(icon_0543d9dd65ed5f8b44e7de5856369c9d);
+            
+    
+            var marker_9ebfbb68eb09cc9347efbf2f5d492d94 = L.marker(
+                [17.4836114, 73.1902167],
+                {
+}
+            ).addTo(map_84d9a6c71d5826c1be7a8d8a83152eec);
+        
+    
+            var icon_b7a824d1c27eb10d7eabe3a2a7299e1c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_9ebfbb68eb09cc9347efbf2f5d492d94.bindTooltip(
+                `<div>
+                     Shree Vyadeshwar Mandir Guhagar (Competitor)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_9ebfbb68eb09cc9347efbf2f5d492d94.setIcon(icon_b7a824d1c27eb10d7eabe3a2a7299e1c);
+            
+    
+            var marker_1574c7fd72b881d92e39681e05b7334b = L.marker(
+                [17.4812552, 73.2186883],
+                {
+}
+            ).addTo(map_84d9a6c71d5826c1be7a8d8a83152eec);
+        
+    
+            var icon_028b4c3f2f2c0c3d98ae5f0a9e6a877e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_1574c7fd72b881d92e39681e05b7334b.bindTooltip(
+                `<div>
+                     Bafna Motors (Competitor)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_1574c7fd72b881d92e39681e05b7334b.setIcon(icon_028b4c3f2f2c0c3d98ae5f0a9e6a877e);
+            
+    
+            var marker_e8010268e707df6fa46a642122b7adc9 = L.marker(
+                [17.4898407, 73.2681966],
+                {
+}
+            ).addTo(map_84d9a6c71d5826c1be7a8d8a83152eec);
+        
+    
+            var icon_f3cc9363870803e4b2eb499004284548 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_e8010268e707df6fa46a642122b7adc9.bindTooltip(
+                `<div>
+                     Tali Petrol Station (Competitor)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_e8010268e707df6fa46a642122b7adc9.setIcon(icon_f3cc9363870803e4b2eb499004284548);
+            
+    
+            var marker_f2e45a10a2eb7db41a4dae6f3abfa46e = L.marker(
+                [17.5847038, 73.1769835],
+                {
+}
+            ).addTo(map_84d9a6c71d5826c1be7a8d8a83152eec);
+        
+    
+            var icon_6f8aaa53baf2382675b046613cdba8f4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_f2e45a10a2eb7db41a4dae6f3abfa46e.bindTooltip(
+                `<div>
+                     Dabhol Jetty (Competitor)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_f2e45a10a2eb7db41a4dae6f3abfa46e.setIcon(icon_6f8aaa53baf2382675b046613cdba8f4);
+            
+    
+            var marker_e0ce68601c8b29f44e2c259614e52418 = L.marker(
+                [17.5765907, 73.1707018],
+                {
+}
+            ).addTo(map_84d9a6c71d5826c1be7a8d8a83152eec);
+        
+    
+            var icon_c7123a612cced355368807850e16aeda = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_e0ce68601c8b29f44e2c259614e52418.bindTooltip(
+                `<div>
+                     Veldur Jetty (Competitor)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_e0ce68601c8b29f44e2c259614e52418.setIcon(icon_c7123a612cced355368807850e16aeda);
+            
+    
+            var marker_257a8fdd919a98e335b2b4a1fc9883da = L.marker(
+                [17.2721112, 73.4979642],
+                {
+}
+            ).addTo(map_84d9a6c71d5826c1be7a8d8a83152eec);
+        
+    
+            var icon_b6645e182a597996142ee4d459950be0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_257a8fdd919a98e335b2b4a1fc9883da.bindTooltip(
+                `<div>
+                     Omkar Steel and Furniture (Competitor)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_257a8fdd919a98e335b2b4a1fc9883da.setIcon(icon_b6645e182a597996142ee4d459950be0);
+            
+</script>
+</html>

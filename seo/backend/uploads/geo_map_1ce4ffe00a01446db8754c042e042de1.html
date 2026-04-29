@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_823f77458e0e42a2079200bac700defc {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_823f77458e0e42a2079200bac700defc" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_823f77458e0e42a2079200bac700defc = L.map(
+                "map_823f77458e0e42a2079200bac700defc",
+                {
+                    center: [10.8136575, 76.8221014],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 13,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_702db4bfc7b31e62b2929d92fdeaef36 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_702db4bfc7b31e62b2929d92fdeaef36.addTo(map_823f77458e0e42a2079200bac700defc);
+        
+    
+            var circle_30ef73f75db4d69037bc19fe22d810b0 = L.circle(
+                [10.8136575, 76.8221014],
+                {"bubblingMouseEvents": true, "color": "#3b82f6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3b82f6", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.2, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_823f77458e0e42a2079200bac700defc);
+        
+    
+            circle_30ef73f75db4d69037bc19fe22d810b0.bindTooltip(
+                `<div>
+                     5.0km Radius
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_7afdf055cfcba8ab191cb4893132f023 = L.marker(
+                [10.7826023, 76.8259846],
+                {
+}
+            ).addTo(map_823f77458e0e42a2079200bac700defc);
+        
+    
+            var icon_85ce0bd9a92e57ce99de0a4f1592e8a7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_7afdf055cfcba8ab191cb4893132f023.bindTooltip(
+                `<div>
+                     Hindusthan petroleum (Competitor)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_7afdf055cfcba8ab191cb4893132f023.setIcon(icon_85ce0bd9a92e57ce99de0a4f1592e8a7);
+            
+    
+            var marker_8184030f2368703ff9b1470a75ad35e9 = L.marker(
+                [10.797314, 76.8352455],
+                {
+}
+            ).addTo(map_823f77458e0e42a2079200bac700defc);
+        
+    
+            var icon_706153966ad54b46462206cb10bcd94c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_8184030f2368703ff9b1470a75ad35e9.bindTooltip(
+                `<div>
+                     Government Higher Secondary School (Competitor)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_8184030f2368703ff9b1470a75ad35e9.setIcon(icon_706153966ad54b46462206cb10bcd94c);
+            
+    
+            var marker_a6b15234ec70a2f20f2ae0c48d4d50da = L.marker(
+                [10.8063959, 76.8395133],
+                {
+}
+            ).addTo(map_823f77458e0e42a2079200bac700defc);
+        
+    
+            var icon_54220c9ff76c136b21cb6653c28c2f87 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_a6b15234ec70a2f20f2ae0c48d4d50da.bindTooltip(
+                `<div>
+                     Christ the King (Competitor)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a6b15234ec70a2f20f2ae0c48d4d50da.setIcon(icon_54220c9ff76c136b21cb6653c28c2f87);
+            
+    
+            var marker_02dbcaa363c93184adb408e214e86cd2 = L.marker(
+                [10.7751088, 76.8210985],
+                {
+}
+            ).addTo(map_823f77458e0e42a2079200bac700defc);
+        
+    
+            var icon_41b16785a810a879fe53d93fc8479ea5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_02dbcaa363c93184adb408e214e86cd2.bindTooltip(
+                `<div>
+                     Holy Cross Roman Catholic Church (Competitor)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_02dbcaa363c93184adb408e214e86cd2.setIcon(icon_41b16785a810a879fe53d93fc8479ea5);
+            
+    
+            var marker_e453f5afcfc1efd967982297082dd455 = L.marker(
+                [10.7877524, 76.8332057],
+                {
+}
+            ).addTo(map_823f77458e0e42a2079200bac700defc);
+        
+    
+            var icon_cafcfbc7f81906c40626fad66a1571ed = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_e453f5afcfc1efd967982297082dd455.bindTooltip(
+                `<div>
+                     Santhi Hospital (Competitor)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_e453f5afcfc1efd967982297082dd455.setIcon(icon_cafcfbc7f81906c40626fad66a1571ed);
+            
+    
+            var marker_40f57ff8c4098b2716df576217491406 = L.marker(
+                [10.8095031, 76.8473706],
+                {
+}
+            ).addTo(map_823f77458e0e42a2079200bac700defc);
+        
+    
+            var icon_7a8724d00168a8bdf2225e18f3874628 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_40f57ff8c4098b2716df576217491406.bindTooltip(
+                `<div>
+                     mizpah english medium school (Competitor)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_40f57ff8c4098b2716df576217491406.setIcon(icon_7a8724d00168a8bdf2225e18f3874628);
+            
+    
+            var marker_3d580013480bc6a04c940d4bfeb3d8cd = L.marker(
+                [10.7985734, 76.7793876],
+                {
+}
+            ).addTo(map_823f77458e0e42a2079200bac700defc);
+        
+    
+            var icon_a9ee0d4f542c89c72e14619cabd78500 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_3d580013480bc6a04c940d4bfeb3d8cd.bindTooltip(
+                `<div>
+                     Alamaram Temple (Competitor)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_3d580013480bc6a04c940d4bfeb3d8cd.setIcon(icon_a9ee0d4f542c89c72e14619cabd78500);
+            
+    
+            var marker_8c00890e5456709406ca9deac4be6e36 = L.marker(
+                [10.7973389, 76.7797221],
+                {
+}
+            ).addTo(map_823f77458e0e42a2079200bac700defc);
+        
+    
+            var icon_5debe0fef6188fa4118f766dec12e059 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_8c00890e5456709406ca9deac4be6e36.bindTooltip(
+                `<div>
+                     Canara Bank (Competitor)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_8c00890e5456709406ca9deac4be6e36.setIcon(icon_5debe0fef6188fa4118f766dec12e059);
+            
+    
+            var marker_b300825a721fe5d2de5348ff4bd11c41 = L.marker(
+                [10.798789, 76.7798852],
+                {
+}
+            ).addTo(map_823f77458e0e42a2079200bac700defc);
+        
+    
+            var icon_ed641503aa53997e4bcc9e702f62597c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_b300825a721fe5d2de5348ff4bd11c41.bindTooltip(
+                `<div>
+                     S.N Store (Competitor)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b300825a721fe5d2de5348ff4bd11c41.setIcon(icon_ed641503aa53997e4bcc9e702f62597c);
+            
+    
+            var marker_deb291fda290163ccaa8e373700e0d98 = L.marker(
+                [10.7987666, 76.7797901],
+                {
+}
+            ).addTo(map_823f77458e0e42a2079200bac700defc);
+        
+    
+            var icon_f11345bcccfe5c9eb45e871402e2c8ae = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_deb291fda290163ccaa8e373700e0d98.bindTooltip(
+                `<div>
+                     Delight Bakes (Competitor)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_deb291fda290163ccaa8e373700e0d98.setIcon(icon_f11345bcccfe5c9eb45e871402e2c8ae);
+            
+</script>
+</html>

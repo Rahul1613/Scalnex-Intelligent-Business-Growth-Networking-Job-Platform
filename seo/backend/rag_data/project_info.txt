@@ -1,0 +1,20 @@
+Scalnex (Scalnex) Platform Overview:
+Scalnex is an all-in-one AI Growth Platform designed for modern teams, startups, agencies, creators, and enterprises. It integrates SEO audit tools, content generation, analytics, and business insights into a single unified dashboard, eliminating the need to use multiple segmented tools. The platform provides automated tools, interactive metaverse simulations, and data-driven insights.
+
+SEO Tools:
+The SEO Tools module offers real-time technical audits and site health scanning. It deep-crawls web pages to identify broken links, errors, missing H1s, and slow-loading elements. It provides actionable, prioritized recommendations and generates white-label PDF reports for clients. Automatic scoring reveals search engine readiness.
+
+Geo Analyzer:
+The Geo Analyzer provides advanced location-based insights via an interactive map dashboard. It maps real-time competitors within a dynamic radius (up to 100km). It also ingests bulk custom CSV/Excel data to pinpoint your optimal customer hotspots, calculate regional density matrices, and highlight optimal focus areas.
+
+Sentiment & Reputation:
+The Sentiment Analysis module automatically gauges the emotional tone and reputation of your brand across digital touchpoints. It detects positive, aggressive, or passive interactions related to your content or reviews, distilling the raw emotional trajectory of your audience into an easy-to-read metric score.
+
+Analytics (Command Center):
+The unified Growth Analytics dashboard combines multiple data sources (like GSC, GA4, internal metrics) to create a single source of truth. It checks revenue models, performs Z-Score anomaly detection, projects future growth via linear regression trends, and evaluates data quality/health in real-time.
+
+Content Engine (AI Writer):
+The AI Content Engine generates SEO-optimized articles, blog posts, ad copy, and social content instantly based on deep NLP. It embeds logical LSI keywords designed to rank and writes in your unique brand voice, ensuring that generated text bypasses standard AI detection tools.
+
+Growth Tips:
+Growth Tips functions as an intelligence feed, regularly parsing analytics to surface automated micro-strategies. It tells you exactly when to focus on new keywords, where traffic gaps are opening up against competitors, and which landing pages are converting below averages to immediately plug revenue leaks.

@@ -1,0 +1,51 @@
+User_ID,Name,State,City,Area,Pincode,Purchase_Amount,Purchase_Date,Product_Type,Frequency
+101,Amit Patil,Maharashtra,Kolhapur,Rajarampuri,416008,2500,12-01-2024,Sofa,3
+102,Sneha Sharma,Maharashtra,Kolhapur,Shahupuri,416001,1800,10-02-2024,Table,2
+103,Rahul Verma,Maharashtra,Pune,Kothrud,411038,3200,20-01-2024,Chair,5
+104,Pooja Desai,Maharashtra,Mumbai,Andheri,400053,4500,05-02-2024,Bed,4
+105,Vikas Yadav,Maharashtra,Satara,Karad,415110,2100,28-01-2024,Chair,2
+106,Kiran More,Maharashtra,Kolhapur,Tarabai Park,416003,3800,15-02-2024,Sofa,3
+107,Anjali Joshi,Maharashtra,Pune,Hinjewadi,411057,2900,30-01-2024,Table,4
+108,Rohit Kale,Maharashtra,Mumbai,Dadar,400014,5000,12-02-2024,Bed,5
+109,Sanjay Gupta,Maharashtra,Nagpur,Dharampeth,440010,1700,18-01-2024,Chair,2
+110,Neha Kulkarni,Maharashtra,Kolhapur,Rajarampuri,416008,2600,08-02-2024,Sofa,3
+111,Ashok Pawar,Maharashtra,Pune,Baner,411045,3100,22-01-2024,Table,4
+112,Meena Patil,Maharashtra,Satara,Phaltan,415523,2000,01-02-2024,Chair,2
+113,Deepak Sharma,Maharashtra,Mumbai,Powai,400076,4800,25-01-2024,Bed,4
+114,Sunita Verma,Maharashtra,Kolhapur,Shahupuri,416001,2300,09-02-2024,Sofa,3
+115,Ramesh Desai,Maharashtra,Pune,Wakad,411057,2700,29-01-2024,Chair,2
+116,Shweta Joshi,Maharashtra,Mumbai,Borivali,400092,5200,14-02-2024,Bed,5
+117,Nitin Yadav,Maharashtra,Nashik,Gangapur,422013,1900,16-01-2024,Table,2
+118,Rekha More,Maharashtra,Kolhapur,Tarabai Park,416003,3600,11-02-2024,Sofa,3
+119,Ajay Kale,Maharashtra,Pune,Kharadi,411014,3000,24-01-2024,Chair,4
+120,Manisha Gupta,Maharashtra,Mumbai,Andheri,400053,4700,06-02-2024,Bed,4
+121,Prakash Patil,Maharashtra,Kolhapur,Rajarampuri,416008,2400,13-01-2024,Sofa,3
+122,Kavita Sharma,Maharashtra,Pune,Hadapsar,411028,2800,02-02-2024,Table,4
+123,Sunil Verma,Maharashtra,Mumbai,Dadar,400014,5100,21-01-2024,Bed,5
+124,Aarti Desai,Maharashtra,Satara,Karad,415110,2200,04-02-2024,Chair,2
+125,Vinod Joshi,Maharashtra,Kolhapur,Shahupuri,416001,2600,27-01-2024,Sofa,3
+126,Seema Kale,Maharashtra,Pune,Baner,411045,3100,13-02-2024,Table,4
+127,Rajesh Yadav,Maharashtra,Mumbai,Powai,400076,4900,19-01-2024,Bed,4
+128,Geeta More,Maharashtra,Nagpur,Sitabuldi,440012,1800,03-02-2024,Chair,2
+129,Arun Patil,Maharashtra,Kolhapur,Tarabai Park,416003,3500,31-01-2024,Sofa,3
+130,Preeti Sharma,Maharashtra,Pune,Kothrud,411038,2900,07-02-2024,Table,4
+131,Sachin Verma,Maharashtra,Mumbai,Borivali,400092,5300,26-01-2024,Bed,5
+132,Ritu Desai,Maharashtra,Satara,Phaltan,415523,2100,05-02-2024,Chair,2
+133,Anil Joshi,Maharashtra,Kolhapur,Rajarampuri,416008,2700,23-01-2024,Sofa,3
+134,Neeta Kale,Maharashtra,Pune,Hinjewadi,411057,3200,09-02-2024,Table,4
+135,Deepa Yadav,Maharashtra,Mumbai,Andheri,400053,4600,20-01-2024,Bed,4
+136,Mohan More,Maharashtra,Nashik,Gangapur,422013,2000,01-02-2024,Chair,2
+137,Suresh Patil,Maharashtra,Kolhapur,Shahupuri,416001,2500,17-01-2024,Sofa,3
+138,Priya Sharma,Maharashtra,Pune,Wakad,411057,3000,08-02-2024,Table,4
+139,Ravi Verma,Maharashtra,Mumbai,Dadar,400014,5200,28-01-2024,Bed,5
+140,Kiran Desai,Maharashtra,Satara,Karad,415110,2300,06-02-2024,Chair,2
+141,Ashwini Joshi,Maharashtra,Kolhapur,Tarabai Park,416003,3400,29-01-2024,Sofa,3
+142,Vijay Kale,Maharashtra,Pune,Baner,411045,3100,12-02-2024,Table,4
+143,Megha Yadav,Maharashtra,Mumbai,Powai,400076,4800,21-01-2024,Bed,4
+144,Anita More,Maharashtra,Nagpur,Dharampeth,440010,1900,03-02-2024,Chair,2
+145,Shivaji Patil,Maharashtra,Kolhapur,Rajarampuri,416008,2600,15-01-2024,Sofa,3
+146,Komal Sharma,Maharashtra,Pune,Kharadi,411014,2900,07-02-2024,Table,4
+147,Akash Verma,Maharashtra,Mumbai,Andheri,400053,4700,18-01-2024,Bed,4
+148,Reena Desai,Maharashtra,Satara,Phaltan,415523,2100,02-02-2024,Chair,2
+149,Nikhil Joshi,Maharashtra,Kolhapur,Shahupuri,416001,2500,26-01-2024,Sofa,3
+150,Pallavi Kale,Maharashtra,Pune,Hadapsar,411028,3000,10-02-2024,Table,4
