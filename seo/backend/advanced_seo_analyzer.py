@@ -560,7 +560,7 @@ class AdvancedSEOAnalyzer:
     
     def _fetch_pagespeed_data(self):
         """Fetch real data from Google PageSpeed Insights API"""
-        API_KEY = os.environ.get('PAGESPEED_API_KEY', 'AIzaSyDvl1v1FaP2wgoofP1OjtL5wW_aLrK4sGo')
+        API_KEY = os.environ.get('PAGESPEED_API_KEY', 'your-pagespeed-api-key')
         try:
             # Strategies: mobile and desktop
             url = f"https://www.googleapis.com/pagespeedonline/v5/runPagespeed?url={self.url}&key={API_KEY}&strategy=desktop&category=PERFORMANCE&category=ACCESSIBILITY&category=BEST_PRACTICES&category=SEO"

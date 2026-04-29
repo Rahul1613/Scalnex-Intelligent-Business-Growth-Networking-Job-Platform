@@ -1,3 +1,4 @@
+import os
 import random
 from typing import Dict, List, Any, Optional
 import google.generativeai as genai
@@ -7,7 +8,7 @@ import json
 import logging
 
 # Configure Gemini
-GENAI_KEY = "AIzaSyDUOsh_PPwSgtyci-aFzYa4SrvhrgCx1ps"
+GENAI_KEY = os.environ.get('GEMINI_API_KEY', 'your-gemini-api-key')
 genai.configure(api_key=GENAI_KEY)
 
 logger = logging.getLogger(__name__)
