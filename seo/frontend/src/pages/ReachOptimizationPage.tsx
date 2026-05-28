@@ -9,8 +9,9 @@ import {
     AreaChart, Area, BarChart, Bar
 } from 'recharts';
 import DashboardLayout from '../components/Layout/DashboardLayout';
+import { ML_API_BASE_URL } from '../config';
 
-const ML_API_URL = import.meta.env.VITE_ML_API_URL ?? 'http://127.0.0.1:8000';
+const ML_API_URL = import.meta.env.VITE_ML_API_URL ?? ML_API_BASE_URL;
 
 interface PredictionResult {
     estimated_reach: number;

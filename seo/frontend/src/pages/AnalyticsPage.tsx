@@ -10,6 +10,7 @@ import {
 } from 'lucide-react';
 import { motion } from 'framer-motion';
 import DashboardLayout from '../components/Layout/DashboardLayout';
+import { API_BASE_URL } from '../config';
 
 const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042', '#8884d8', '#82ca9d'];
 
@@ -56,7 +57,7 @@ const AnalyticsPage: React.FC = () => {
     formData.append('file', file);
 
     try {
-      const res = await fetch('http://127.0.0.1:5001/api/upload-csv', { method: 'POST', body: formData });
+      const res = await fetch('${API_BASE_URL}/api/upload-csv', { method: 'POST', body: formData });
       const data = await res.json();
 
       if (res.ok) {

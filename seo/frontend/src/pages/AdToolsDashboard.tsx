@@ -7,6 +7,7 @@ import {
   Legend
 } from 'chart.js';
 import { Doughnut } from 'react-chartjs-2';
+import { API_BASE_URL } from '../config';
 
 ChartJS.register(ArcElement, Tooltip, Legend);
 
@@ -30,7 +31,7 @@ const HealthGauge: React.FC<HealthGaugeProps> = ({ score }) => {
 };
 
 const AdToolsDashboard: React.FC = () => {
-  const API_BASE = (import.meta as any)?.env?.VITE_SERVER_URL || 'http://127.0.0.1:5001/api';
+  const API_BASE = (import.meta as any)?.env?.VITE_SERVER_URL || '${API_BASE_URL}/api';
   const [url, setUrl] = React.useState('');
 
   // Google Ads Analyzer state

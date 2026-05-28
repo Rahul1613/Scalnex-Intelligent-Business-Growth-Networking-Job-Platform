@@ -4,6 +4,7 @@ import { useAuth } from '../contexts/AuthContext';
 import { motion, AnimatePresence } from 'framer-motion';
 import { User, Mail, Lock, ArrowRight, Eye, EyeOff, ShieldCheck } from 'lucide-react';
 import Button from '../components/Common/Button';
+import { API_BASE_URL } from '../config';
 
 const UserSignup: React.FC = () => {
   const navigate = useNavigate();
@@ -28,7 +29,7 @@ const UserSignup: React.FC = () => {
     setLoading(true);
 
     try {
-      const response = await fetch('http://127.0.0.1:5001/api/auth/send-otp', {
+      const response = await fetch('${API_BASE_URL}/api/auth/send-otp', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email }),
@@ -50,7 +51,7 @@ const UserSignup: React.FC = () => {
     setLoading(true);
 
     try {
-      const response = await fetch('http://127.0.0.1:5001/api/auth/verify-otp', {
+      const response = await fetch('${API_BASE_URL}/api/auth/verify-otp', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email, code: otp }),

@@ -4,6 +4,7 @@ import { OrbitControls, Box, Cylinder, Sphere, Text } from '@react-three/drei';
 import * as THREE from 'three';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Search, AlertCircle, Loader, Globe, BarChart3, Target, TreePine, Activity } from 'lucide-react';
+import { API_BASE_URL } from '../../config';
 
 // Simple Branch Component
 function Branch({ position, endPosition, thickness, color, onClick, score }: {
@@ -185,7 +186,7 @@ const DigitalTreeStandalone: React.FC = () => {
   useEffect(() => {
     const testAPI = async () => {
       try {
-        const response = await fetch('http://127.0.0.1:5001/api/email/log');
+        const response = await fetch('${API_BASE_URL}/api/email/log');
         if (response.ok) {
           setApiStatus('✅ API Connected');
         } else {
@@ -213,7 +214,7 @@ const DigitalTreeStandalone: React.FC = () => {
 
       console.log('🌱 Growing tree for:', targetUrl);
       
-      const response = await fetch(`http://127.0.0.1:5001/api/seo/3d-structure?url=${encodeURIComponent(targetUrl)}`);
+      const response = await fetch(`${API_BASE_URL}/api/seo/3d-structure?url=${encodeURIComponent(targetUrl)}`);
       
       console.log('📡 Response:', response.status);
       

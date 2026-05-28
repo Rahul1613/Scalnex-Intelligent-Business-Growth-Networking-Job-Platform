@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { API_BASE_URL } from '../../config';
 
 export interface WebsiteStructure {
   url: string;
@@ -54,7 +55,7 @@ export interface WebsiteStructure {
 }
 
 export class WebsiteExtractor {
-  private baseUrl: string = 'http://127.0.0.1:5001';
+  private baseUrl: string = API_BASE_URL;
   
   async extractWebsiteStructure(url: string): Promise<WebsiteStructure> {
     try {

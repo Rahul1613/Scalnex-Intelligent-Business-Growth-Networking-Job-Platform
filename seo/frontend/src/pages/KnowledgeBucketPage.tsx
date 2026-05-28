@@ -2,8 +2,9 @@ import React, { useState, useEffect, useRef } from 'react';
 import { Upload, FileText, File, Trash2, Send, Loader2, BrainCircuit, Bot, User as UserIcon, CheckCircle2, AlertCircle, Zap, BookOpen, Copy } from 'lucide-react';
 import DashboardLayout from '../components/Layout/DashboardLayout';
 import toast from 'react-hot-toast';
+import { API_BASE_URL } from '../config';
 
-const API_URL = (import.meta as any).env?.VITE_API_URL || 'http://127.0.0.1:5001';
+const API_URL = (import.meta as any).env?.VITE_API_URL || API_BASE_URL;
 
 interface UploadedFile {
   file_id: string;

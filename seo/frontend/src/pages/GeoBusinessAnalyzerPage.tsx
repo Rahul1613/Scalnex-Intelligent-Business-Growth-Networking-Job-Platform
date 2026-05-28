@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Upload, MapPin, Target, Building2, TrendingUp, AlertCircle, Map, Loader2, Globe, Map as MapIcon, Navigation } from 'lucide-react';
 import DashboardLayout from '../components/Layout/DashboardLayout';
+import { API_BASE_URL } from '../config';
 
 interface GeoData {
   customers_count?: number;
@@ -71,7 +72,7 @@ const GeoBusinessAnalyzerPage: React.FC = () => {
     if (file) formData.append('file', file);
 
     try {
-      const response = await fetch('http://127.0.0.1:5001/api/geo/analyze', {
+      const response = await fetch('${API_BASE_URL}/api/geo/analyze', {
         method: 'POST',
         body: formData,
       });

@@ -4,6 +4,7 @@ import DashboardLayout from '../components/Layout/DashboardLayout';
 import { Briefcase, Users, Plus, FileText, Calendar, MapPin, DollarSign, ChevronRight, X, Eye, Reply } from 'lucide-react';
 import { apiService } from '../services/api';
 import { useAuth } from '../contexts/AuthContext';
+import { API_BASE_URL } from '../config';
 
 interface Job {
   id: number;
@@ -832,7 +833,7 @@ const RecruitmentDetailsPage: React.FC = () => {
                                               const resumeUrl = application.resume;
                                               if (resumeUrl && resumeUrl.startsWith('/uploads/')) {
                                                 const link = document.createElement('a');
-                                                const API_BASE = (import.meta as any)?.env?.VITE_API_URL || 'http://127.0.0.1:5001';
+                                                const API_BASE = (import.meta as any)?.env?.VITE_API_URL || API_BASE_URL;
                                                 link.href = `${API_BASE}${resumeUrl}`;
                                                 link.download = `resume_${application.user.name.replace(/\s+/g, '_')}.pdf`;
                                                 document.body.appendChild(link);
@@ -866,7 +867,7 @@ const RecruitmentDetailsPage: React.FC = () => {
                                           </button>
                                           {application.resume && application.resume.startsWith('/uploads/') && (
                                             <button
-                                              onClick={() => window.open(`${(import.meta as any).env?.VITE_API_URL || 'http://127.0.0.1:5001'}${application.resume}`, '_blank')}
+                                              onClick={() => window.open(`${(import.meta as any).env?.VITE_API_URL || API_BASE_URL}${application.resume}`, '_blank')}
                                               className="px-3 py-1 bg-gray-600 hover:bg-gray-700 text-white text-xs rounded-lg transition-colors flex items-center gap-1"
                                             >
                                               <Eye className="w-3 h-3" />

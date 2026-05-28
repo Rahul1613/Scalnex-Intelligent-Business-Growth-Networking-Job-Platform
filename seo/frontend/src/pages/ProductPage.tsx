@@ -14,6 +14,7 @@ import {
   X
 } from 'lucide-react';
 import toast from 'react-hot-toast';
+import { API_BASE_URL } from '../config';
 
 interface Product {
   id: number;
@@ -99,7 +100,7 @@ const ProductPage: React.FC = () => {
 
   const loadProducts = async () => {
     try {
-      const API_URL = 'http://127.0.0.1:5001';
+      const API_URL = API_BASE_URL;
       let allProducts: Product[] = [];
       
       try {

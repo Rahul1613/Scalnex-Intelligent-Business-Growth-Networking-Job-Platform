@@ -4,6 +4,7 @@ import { OrbitControls, Text, Box, Sphere, Line } from '@react-three/drei';
 import * as THREE from 'three';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Search, AlertCircle, Loader, Globe, BarChart3, Target, Layers, Eye } from 'lucide-react';
+import { API_BASE_URL } from '../../config';
 
 // Simple Page Node
 function PageNode({ page, position, onClick, isSelected }: {
@@ -201,7 +202,7 @@ const SEOMetaSpaceSimple: React.FC = () => {
 
       console.log('🔍 Analyzing URL:', targetUrl);
       
-      const response = await fetch(`http://127.0.0.1:5001/api/seo/3d-structure?url=${encodeURIComponent(targetUrl)}`);
+      const response = await fetch(`${API_BASE_URL}/api/seo/3d-structure?url=${encodeURIComponent(targetUrl)}`);
       
       console.log('📡 Response status:', response.status);
       

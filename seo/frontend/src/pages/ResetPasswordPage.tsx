@@ -3,6 +3,7 @@ import { useNavigate, useLocation } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { Lock, ShieldCheck, Mail } from 'lucide-react';
 import Button from '../components/Common/Button';
+import { API_BASE_URL } from '../config';
 
 const ResetPasswordPage: React.FC = () => {
   const navigate = useNavigate();
@@ -28,7 +29,7 @@ const ResetPasswordPage: React.FC = () => {
     setLoading(true);
 
     try {
-      const resp = await fetch('http://127.0.0.1:5001/api/auth/verify-password-otp', {
+      const resp = await fetch('${API_BASE_URL}/api/auth/verify-password-otp', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email, code })
@@ -53,7 +54,7 @@ const ResetPasswordPage: React.FC = () => {
     setLoading(true);
 
     try {
-      const resp = await fetch('http://127.0.0.1:5001/api/auth/reset-password', {
+      const resp = await fetch('${API_BASE_URL}/api/auth/reset-password', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email, code, newPassword })

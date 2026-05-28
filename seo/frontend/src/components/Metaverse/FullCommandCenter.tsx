@@ -514,6 +514,8 @@ function FullCommandCenterScene({ worldState, onTerminalActivate, timeSpeed }: {
   );
 }
 
+import { API_BASE_URL } from '../../config';
+
 // Main Component
 const FullCommandCenter: React.FC = () => {
   const [isEntering, setIsEntering] = useState(true);
@@ -543,7 +545,7 @@ const FullCommandCenter: React.FC = () => {
   useEffect(() => {
     const testAPI = async () => {
       try {
-        const response = await fetch('http://127.0.0.1:5001/api/platform-stats');
+        const response = await fetch(`${API_BASE_URL}/api/platform-stats`);
         if (response.ok) {
           setApiStatus('✅ Connected to Operations');
           const data = await response.json();

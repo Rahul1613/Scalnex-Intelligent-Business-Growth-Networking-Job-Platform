@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { CheckCircle2, XCircle, Briefcase, Clock, Plus, Users } from 'lucide-react';
 import { useAuth } from '../contexts/AuthContext';
 import toast from 'react-hot-toast';
+import { API_BASE_URL } from '../config';
 
 interface JobListing {
   id: number;
@@ -34,7 +35,7 @@ interface Application {
   updatedAt: string;
 }
 
-const API_URL = 'http://127.0.0.1:5001';
+const API_URL = API_BASE_URL;
 
 const CompanyDashboard: React.FC = () => {
   const navigate = useNavigate();

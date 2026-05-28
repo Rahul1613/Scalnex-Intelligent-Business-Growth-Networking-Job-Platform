@@ -3,6 +3,7 @@ import { Bell, User, Moon, Sun, Menu, CheckCircle, AlertCircle, FileText, X, Log
 import { useTheme } from '../../contexts/ThemeContext';
 import { useAuth } from '../../contexts/AuthContext';
 import { useNavigate } from 'react-router-dom';
+import { API_BASE_URL } from '../../config';
 
 interface Notification {
   id: string;
@@ -37,7 +38,7 @@ const DashboardHeader: React.FC<DashboardHeaderProps> = ({ onMenuToggle }) => {
       if (!user?.id) return;
 
       try {
-        const API_URL = (import.meta as any).env?.VITE_API_URL || 'http://127.0.0.1:5001';
+        const API_URL = (import.meta as any).env?.VITE_API_URL || API_BASE_URL;
         const response = await fetch(`${API_URL}/api/business/${user.id}`);
         if (response.status === 401 || response.status === 404) {
           // Silently ignore auth/missing errors for business profile in header

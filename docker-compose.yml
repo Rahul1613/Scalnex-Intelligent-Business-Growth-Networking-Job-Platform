@@ -1,0 +1,42 @@
+version: '3.8'
+
+services:
+  frontend:
+    build:
+      context: ./seo/frontend
+      dockerfile: Dockerfile
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+      - ml_service
+    environment:
+      - VITE_API_URL=http://localhost:5001
+      - VITE_ML_API_URL=http://localhost:8000
+
+  backend:
+    build:
+      context: ./seo/backend
+      dockerfile: Dockerfile
+    ports:
+      - "5001:5001"
+    volumes:
+      - backend_data:/app/instance
+      - uploads_data:/app/uploads
+    environment:
+      - JWT_SECRET_KEY=prod-secret-key-change-this-in-env
+      - FLASK_ENV=production
+      - PYTHONUNBUFFERED=1
+
+  ml_service:
+    build:
+      context: ./seo/ml_service
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      - PYTHONUNBUFFERED=1
+
+volumes:
+  backend_data:
+  uploads_data:

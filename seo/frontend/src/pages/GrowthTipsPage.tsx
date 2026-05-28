@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import DashboardLayout from '../components/Layout/DashboardLayout';
 import { useAuth } from '../contexts/AuthContext';
+import { API_BASE_URL } from '../config';
 import {
   TrendingUp,
   Users,
@@ -41,7 +42,7 @@ const GrowthTipsPage: React.FC = () => {
       }
 
       try {
-        const response = await fetch(`http://127.0.0.1:5001/api/implemented-tips/${user.id}`);
+        const response = await fetch(`${API_BASE_URL}/api/implemented-tips/${user.id}`);
         const data = await response.json();
 
         if (data.implementedTips) {
@@ -236,7 +237,7 @@ const GrowthTipsPage: React.FC = () => {
     try {
       if (implementedTips.has(tipId)) {
         // Remove from database
-        const response = await fetch(`http://127.0.0.1:5001/api/implemented-tips/${user.id}/${tipId}`, {
+        const response = await fetch(`${API_BASE_URL}/api/implemented-tips/${user.id}/${tipId}`, {
           method: 'DELETE'
         });
 
@@ -254,7 +255,7 @@ const GrowthTipsPage: React.FC = () => {
         }
       } else {
         // Add to database
-        const response = await fetch('http://127.0.0.1:5001/api/implemented-tips', {
+        const response = await fetch(`${API_BASE_URL}/api/implemented-tips`, {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json'

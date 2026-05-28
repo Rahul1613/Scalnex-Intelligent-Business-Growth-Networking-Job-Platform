@@ -4,6 +4,7 @@ import { OrbitControls, Text, Box, Sphere, Cylinder, Torus, Ring } from '@react-
 import * as THREE from 'three';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Loader, Activity, Zap, Settings, FileText, Monitor, Globe, X, Play, Pause, FastForward } from 'lucide-react';
+import { API_BASE_URL } from '../../config';
 
 // Central Business Core
 function BusinessCore({ health, isActive }: { health: number; isActive: boolean }) {
@@ -419,7 +420,7 @@ const MetaverseCommandCenter: React.FC = () => {
   useEffect(() => {
     const testAPI = async () => {
       try {
-        const API_URL = (import.meta as any).env?.VITE_API_URL || 'http://127.0.0.1:5001';
+        const API_URL = (import.meta as any).env?.VITE_API_URL || API_BASE_URL;
         const response = await fetch(`${API_URL}/api/platform-stats`);
         if (response.ok) {
           setApiStatus('✅ Connected to Operations');

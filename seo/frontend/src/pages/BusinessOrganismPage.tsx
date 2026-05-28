@@ -9,6 +9,7 @@ import OrganismBrain from '../organism/OrganismBrain';
 import DecisionLab from '../organism/DecisionLab';
 import ARProjection from '../organism/ARProjection';
 import TimeStateController from '../metaverse/TimeStateController'; // Reuse this component
+import { API_BASE_URL } from '../config';
 
 interface OrganismState {
     organism_id: string;
@@ -33,7 +34,7 @@ const BusinessOrganismPage: React.FC = () => {
         try {
             setLoading(true);
             const token = localStorage.getItem('auth_token');
-            const response = await fetch('http://127.0.0.1:5001/api/analytics/organism-state', {
+            const response = await fetch('${API_BASE_URL}/api/analytics/organism-state', {
                 headers: {
                     'Authorization': `Bearer ${token}`
                 }
@@ -63,7 +64,7 @@ const BusinessOrganismPage: React.FC = () => {
         if (!state) return;
         try {
             const token = localStorage.getItem('auth_token');
-            const response = await fetch('http://127.0.0.1:5001/api/analytics/time-travel/simulate', {
+            const response = await fetch('${API_BASE_URL}/api/analytics/time-travel/simulate', {
                 method: 'POST',
                 headers: {
                     'Authorization': `Bearer ${token}`,

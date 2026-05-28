@@ -1,4 +1,5 @@
 import React, { createContext, useContext, useState, ReactNode, useEffect } from 'react';
+import { API_BASE_URL } from '../config';
 
 interface User {
   id: string;
@@ -43,7 +44,7 @@ interface AuthProviderProps {
   children: ReactNode;
 }
 
-const API_URL = (import.meta as any).env?.VITE_API_URL || 'http://127.0.0.1:5001';
+const API_URL = (import.meta as any).env?.VITE_API_URL || API_BASE_URL;
 
 export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
   const [user, setUser] = useState<User | null>(null);

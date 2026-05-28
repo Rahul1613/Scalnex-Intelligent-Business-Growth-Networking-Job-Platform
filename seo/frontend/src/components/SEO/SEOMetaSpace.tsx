@@ -4,6 +4,7 @@ import { OrbitControls, Text, Box, Sphere, Line, Trail } from '@react-three/drei
 import * as THREE from 'three';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Search, AlertCircle, CheckCircle, X, Loader, Globe, BarChart3, Target, Zap, Activity, Layers, Eye } from 'lucide-react';
+import { API_BASE_URL } from '../../config';
 
 // Holographic Page Node Component
 function HolographicPageNode({ page, position, onClick, onHover, isSelected, isHovered, worldStability }: {
@@ -385,7 +386,7 @@ const SEOMetaSpace: React.FC = () => {
 
       console.log('🔍 Analyzing URL:', targetUrl);
       
-      const response = await fetch(`http://127.0.0.1:5001/api/seo/3d-structure?url=${encodeURIComponent(targetUrl)}`, {
+      const response = await fetch(`${API_BASE_URL}/api/seo/3d-structure?url=${encodeURIComponent(targetUrl)}`, {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json',
@@ -457,7 +458,7 @@ const SEOMetaSpace: React.FC = () => {
   const testConnection = async () => {
     try {
       console.log('🧪 Testing API connection...');
-      const response = await fetch('http://127.0.0.1:5001/api/email/log');
+      const response = await fetch('${API_BASE_URL}/api/email/log');
       console.log('📡 Test response status:', response.status);
       if (response.ok) {
         const data = await response.json();

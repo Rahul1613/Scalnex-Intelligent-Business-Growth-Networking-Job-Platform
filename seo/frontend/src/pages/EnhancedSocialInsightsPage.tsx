@@ -14,6 +14,7 @@ import {
   Legend,
   Filler
 } from 'chart.js';
+import { API_BASE_URL } from '../config';
 import {
   TrendingUp,
   Users,
@@ -46,7 +47,7 @@ ChartJS.register(
 );
 
 const EnhancedSocialInsightsPage: React.FC = () => {
-  const API_BASE = (import.meta as any)?.env?.VITE_API_URL || 'http://127.0.0.1:5001';
+  const API_BASE = (import.meta as any)?.env?.VITE_API_URL || API_BASE_URL;
   const SOCIAL_API_KEY = (import.meta as any)?.env?.VITE_SOCIAL_API_KEY as string | undefined;
   const YT_API_KEY = (import.meta as any)?.env?.VITE_YT_API_KEY as string | undefined;
   const [url, setUrl] = useState('');

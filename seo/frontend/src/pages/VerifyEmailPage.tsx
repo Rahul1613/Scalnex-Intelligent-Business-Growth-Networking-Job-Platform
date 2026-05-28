@@ -1,8 +1,9 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import { useSearchParams, useNavigate } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
+import { API_BASE_URL } from '../config';
 
-const API_URL: string = (import.meta as any).env?.VITE_API_URL || 'http://127.0.0.1:5001';
+const API_URL: string = (import.meta as any).env?.VITE_API_URL || API_BASE_URL;
 
 const formatTime = (s: number) => {
   const m = Math.floor(s / 60).toString().padStart(2, '0');

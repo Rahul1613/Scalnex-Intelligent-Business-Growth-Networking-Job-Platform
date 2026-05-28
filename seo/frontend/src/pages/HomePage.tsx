@@ -32,8 +32,9 @@ import Footer from '../components/Layout/Footer';
 import FeatureGallery from '../components/FeatureGallery';
 import CountUpStats from '../components/Common/CountUpStats';
 import apiService, { PlatformStats } from '../services/api';
+import { API_BASE_URL } from '../config';
 
-const API_URL = (import.meta as any).env?.VITE_API_URL || 'http://127.0.0.1:5001';
+const API_URL = (import.meta as any).env?.VITE_API_URL || API_BASE_URL;
 
 const HomePage: React.FC = () => {
   const [isChatbotOpen, setIsChatbotOpen] = useState(false);

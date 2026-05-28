@@ -1,0 +1,49 @@
+services:
+  # 1. FastAPI ML Service
+  - type: web
+    name: scalnex-ml-service
+    env: docker
+    dockerfilePath: seo/ml_service/Dockerfile
+    dockerContext: seo/ml_service
+    plan: starter # Starter plan recommended due to PyTorch/ML resource requirements
+    envVars:
+      - key: PORT
+        value: 8000
+
+  # 2. Flask Python Backend
+  - type: web
+    name: scalnex-backend
+    env: docker
+    dockerfilePath: seo/backend/Dockerfile
+    dockerContext: seo/backend
+    plan: starter
+    disk:
+      name: database-volume
+      mountPath: /app/instance
+      sizeGB: 1
+    envVars:
+      - key: PORT
+        value: 5001
+      - key: JWT_SECRET_KEY
+        generateValue: true
+      - key: FLASK_ENV
+        value: production
+
+  # 3. Static React Frontend
+  - type: web
+    name: scalnex-frontend
+    env: static
+    buildCommand: npm run build
+    publishDir: dist
+    baseDir: seo/frontend
+    envVars:
+      - key: VITE_API_URL
+        fromService:
+          type: web
+          name: scalnex-backend
+          property: url
+      - key: VITE_ML_API_URL
+        fromService:
+          type: web
+          name: scalnex-ml-service
+          property: url

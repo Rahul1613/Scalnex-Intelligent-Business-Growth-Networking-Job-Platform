@@ -4,6 +4,7 @@ import { OrbitControls, Text, Box, Cylinder, Sphere, Line, Trail } from '@react-
 import * as THREE from 'three';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Search, AlertCircle, Loader, Globe, BarChart3, Target, Layers, Eye, TreePine, Zap, Activity } from 'lucide-react';
+import { API_BASE_URL } from '../../config';
 
 // Tree Branch Component
 function TreeBranch({ page, position, parentPosition, depth, onClick, onHover, isSelected, isHovered }: {
@@ -377,7 +378,7 @@ const SEODigitalTree: React.FC = () => {
   useEffect(() => {
     const testAPI = async () => {
       try {
-        const response = await fetch('http://127.0.0.1:5001/api/email/log');
+        const response = await fetch('${API_BASE_URL}/api/email/log');
         if (response.ok) {
           setApiTest('✅ API Connection Working');
         } else {
@@ -408,7 +409,7 @@ const SEODigitalTree: React.FC = () => {
       console.log('🌱 Growing Digital Tree for:', targetUrl);
       
       // Add CORS headers and better error handling
-      const response = await fetch(`http://127.0.0.1:5001/api/seo/3d-structure?url=${encodeURIComponent(targetUrl)}`, {
+      const response = await fetch(`${API_BASE_URL}/api/seo/3d-structure?url=${encodeURIComponent(targetUrl)}`, {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json',

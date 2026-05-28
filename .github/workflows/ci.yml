@@ -1,0 +1,76 @@
+name: Scalnex CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  frontend-build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          cache: 'npm'
+          cache-dependency-path: seo/frontend/package-lock.json
+
+      - name: Install Frontend Dependencies
+        run: |
+          cd seo/frontend
+          npm ci
+
+      - name: Build Frontend
+        run: |
+          cd seo/frontend
+          npm run build
+
+  backend-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+          cache-dependency-path: seo/backend/requirements.txt
+
+      - name: Install Backend Dependencies
+        run: |
+          cd seo/backend
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Compile Backend Python Files (Syntax Check)
+        run: |
+          python -m compileall seo/backend/
+
+  ml-service-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+          cache-dependency-path: seo/ml_service/requirements.txt
+
+      - name: Install ML Service Dependencies
+        run: |
+          cd seo/ml_service
+          python -m pip install --upgrade pip
+          # Use CPU torch index to save cache time and space on runner
+          pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+          pip install -r requirements.txt
+
+      - name: Compile ML Service Python Files (Syntax Check)
+        run: |
+          python -m compileall seo/ml_service/

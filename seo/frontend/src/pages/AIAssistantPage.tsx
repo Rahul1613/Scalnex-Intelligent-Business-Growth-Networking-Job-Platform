@@ -2,8 +2,9 @@ import React, { useState, useRef, useEffect } from 'react';
 import DashboardLayout from '../components/Layout/DashboardLayout';
 import { Button } from '../components/Common';
 import { Zap, Copy, RefreshCw, MessageCircle } from 'lucide-react';
+import { API_BASE_URL } from '../config';
 
-const API_URL = (import.meta as any).env?.VITE_API_URL || 'http://127.0.0.1:5001';
+const API_URL = (import.meta as any).env?.VITE_API_URL || API_BASE_URL;
 
 interface Message {
   id: string;

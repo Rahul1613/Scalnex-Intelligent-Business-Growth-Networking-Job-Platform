@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Shield, Clock, Globe } from 'lucide-react';
 import DashboardLayout from '../components/Layout/DashboardLayout';
+import { API_BASE_URL } from '../config';
 
 interface AuditLog {
     id: number;
@@ -14,7 +15,7 @@ const AuditLogsPage: React.FC = () => {
     const [logs, setLogs] = useState<AuditLog[]>([]);
     const [loading, setLoading] = useState(true);
 
-    const API_BASE = (import.meta as any)?.env?.VITE_API_URL || 'http://127.0.0.1:5001';
+    const API_BASE = (import.meta as any)?.env?.VITE_API_URL || API_BASE_URL;
 
     useEffect(() => {
         fetch(`${API_BASE}/api/security/audit-logs`)

@@ -4,6 +4,7 @@ import { Search, Zap, Shield, FileText, Lightbulb, ExternalLink, Globe, BarChart
 import DashboardLayout from '../components/Layout/DashboardLayout';
 import SEOGrowthDashboard from '../components/SEO/SEOGrowthDashboard';
 import SEO3DVisualizer from '../components/SEO/SEO3DVisualizer';
+import { API_BASE_URL } from '../config';
 
 interface AdvancedSEOReport {
     overall_score: number;
@@ -124,7 +125,7 @@ const SeoToolsPage: React.FC = () => {
 
             // Create promise for each URL
             const analysisPromises = urlsToAnalyze.map(targetUrl =>
-                fetch('http://127.0.0.1:5001/api/seo/analyze', {
+                fetch('${API_BASE_URL}/api/seo/analyze', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify({

@@ -4,6 +4,7 @@ import { TrendingUp, TrendingDown, Eye, MousePointer, Globe, Download, BarChart3
 import { Chart as ChartJS, CategoryScale, LinearScale, PointElement, LineElement, BarElement, ArcElement, Title, Tooltip, Legend, Filler } from 'chart.js';
 import { Line, Doughnut } from 'react-chartjs-2';
 import { useAuth } from '../contexts/AuthContext';
+import { API_BASE_URL } from '../config';
 
 ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, BarElement, ArcElement, Title, Tooltip, Legend, Filler);
 
@@ -22,7 +23,7 @@ const ReportsPage: React.FC = () => {
     const loadBusinessUrl = async () => {
       if (!user?.id) return;
       try {
-        const response = await fetch(`http://127.0.0.1:5001/api/business/${user.id}`);
+        const response = await fetch(`${API_BASE_URL}/api/business/${user.id}`);
         const data = await response.json();
         if (data.business && data.business.websiteUrl) {
           setBusinessUrl(data.business.websiteUrl);
@@ -86,7 +87,7 @@ const ReportsPage: React.FC = () => {
 
     // Try to fetch from your backend API which should connect to Google Analytics/Search Console
     try {
-      const response = await fetch(`http://127.0.0.1:5001/api/analytics/website`, {
+      const response = await fetch(`${API_BASE_URL}/api/analytics/website`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ url, days })

@@ -8,6 +8,7 @@ import {
 import Button from '../components/Common/Button';
 import { useAuth } from '../contexts/AuthContext';
 import toast from 'react-hot-toast';
+import { API_BASE_URL } from '../config';
 
 interface Job {
   id: number; title: string; description: string; jobType: string; location: string;
@@ -39,7 +40,7 @@ const BusinessDetailPage: React.FC = () => {
   const [showInquiryModal, setShowInquiryModal] = useState(false);
   const [applicationData, setApplicationData] = useState({ coverLetter: '', resume: '' });
   const [inquiryMessage, setInquiryMessage] = useState('');
-  const serverUrl = 'http://127.0.0.1:5001';
+  const serverUrl = API_BASE_URL;
 
   useEffect(() => {
     fetchBusinessDetails();

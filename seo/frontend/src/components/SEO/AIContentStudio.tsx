@@ -7,6 +7,7 @@ import {
     Italic, List, ChevronRight
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { API_BASE_URL } from '../../config';
 
 interface AIContentStudioProps {
     initialContent?: string;
@@ -27,7 +28,7 @@ const AIContentStudio: React.FC<AIContentStudioProps> = ({ initialContent = '', 
     const handleImprove = async (type: string) => {
         setIsImproving(true);
         try {
-            const API_BASE = (import.meta as any)?.env?.VITE_API_URL || 'http://127.0.0.1:5001';
+            const API_BASE = (import.meta as any)?.env?.VITE_API_URL || API_BASE_URL;
             const res = await fetch(`${API_BASE}/api/content/improve`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },

@@ -12,6 +12,7 @@ import {
   AlertCircle
 } from 'lucide-react';
 import { useAuth } from '../contexts/AuthContext';
+import { API_BASE_URL } from '../config';
 
 interface BusinessData {
   businessName: string;
@@ -59,7 +60,7 @@ const BusinessGrowthSuggestions: React.FC = () => {
         const token = localStorage.getItem('auth_token');
 
         // Load Business Profile
-        const businessRes = await fetch(`http://127.0.0.1:5001/api/business/${user.id}`);
+        const businessRes = await fetch(`${API_BASE_URL}/api/business/${user.id}`);
         const businessData = await businessRes.json();
 
         if (businessData.business) {
@@ -81,7 +82,7 @@ const BusinessGrowthSuggestions: React.FC = () => {
 
         // Load Goals
         if (token) {
-          const goalsRes = await fetch('http://127.0.0.1:5001/api/goals', {
+          const goalsRes = await fetch(`${API_BASE_URL}/api/goals`, {
             headers: { 'Authorization': `Bearer ${token}` }
           });
           const goalsData = await goalsRes.json();
@@ -101,7 +102,7 @@ const BusinessGrowthSuggestions: React.FC = () => {
 
   const fetchAIRecommendations = async (websiteUrl: string, category: string) => {
     try {
-      const response = await fetch('http://127.0.0.1:5001/api/growth-recommendations', {
+      const response = await fetch(`${API_BASE_URL}/api/growth-recommendations`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -209,7 +210,7 @@ const BusinessGrowthSuggestions: React.FC = () => {
       const token = localStorage.getItem('auth_token');
 
       try {
-        const res = await fetch('http://127.0.0.1:5001/api/goals', {
+        const res = await fetch(`${API_BASE_URL}/api/goals`, {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',

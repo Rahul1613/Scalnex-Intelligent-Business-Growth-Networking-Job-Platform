@@ -7,6 +7,7 @@ import {
     Layers, Target, ExternalLink, ArrowRight
 } from 'lucide-react';
 import DashboardLayout from '../components/Layout/DashboardLayout';
+import { API_BASE_URL } from '../config';
 
 /**
  * Simplified YouTube Sentiment Analysis
@@ -25,7 +26,7 @@ const SentimentAnalysisPage: React.FC = () => {
         setLoading(true);
         setError(null);
         try {
-            const response = await fetch('http://127.0.0.1:5001/api/sentiment/analyze', {
+            const response = await fetch('${API_BASE_URL}/api/sentiment/analyze', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ url, commentsText })
@@ -47,7 +48,7 @@ const SentimentAnalysisPage: React.FC = () => {
 
     const downloadExcel = () => {
         if (!data?.analysis?.files?.excel) return;
-        window.open(`http://127.0.0.1:5001/uploads/${data.analysis.files.excel}`, '_blank');
+        window.open(`${API_BASE_URL}/uploads/${data.analysis.files.excel}`, '_blank');
     };
 
     const filteredComments = data?.comments ? data.comments.filter((cmt: any) =>
@@ -180,7 +181,7 @@ const SentimentAnalysisPage: React.FC = () => {
                                             </h3>
                                             <div className="aspect-video rounded-xl overflow-hidden bg-gray-50 dark:bg-black border border-gray-50 dark:border-white/5">
                                                 <img
-                                                    src={`http://127.0.0.1:5001/uploads/${imgName}`}
+                                                    src={`${API_BASE_URL}/uploads/${imgName}`}
                                                     alt="Analysis Chart"
                                                     className="w-full h-full object-contain"
                                                 />

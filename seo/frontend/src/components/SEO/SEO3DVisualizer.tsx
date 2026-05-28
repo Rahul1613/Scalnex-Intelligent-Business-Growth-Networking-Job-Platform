@@ -196,6 +196,8 @@ function SEO3DScene({ data, selectedPage, hoveredPage, onPageClick, onPageHover 
   );
 }
 
+import { API_BASE_URL } from '../../config';
+
 // Main Component
 const SEO3DVisualizer: React.FC = () => {
   const [url, setUrl] = useState('');
@@ -214,7 +216,7 @@ const SEO3DVisualizer: React.FC = () => {
     setHoveredPage(null);
 
     try {
-      const response = await fetch(`http://127.0.0.1:5001/api/seo/3d-structure?url=${encodeURIComponent(url)}`);
+      const response = await fetch(`${API_BASE_URL}/api/seo/3d-structure?url=${encodeURIComponent(url)}`);
       
       if (!response.ok) {
         const errorData = await response.json();

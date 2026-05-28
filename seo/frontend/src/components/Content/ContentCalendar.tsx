@@ -5,6 +5,7 @@ import {
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useAuth } from '../../contexts/AuthContext';
+import { API_BASE_URL } from '../../config';
 
 interface ContentItem {
     id: number;
@@ -21,7 +22,7 @@ interface ContentItem {
 }
 
 const ContentCalendar: React.FC = () => {
-    const API_BASE = (import.meta as any)?.env?.VITE_API_URL || 'http://127.0.0.1:5001';
+    const API_BASE = (import.meta as any)?.env?.VITE_API_URL || API_BASE_URL;
     const API_URL = `${API_BASE}/api`;
 
     // State

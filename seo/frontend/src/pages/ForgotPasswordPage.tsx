@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { Mail, ArrowRight, KeyRound } from 'lucide-react';
 import Button from '../components/Common/Button';
+import { API_BASE_URL } from '../config';
 
 const ForgotPasswordPage: React.FC = () => {
   const navigate = useNavigate();
@@ -18,7 +19,7 @@ const ForgotPasswordPage: React.FC = () => {
     setLoading(true);
 
     try {
-      const resp = await fetch('http://127.0.0.1:5001/api/auth/forgot-password', {
+      const resp = await fetch('${API_BASE_URL}/api/auth/forgot-password', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email })

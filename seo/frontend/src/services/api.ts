@@ -1,3 +1,4 @@
+import { API_BASE_URL } from '../config';
 // API service for business listing and other operations
 
 export interface BusinessListingData {
@@ -77,7 +78,7 @@ export interface PlatformStats {
 }
 
 class ApiService {
-  private apiOrigin = (import.meta as any).env?.VITE_API_URL || 'http://127.0.0.1:5001';
+  private apiOrigin = (import.meta as any).env?.VITE_API_URL || API_BASE_URL;
   private baseUrl = `${this.apiOrigin}/api`;
 
   private getAuthToken(): string | null {

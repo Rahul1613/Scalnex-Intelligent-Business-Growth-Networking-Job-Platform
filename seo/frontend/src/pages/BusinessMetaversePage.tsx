@@ -9,6 +9,7 @@ import AIAdvisorEntity from '../metaverse/AIAdvisorEntity';
 import DecisionNodes from '../metaverse/DecisionNodes';
 import TimeStateController from '../metaverse/TimeStateController';
 import AROverlay from '../metaverse/AROverlay';
+import { API_BASE_URL } from '../config';
 
 interface MetaverseState {
     current_time_state: string;
@@ -33,7 +34,7 @@ const BusinessMetaversePage: React.FC = () => {
         try {
             setLoading(true);
             const token = localStorage.getItem('auth_token');
-            const response = await fetch('http://127.0.0.1:5001/api/analytics/metaverse-state', {
+            const response = await fetch('${API_BASE_URL}/api/analytics/metaverse-state', {
                 headers: {
                     'Authorization': `Bearer ${token}`
                 }
@@ -64,7 +65,7 @@ const BusinessMetaversePage: React.FC = () => {
 
         try {
             const token = localStorage.getItem('auth_token');
-            const response = await fetch('http://127.0.0.1:5001/api/analytics/time-travel/simulate', {
+            const response = await fetch('${API_BASE_URL}/api/analytics/time-travel/simulate', {
                 method: 'POST',
                 headers: {
                     'Authorization': `Bearer ${token}`,
